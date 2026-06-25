@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — 能源智慧平台與基礎設施儀表板",
+      "description": "EnergieMIND 是面向能源儀表板、礦機監控、餘熱回收指標、AI 最佳化與基礎設施智慧分析的技術平台。由 TVK Infrastructure & Energy Systems 打造。",
+      "keywords": "EnergieMIND, 能源儀表板, 礦機監控, 餘熱回收, AI 最佳化, 基礎設施智慧, TVK",
+      "ogTitle": "EnergieMIND — 能源智慧平台",
+      "ogDescription": "面向能源營運、礦機監控與 AI 驅動最佳化的未來儀表板與基礎設施智慧平台。",
+      "twitterTitle": "EnergieMIND — 能源智慧平台",
+      "twitterDescription": "面向能源儀表板、礦機監控、餘熱回收與 AI 最佳化的技術平台。"
+    },
+    "dashboard": {
+      "title": "能源儀表板 — 即時營運中心 | EnergieMIND",
+      "description": "集中式能源儀表板，即時監控電力消耗、發電量、效率指標與跨基礎設施的營運 KPI。",
+      "keywords": "能源儀表板, 營運中心, 即時監控, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND 能源儀表板",
+      "ogDescription": "面向能源基礎設施監控與控制的即時營運中心。",
+      "twitterTitle": "EnergieMIND 能源儀表板",
+      "twitterDescription": "面向能源營運、KPI 與基礎設施控制的集中式儀表板。"
+    },
+    "minerMonitoring": {
+      "title": "礦機監控 — ASIC 礦場智慧 | EnergieMIND",
+      "description": "監控 ASIC 礦機叢集，涵蓋算力追蹤、溫度警示、功耗分析、運行時間報告與全部署韌體狀態。",
+      "keywords": "礦機監控, ASIC 礦場, 算力, 挖礦基礎設施, EnergieMIND",
+      "ogTitle": "EnergieMIND 礦機監控",
+      "ogDescription": "ASIC 礦場智慧，涵蓋算力、溫度、功耗與運行時間監控。",
+      "twitterTitle": "EnergieMIND 礦機監控",
+      "twitterDescription": "完整的 ASIC 礦機叢集監控與智慧平台。"
+    },
+    "energyAnalytics": {
+      "title": "能源分析 — 消耗與效率智慧 | EnergieMIND",
+      "description": "進階能源分析，涵蓋消耗模式、成本最佳化、碳足跡追蹤與跨設施的預測性需求預測。",
+      "keywords": "能源分析, 消耗分析, 效率, 碳追蹤, EnergieMIND",
+      "ogTitle": "EnergieMIND 能源分析",
+      "ogDescription": "消耗模式、成本最佳化與預測性能源智慧。",
+      "twitterTitle": "EnergieMIND 能源分析",
+      "twitterDescription": "面向能源消耗、效率與預測的進階分析。"
+    },
+    "heatRecovery": {
+      "title": "餘熱回收指標 — 熱效率平台 | EnergieMIND",
+      "description": "追蹤餘熱回收效能、熱效率比、廢熱利用與來自挖礦與工業營運的區域供熱整合。",
+      "keywords": "餘熱回收, 熱效率, 廢熱, 區域供熱, EnergieMIND",
+      "ogTitle": "EnergieMIND 餘熱回收指標",
+      "ogDescription": "熱效率追蹤與廢熱利用智慧。",
+      "twitterTitle": "EnergieMIND 餘熱回收指標",
+      "twitterDescription": "監控跨營運的餘熱回收效能與熱效率。"
+    },
+    "aiOptimization": {
+      "title": "AI 最佳化 — 智慧能源管理 | EnergieMIND",
+      "description": "AI 驅動的最佳化，涵蓋負載平衡、預測性維護、動態電力分配與跨能源基礎設施的自主效率調校。",
+      "keywords": "AI 最佳化, 能源管理, 預測性維護, 負載平衡, EnergieMIND",
+      "ogTitle": "EnergieMIND AI 最佳化",
+      "ogDescription": "AI 驅動的負載平衡與預測性維護智慧能源管理。",
+      "twitterTitle": "EnergieMIND AI 最佳化",
+      "twitterDescription": "面向能源基礎設施與挖礦營運的 AI 驅動最佳化。"
+    },
+    "api": {
+      "title": "API 與開發者 — 整合 EnergieMIND 平台",
+      "description": "面向 EnergieMIND 能源智慧平台的開發者文件、REST API 參考、Webhook、SDK 與整合指南。",
+      "keywords": "EnergieMIND API, 開發者文件, REST API, SDK, Webhook",
+      "ogTitle": "面向開發者的 EnergieMIND API",
+      "ogDescription": "面向能源智慧平台整合的 REST API、Webhook 與 SDK。",
+      "twitterTitle": "面向開發者的 EnergieMIND API",
+      "twitterDescription": "EnergieMIND 平台的開發者工具與 API 文件。"
+    },
+    "login": {
+      "title": "登入 — EnergieMIND 平台存取",
+      "description": "登入 EnergieMIND 平台儀表板。為授權營運人員、設施管理員與基礎設施合作夥伴提供安全存取。",
+      "keywords": "EnergieMIND 登入, 平台存取, 儀表板登入",
+      "ogTitle": "EnergieMIND 平台登入",
+      "ogDescription": "面向授權 EnergieMIND 平台使用者的安全登入。",
+      "twitterTitle": "EnergieMIND 平台登入",
+      "twitterDescription": "登入您的 EnergieMIND 能源智慧儀表板。"
+    },
+    "requestAccess": {
+      "title": "申請平台存取 — EnergieMIND",
+      "description": "申請存取 EnergieMIND 能源智慧平台。申請儀表板憑證、API 金鑰與基礎設施監控工具。",
+      "keywords": "申請存取, 平台申請, EnergieMIND 註冊",
+      "ogTitle": "申請 EnergieMIND 平台存取",
+      "ogDescription": "申請儀表板存取、API 金鑰與基礎設施監控工具。",
+      "twitterTitle": "申請 EnergieMIND 平台存取",
+      "twitterDescription": "申請存取 EnergieMIND 能源智慧平台。"
+    }
+  },
+  "nav": {
+    "platform": "平台",
+    "dashboard": "儀表板",
+    "minerMonitoring": "礦機監控",
+    "energyAnalytics": "能源分析",
+    "heatRecovery": "餘熱回收",
+    "aiOptimization": "AI 最佳化",
+    "api": "API / 開發者",
+    "login": "登入",
+    "requestAccess": "申請存取",
+    "language": "語言",
+    "menu": "選單",
+    "close": "關閉"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "getStarted": "立即開始",
+    "requestAccess": "申請平台存取",
+    "viewDashboard": "檢視儀表板",
+    "exploreApi": "探索 API",
+    "comingSoon": "即將推出",
+    "readDocumentation": "閱讀文件",
+    "contactSupport": "聯絡支援",
+    "allRightsReserved": "保留所有權利。",
+    "operatedBy": "由 TVK Infrastructure & Energy Systems LTD 營運",
+    "partOf": "TVK Group 生態系統的一部分",
+    "home": "首頁",
+    "relatedPages": "相關頁面",
+    "features": "功能",
+    "faq": "常見問題",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "email": "電子郵件",
+    "company": "公司",
+    "fullName": "姓名",
+    "phone": "電話",
+    "message": "留言",
+    "useCase": "使用情境",
+    "selectOption": "請選擇",
+    "required": "必填欄位",
+    "successMessage": "您的申請已提交。我們的團隊將盡快與您聯絡。",
+    "errorMessage": "發生錯誤，請重試。",
+    "platformBadge": "技術平台",
+    "underDevelopment": "平台模組正在積極開發中"
+  },
+  "home": {
+    "hero": {
+      "title": "面向基礎設施營運的能源智慧",
+      "subtitle": "EnergieMIND 是面向能源營運、礦機監控、餘熱回收指標與 AI 驅動最佳化的技術平台與未來儀表板。",
+      "cta": "申請平台存取",
+      "secondary": "探索平台"
+    },
+    "intro": {
+      "title": "為能源基礎設施領導者打造",
+      "description": "EnergieMIND 為礦場設施、再生能源站點與工業熱力營運統一即時監控、分析與智慧自動化。由 TVK Infrastructure & Energy Systems 在 TVK Group 生態系統內營運。"
+    },
+    "features": {
+      "title": "平台能力",
+      "dashboard": {
+        "title": "能源儀表板",
+        "description": "集中式營運中心，提供即時 KPI、警示與多站點可視化。"
+      },
+      "miner": {
+        "title": "礦機監控",
+        "description": "ASIC 礦場智慧，涵蓋算力、溫度、功耗與運行時間追蹤。"
+      },
+      "analytics": {
+        "title": "能源分析",
+        "description": "消耗模式、成本最佳化與預測性需求預測。"
+      },
+      "heat": {
+        "title": "餘熱回收指標",
+        "description": "跨營運的熱效率追蹤與廢熱利用。"
+      },
+      "ai": {
+        "title": "AI 最佳化",
+        "description": "智慧負載平衡、預測性維護與自主調校。"
+      },
+      "api": {
+        "title": "API 與開發者",
+        "description": "REST API、Webhook 與 SDK，實現無縫平台整合。"
+      }
+    },
+    "stats": {
+      "title": "大規模基礎設施",
+      "sites": "監控站點",
+      "sitesValue": "多站點",
+      "power": "追蹤電力",
+      "powerValue": "MW 級",
+      "languages": "語言",
+      "languagesValue": "25+",
+      "uptime": "平台可用性",
+      "uptimeValue": "99.9%"
+    },
+    "cta": {
+      "title": "準備好變革您的能源營運了嗎？",
+      "description": "申請存取 EnergieMIND 平台，加入使用智慧能源管理的基礎設施營運者行列。",
+      "button": "申請平台存取"
+    },
+    "faq": {
+      "q1": "什麼是 EnergieMIND？",
+      "a1": "EnergieMIND 是面向能源儀表板、礦機監控、餘熱回收指標與 AI 最佳化的技術平台。由 TVK Infrastructure & Energy Systems 作為 TVK Group 生態系統的一部分營運。",
+      "q2": "誰可以存取該平台？",
+      "a2": "該平台面向設施營運者、基礎設施合作夥伴、能源管理員與授權的 TVK 生態系統參與者。請透過我們的申請表申請存取。",
+      "q3": "EnergieMIND 是否支援多種語言？",
+      "a3": "是的。平台網站與未來儀表板支援 25 種語言，提供完整在地化內容，而非機器翻譯。",
+      "q4": "EnergieMIND 與 TVK Group 有何關係？",
+      "a4": "EnergieMIND 是由 TVK Infrastructure & Energy Systems LTD 營運的能源智慧品牌，與 EnteleKRON 及其他 TVK 生態系統產品並列。"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "能源儀表板",
+      "subtitle": "即時營運中心，監控所有設施的電力消耗、發電效率與基礎設施 KPI。"
+    },
+    "features": {
+      "title": "儀表板能力",
+      "realtime": {
+        "title": "即時監控",
+        "description": "電力消耗、發電輸出與效率指標每秒即時更新。"
+      },
+      "alerts": {
+        "title": "智慧警示",
+        "description": "可設定閾值，針對異常與關鍵事件即時通知。"
+      },
+      "multisite": {
+        "title": "多站點檢視",
+        "description": "跨礦場設施、太陽能裝置與工業站點的統一儀表板。"
+      },
+      "reports": {
+        "title": "自訂報告",
+        "description": "排程與隨需報告，支援匯出為 PDF、CSV 與 API 端點。"
+      }
+    },
+    "faq": {
+      "q1": "儀表板顯示哪些指標？",
+      "a1": "儀表板顯示即時電力消耗、發電輸出、效率比、每 kWh 成本、碳強度、運行時間與按設施設定的自訂 KPI。",
+      "q2": "我可以監控多個站點嗎？",
+      "a2": "可以。多站點檢視提供彙總與分站點指標，支援下鑽分析以取得詳細洞察。"
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "礦機監控",
+      "subtitle": "完整的 ASIC 礦場智慧，涵蓋算力追蹤、熱力監控、功耗分析與全部署韌體狀態。"
+    },
+    "features": {
+      "title": "監控功能",
+      "hashrate": {
+        "title": "算力追蹤",
+        "description": "單裝置與全礦場算力，含歷史趨勢與效能基準。"
+      },
+      "thermal": {
+        "title": "熱力監控",
+        "description": "晶片與環境溫度追蹤，含預測性過熱警示。"
+      },
+      "power": {
+        "title": "功耗分析",
+        "description": "單台功耗、效率比（J/TH）以及按礦池或設施的成本分攤。"
+      },
+      "firmware": {
+        "title": "韌體狀態",
+        "description": "EnergieMIND 韌體版本追蹤、更新管理與設定同步。"
+      }
+    },
+    "faq": {
+      "q1": "支援哪些礦機？",
+      "a1": "該平台支援執行 EnergieMIND 韌體的 Antminer 及相容 ASIC 裝置，並計畫擴展至更多硬體平台。",
+      "q2": "資料多久更新一次？",
+      "a2": "礦機指標每 30 秒採集一次，可透過 WebSocket API 取得即時串流資料。"
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "能源分析",
+      "subtitle": "面向消耗模式、成本最佳化、碳足跡追蹤與預測性需求預測的進階分析。"
+    },
+    "features": {
+      "title": "分析模組",
+      "consumption": {
+        "title": "消耗分析",
+        "description": "小時、日與季節性消耗模式，含異常偵測。"
+      },
+      "cost": {
+        "title": "成本最佳化",
+        "description": "分時用電分析、電價最佳化與需量電費削減策略。"
+      },
+      "carbon": {
+        "title": "碳追蹤",
+        "description": "即時碳強度監控與 ESG 合規排放報告。"
+      },
+      "forecast": {
+        "title": "需求預測",
+        "description": "ML 驅動的需求預測，支援主動容量規劃與負載管理。"
+      }
+    },
+    "faq": {
+      "q1": "支援哪些資料來源？",
+      "a1": "分析引擎整合智慧電表、SCADA 系統、礦機遙測、天氣 API 以及透過 REST API 的自訂資料來源。",
+      "q2": "我可以匯出分析資料嗎？",
+      "a2": "可以。資料可透過 CSV、JSON 匯出，或透過 EnergieMIND API 以程式方式存取。"
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "餘熱回收指標",
+      "subtitle": "追蹤來自挖礦與工業營運的熱效率、廢熱利用與區域供熱整合。"
+    },
+    "features": {
+      "title": "熱力智慧",
+      "efficiency": {
+        "title": "熱效率",
+        "description": "COP 比、熱捕獲率與系統效率基準隨時間變化。"
+      },
+      "waste": {
+        "title": "廢熱利用",
+        "description": "回收廢熱用於供暖、乾燥或區域能源的占比。"
+      },
+      "district": {
+        "title": "區域供熱",
+        "description": "面向區域供熱網路與熱能儲存的整合指標。"
+      },
+      "savings": {
+        "title": "節能效益",
+        "description": "量化餘熱回收營運帶來的燃料節約與碳減排。"
+      }
+    },
+    "faq": {
+      "q1": "餘熱回收如何測量？",
+      "a1": "熱感測器、流量計與溫差計算提供即時餘熱回收指標，並整合至平台儀表板。",
+      "q2": "哪些產業受益？",
+      "a2": "挖礦營運、資料中心、工業製造與具有熱力副產品的再生能源設施均可從餘熱回收監控中受益。"
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "AI 最佳化",
+      "subtitle": "AI 驅動的負載平衡、預測性維護與自主效率調校智慧能源管理。"
+    },
+    "features": {
+      "title": "AI 能力",
+      "load": {
+        "title": "負載平衡",
+        "description": "根據電價與需求在礦機與設施間動態分配電力。"
+      },
+      "predictive": {
+        "title": "預測性維護",
+        "description": "ML 模型在硬體故障發生前進行預測，減少停機時間與維修成本。"
+      },
+      "autonomous": {
+        "title": "自主調校",
+        "description": "自動調整頻率、電壓與冷卻參數以實現最佳效率。"
+      },
+      "insights": {
+        "title": "智慧洞察",
+        "description": "基於歷史資料與即時條件的可執行建議。"
+      }
+    },
+    "faq": {
+      "q1": "使用哪些 AI 模型？",
+      "a1": "該平台使用集成 ML 模型進行需求預測、異常偵測與最佳化，基於 TVK 基礎設施部署的營運資料訓練。",
+      "q2": "是否需要人工監督？",
+      "a2": "AI 建議可根據營運者偏好與安全約束，以建議模式或自主模式運行。"
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API 與開發者",
+      "subtitle": "使用 REST API、Webhook 與 SDK 整合 EnergieMIND 平台。建構自訂儀表板與自動化工作流程。"
+    },
+    "features": {
+      "title": "開發者工具",
+      "rest": {
+        "title": "REST API",
+        "description": "功能完整的 REST API，支援 OAuth 2.0 認證與速率限制。"
+      },
+      "webhooks": {
+        "title": "Webhook",
+        "description": "針對警示、狀態變更與指標閾值的即時事件通知。"
+      },
+      "sdk": {
+        "title": "SDK",
+        "description": "官方 Python、JavaScript 與 Go SDK，附完整文件。"
+      },
+      "sandbox": {
+        "title": "沙盒環境",
+        "description": "在連接生產基礎設施前，使用模擬資料測試整合。"
+      }
+    },
+    "endpoints": {
+      "title": "API 概覽",
+      "metrics": "GET /v1/metrics — 取得能源與礦機指標",
+      "sites": "GET /v1/sites — 列出已監控的基礎設施站點",
+      "alerts": "GET /v1/alerts — 查詢目前與歷史警示",
+      "control": "POST /v1/control — 向裝置傳送控制命令"
+    },
+    "faq": {
+      "q1": "如何取得 API 存取權限？",
+      "a1": "申請平台存取並在申請中選擇 API 存取。獲准的開發者將收到 API 金鑰與沙盒憑證。",
+      "q2": "速率限制是多少？",
+      "a2": "標準層級允許每分鐘 1,000 次請求。企業層級提供更高限額，適用於大規模部署。"
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "平台登入",
+      "subtitle": "登入以存取您的 EnergieMIND 儀表板與基礎設施監控工具。"
+    },
+    "form": {
+      "email": "電子郵件地址",
+      "password": "密碼",
+      "remember": "記住我",
+      "submit": "登入",
+      "forgot": "忘記密碼？",
+      "noAccount": "還沒有帳戶？",
+      "requestAccess": "申請平台存取"
+    },
+    "notice": "平台登入目前僅面向授權使用者開放。申請存取以加入 EnergieMIND 平台。",
+    "faq": {
+      "q1": "如何取得登入憑證？",
+      "a1": "提交平台存取申請。獲准後，您將透過安全電子郵件收到登入憑證。",
+      "q2": "是否支援雙因素認證？",
+      "a2": "是的。所有平台帳戶均要求使用基於 TOTP 的雙因素認證。"
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "申請平台存取",
+      "subtitle": "申請存取 EnergieMIND 能源智慧平台、儀表板與 API 工具。"
+    },
+    "form": {
+      "fullName": "姓名",
+      "email": "電子郵件地址",
+      "company": "公司 / 組織",
+      "phone": "電話號碼",
+      "useCase": "主要使用情境",
+      "useCases": {
+        "operator": "設施營運者",
+        "partner": "基礎設施合作夥伴",
+        "developer": "API 開發者",
+        "energy": "能源管理員",
+        "other": "其他"
+      },
+      "message": "請介紹您的基礎設施與需求",
+      "submit": "提交存取申請",
+      "privacy": "提交即表示您同意我們的資料處理實務。您的資訊由 TVK Infrastructure & Energy Systems 安全處理。"
+    },
+    "faq": {
+      "q1": "審批需要多長時間？",
+      "a1": "存取申請通常在 3–5 個工作天內審核。獲准後您將收到包含後續步驟的電子郵件。",
+      "q2": "平台存取包含哪些內容？",
+      "a2": "獲准使用者可取得儀表板存取、監控工具，以及根據使用情境可選的 API 憑證。"
+    }
+  },
+  "footer": {
+    "platform": "平台",
+    "solutions": "解決方案",
+    "developers": "開發者",
+    "company": "公司",
+    "legal": "法律",
+    "privacy": "隱私權政策",
+    "terms": "服務條款",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "聯絡我們",
+    "description": "EnergieMIND 是面向儀表板、礦機監控、餘熱回收與 AI 最佳化的能源智慧平台。"
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "面向基礎設施監控、礦場管理與 AI 驅動最佳化的能源智慧平台。",
+      "contactType": "平台支援"
+    },
+    "website": {
+      "description": "面向能源營運、礦機監控、餘熱回收指標與 AI 最佳化的技術平台與儀表板。"
+    }
+  },
+  "useCases": {
+    "operator": "設施營運者",
+    "partner": "基礎設施合作夥伴",
+    "developer": "API 開發者",
+    "energy": "能源管理員",
+    "other": "其他"
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Piattaforma di intelligence energetica e dashboard infrastrutturale",
+      "description": "EnergieMIND è la piattaforma tecnologica per dashboard energetiche, monitoraggio dei miner, metriche di recupero del calore, ottimizzazione con IA e intelligence infrastrutturale. Sviluppata da TVK Infrastructure & Energy Systems.",
+      "keywords": "EnergieMIND, dashboard energetica, monitoraggio miner, recupero del calore, ottimizzazione IA, intelligence infrastrutturale, TVK",
+      "ogTitle": "EnergieMIND — Piattaforma di intelligence energetica",
+      "ogDescription": "Futura dashboard e piattaforma di intelligence infrastrutturale per operazioni energetiche, monitoraggio dei miner e ottimizzazione guidata dall'IA.",
+      "twitterTitle": "EnergieMIND — Piattaforma di intelligence energetica",
+      "twitterDescription": "Piattaforma tecnologica per dashboard energetiche, monitoraggio dei miner, recupero del calore e ottimizzazione con IA."
+    },
+    "dashboard": {
+      "title": "Dashboard energetica — Centro operativo in tempo reale | EnergieMIND",
+      "description": "Dashboard energetica centralizzata per il monitoraggio in tempo reale del consumo elettrico, della generazione, delle metriche di efficienza e dei KPI operativi su tutta la vostra infrastruttura.",
+      "keywords": "dashboard energetica, centro operativo, monitoraggio in tempo reale, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND Dashboard energetica",
+      "ogDescription": "Centro operativo in tempo reale per il monitoraggio e il controllo dell'infrastruttura energetica.",
+      "twitterTitle": "EnergieMIND Dashboard energetica",
+      "twitterDescription": "Dashboard centralizzata per operazioni energetiche, KPI e controllo dell'infrastruttura."
+    },
+    "minerMonitoring": {
+      "title": "Monitoraggio miner — Intelligence flotta ASIC | EnergieMIND",
+      "description": "Monitorate flotte di miner ASIC con tracciamento dell'hash rate, avvisi di temperatura, analisi del consumo elettrico, report di uptime e stato del firmware su tutti i deployment.",
+      "keywords": "monitoraggio miner, flotta ASIC, hash rate, infrastruttura mining, EnergieMIND",
+      "ogTitle": "EnergieMIND Monitoraggio miner",
+      "ogDescription": "Intelligence flotta ASIC con monitoraggio di hash rate, temperatura, consumo e uptime.",
+      "twitterTitle": "EnergieMIND Monitoraggio miner",
+      "twitterDescription": "Piattaforma completa di monitoraggio e intelligence per flotte di miner ASIC."
+    },
+    "energyAnalytics": {
+      "title": "Analisi energetica — Intelligence su consumo ed efficienza | EnergieMIND",
+      "description": "Analisi energetica avanzata per pattern di consumo, ottimizzazione dei costi, tracciamento dell'impronta di carbonio e previsione predittiva della domanda su tutte le strutture.",
+      "keywords": "analisi energetica, analisi del consumo, efficienza, tracciamento carbonio, EnergieMIND",
+      "ogTitle": "EnergieMIND Analisi energetica",
+      "ogDescription": "Pattern di consumo, ottimizzazione dei costi e intelligence energetica predittiva.",
+      "twitterTitle": "EnergieMIND Analisi energetica",
+      "twitterDescription": "Analisi avanzata per consumo energetico, efficienza e previsioni."
+    },
+    "heatRecovery": {
+      "title": "Metriche di recupero del calore — Piattaforma di efficienza termica | EnergieMIND",
+      "description": "Monitorate le prestazioni di recupero del calore, i rapporti di efficienza termica, l'utilizzo del calore di scarto e l'integrazione con il teleriscaldamento da operazioni minerarie e industriali.",
+      "keywords": "recupero del calore, efficienza termica, calore di scarto, teleriscaldamento, EnergieMIND",
+      "ogTitle": "EnergieMIND Metriche di recupero del calore",
+      "ogDescription": "Monitoraggio dell'efficienza termica e intelligence sull'utilizzo del calore di scarto.",
+      "twitterTitle": "EnergieMIND Metriche di recupero del calore",
+      "twitterDescription": "Monitorate le prestazioni di recupero del calore e l'efficienza termica in tutte le operazioni."
+    },
+    "aiOptimization": {
+      "title": "Ottimizzazione con IA — Gestione intelligente dell'energia | EnergieMIND",
+      "description": "Ottimizzazione guidata dall'IA per bilanciamento del carico, manutenzione predittiva, allocazione dinamica della potenza e regolazione autonoma dell'efficienza nell'infrastruttura energetica.",
+      "keywords": "ottimizzazione IA, gestione dell'energia, manutenzione predittiva, bilanciamento del carico, EnergieMIND",
+      "ogTitle": "EnergieMIND Ottimizzazione con IA",
+      "ogDescription": "Gestione intelligente dell'energia con bilanciamento del carico guidato dall'IA e manutenzione predittiva.",
+      "twitterTitle": "EnergieMIND Ottimizzazione con IA",
+      "twitterDescription": "Ottimizzazione con IA per infrastruttura energetica e operazioni di mining."
+    },
+    "api": {
+      "title": "API e sviluppatori — Integrazione con la piattaforma EnergieMIND",
+      "description": "Documentazione per sviluppatori, riferimento REST API, webhook, SDK e guide all'integrazione per la piattaforma di intelligence energetica EnergieMIND.",
+      "keywords": "EnergieMIND API, documentazione sviluppatori, REST API, SDK, webhook",
+      "ogTitle": "EnergieMIND API per sviluppatori",
+      "ogDescription": "REST API, webhook e SDK per l'integrazione della piattaforma di intelligence energetica.",
+      "twitterTitle": "EnergieMIND API per sviluppatori",
+      "twitterDescription": "Strumenti per sviluppatori e documentazione API per la piattaforma EnergieMIND."
+    },
+    "login": {
+      "title": "Accesso — Piattaforma EnergieMIND",
+      "description": "Accedete alla dashboard della piattaforma EnergieMIND. Accesso sicuro per operatori autorizzati, responsabili di struttura e partner infrastrutturali.",
+      "keywords": "EnergieMIND accesso, accesso piattaforma, accesso dashboard",
+      "ogTitle": "EnergieMIND Accesso alla piattaforma",
+      "ogDescription": "Accesso sicuro per utenti autorizzati della piattaforma EnergieMIND.",
+      "twitterTitle": "EnergieMIND Accesso alla piattaforma",
+      "twitterDescription": "Accedete alla vostra dashboard di intelligence energetica EnergieMIND."
+    },
+    "requestAccess": {
+      "title": "Richiedi accesso alla piattaforma — EnergieMIND",
+      "description": "Richiedete l'accesso alla piattaforma di intelligence energetica EnergieMIND. Richiedete credenziali dashboard, chiavi API e strumenti di monitoraggio infrastrutturale.",
+      "keywords": "richiedi accesso, richiesta piattaforma, registrazione EnergieMIND",
+      "ogTitle": "Richiedi accesso alla piattaforma EnergieMIND",
+      "ogDescription": "Richiedete l'accesso alla dashboard, chiavi API e strumenti di monitoraggio infrastrutturale.",
+      "twitterTitle": "Richiedi accesso alla piattaforma EnergieMIND",
+      "twitterDescription": "Richiedete l'accesso alla piattaforma di intelligence energetica EnergieMIND."
+    }
+  },
+  "nav": {
+    "platform": "Piattaforma",
+    "dashboard": "Dashboard",
+    "minerMonitoring": "Monitoraggio miner",
+    "energyAnalytics": "Analisi energetica",
+    "heatRecovery": "Recupero del calore",
+    "aiOptimization": "Ottimizzazione con IA",
+    "api": "API / Sviluppatori",
+    "login": "Accesso",
+    "requestAccess": "Richiedi accesso",
+    "language": "Lingua",
+    "menu": "Menu",
+    "close": "Chiudi"
+  },
+  "common": {
+    "learnMore": "Scopri di più",
+    "getStarted": "Inizia",
+    "requestAccess": "Richiedi accesso alla piattaforma",
+    "viewDashboard": "Visualizza dashboard",
+    "exploreApi": "Esplora API",
+    "comingSoon": "In arrivo",
+    "readDocumentation": "Leggi la documentazione",
+    "contactSupport": "Contatta il supporto",
+    "allRightsReserved": "Tutti i diritti riservati.",
+    "operatedBy": "Gestito da TVK Infrastructure & Energy Systems LTD",
+    "partOf": "Parte dell'ecosistema TVK Group",
+    "home": "Home",
+    "relatedPages": "Pagine correlate",
+    "features": "Funzionalità",
+    "faq": "Domande frequenti",
+    "submit": "Invia",
+    "submitting": "Invio in corso...",
+    "email": "E-mail",
+    "company": "Azienda",
+    "fullName": "Nome completo",
+    "phone": "Telefono",
+    "message": "Messaggio",
+    "useCase": "Caso d'uso",
+    "selectOption": "Seleziona un'opzione",
+    "required": "Campo obbligatorio",
+    "successMessage": "La vostra richiesta è stata inviata. Il nostro team vi contatterà a breve.",
+    "errorMessage": "Si è verificato un errore. Riprovate.",
+    "platformBadge": "Piattaforma tecnologica",
+    "underDevelopment": "I moduli della piattaforma sono in fase di sviluppo attivo"
+  },
+  "home": {
+    "hero": {
+      "title": "Intelligence energetica per le operazioni infrastrutturali",
+      "subtitle": "EnergieMIND è la piattaforma tecnologica e la futura dashboard per operazioni energetiche, monitoraggio dei miner, metriche di recupero del calore e ottimizzazione guidata dall'IA.",
+      "cta": "Richiedi accesso alla piattaforma",
+      "secondary": "Esplora la piattaforma"
+    },
+    "intro": {
+      "title": "Progettato per i leader dell'infrastruttura energetica",
+      "description": "EnergieMIND unifica monitoraggio in tempo reale, analisi e automazione intelligente per strutture di mining, siti di energie rinnovabili e operazioni termiche industriali. Gestito da TVK Infrastructure & Energy Systems nell'ecosistema TVK Group."
+    },
+    "features": {
+      "title": "Capacità della piattaforma",
+      "dashboard": {
+        "title": "Dashboard energetica",
+        "description": "Centro operativo centralizzato con KPI in tempo reale, avvisi e visibilità multi-sito."
+      },
+      "miner": {
+        "title": "Monitoraggio miner",
+        "description": "Intelligence flotta ASIC con tracciamento di hash rate, temperatura, consumo elettrico e uptime."
+      },
+      "analytics": {
+        "title": "Analisi energetica",
+        "description": "Pattern di consumo, ottimizzazione dei costi e previsione predittiva della domanda."
+      },
+      "heat": {
+        "title": "Metriche di recupero del calore",
+        "description": "Monitoraggio dell'efficienza termica e utilizzo del calore di scarto in tutte le operazioni."
+      },
+      "ai": {
+        "title": "Ottimizzazione con IA",
+        "description": "Bilanciamento intelligente del carico, manutenzione predittiva e regolazione autonoma."
+      },
+      "api": {
+        "title": "API e sviluppatori",
+        "description": "REST API, webhook e SDK per un'integrazione fluida con la piattaforma."
+      }
+    },
+    "stats": {
+      "title": "Infrastruttura su larga scala",
+      "sites": "Siti monitorati",
+      "sitesValue": "Multi-sito",
+      "power": "Potenza monitorata",
+      "powerValue": "MW Scale",
+      "languages": "Lingue",
+      "languagesValue": "25+",
+      "uptime": "Uptime della piattaforma",
+      "uptimeValue": "99,9%"
+    },
+    "cta": {
+      "title": "Pronti a trasformare le vostre operazioni energetiche?",
+      "description": "Richiedete l'accesso alla piattaforma EnergieMIND e unitevi agli operatori infrastrutturali che utilizzano la gestione intelligente dell'energia.",
+      "button": "Richiedi accesso alla piattaforma"
+    },
+    "faq": {
+      "q1": "Cos'è EnergieMIND?",
+      "a1": "EnergieMIND è una piattaforma tecnologica per dashboard energetiche, monitoraggio dei miner, metriche di recupero del calore e ottimizzazione con IA. È gestita da TVK Infrastructure & Energy Systems come parte dell'ecosistema TVK Group.",
+      "q2": "Chi può accedere alla piattaforma?",
+      "a2": "La piattaforma è progettata per operatori di struttura, partner infrastrutturali, energy manager e partecipanti autorizzati dell'ecosistema TVK. Richiedete l'accesso tramite il nostro modulo di richiesta.",
+      "q3": "EnergieMIND supporta più lingue?",
+      "a3": "Sì. Il sito web della piattaforma e la futura dashboard supportano 25 lingue con contenuti completamente localizzati, senza traduzione automatica.",
+      "q4": "Come si collega EnergieMIND al TVK Group?",
+      "a4": "EnergieMIND è un brand di intelligence energetica gestito da TVK Infrastructure & Energy Systems LTD, insieme a EnteleKRON e ad altri prodotti dell'ecosistema TVK."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Dashboard energetica",
+      "subtitle": "Centro operativo in tempo reale per monitorare consumo elettrico, efficienza di generazione e KPI infrastrutturali in tutte le vostre strutture."
+    },
+    "features": {
+      "title": "Capacità della dashboard",
+      "realtime": {
+        "title": "Monitoraggio in tempo reale",
+        "description": "Consumo elettrico, produzione e metriche di efficienza in tempo reale, aggiornati ogni secondo."
+      },
+      "alerts": {
+        "title": "Avvisi intelligenti",
+        "description": "Soglie configurabili con notifiche istantanee per anomalie ed eventi critici."
+      },
+      "multisite": {
+        "title": "Vista multi-sito",
+        "description": "Dashboard unificata per strutture di mining, impianti solari e siti industriali."
+      },
+      "reports": {
+        "title": "Report personalizzati",
+        "description": "Report programmati e on-demand con esportazione in PDF, CSV e endpoint API."
+      }
+    },
+    "faq": {
+      "q1": "Quali metriche mostra la dashboard?",
+      "a1": "La dashboard mostra consumo elettrico in tempo reale, produzione, rapporti di efficienza, costo per kWh, intensità di carbonio, uptime e KPI personalizzati configurati per struttura.",
+      "q2": "Posso monitorare più siti?",
+      "a2": "Sì. La vista multi-sito fornisce metriche aggregate e per sito con capacità di drill-down per analisi dettagliate."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Monitoraggio miner",
+      "subtitle": "Intelligence completa della flotta ASIC con tracciamento dell'hash rate, monitoraggio termico, analisi del consumo e stato del firmware su tutti i deployment."
+    },
+    "features": {
+      "title": "Funzionalità di monitoraggio",
+      "hashrate": {
+        "title": "Tracciamento hash rate",
+        "description": "Hash rate per dispositivo e dell'intera flotta con trend storici e benchmark di prestazione."
+      },
+      "thermal": {
+        "title": "Monitoraggio termico",
+        "description": "Tracciamento della temperatura dei chip e ambiente con avvisi predittivi di surriscaldamento."
+      },
+      "power": {
+        "title": "Analisi del consumo",
+        "description": "Consumo per unità, rapporti di efficienza (J/TH) e allocazione dei costi per pool o struttura."
+      },
+      "firmware": {
+        "title": "Stato del firmware",
+        "description": "Tracciamento versioni firmware EnergieMIND, gestione aggiornamenti e sincronizzazione configurazione."
+      }
+    },
+    "faq": {
+      "q1": "Quali miner sono supportati?",
+      "a1": "La piattaforma supporta Antminer e dispositivi ASIC compatibili con firmware EnergieMIND, con espansione prevista ad altre piattaforme hardware.",
+      "q2": "Con quale frequenza vengono aggiornati i dati?",
+      "a2": "Le metriche dei miner vengono raccolte ogni 30 secondi, con streaming in tempo reale disponibile tramite API WebSocket."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Analisi energetica",
+      "subtitle": "Analisi avanzata per pattern di consumo, ottimizzazione dei costi, tracciamento dell'impronta di carbonio e previsione predittiva della domanda."
+    },
+    "features": {
+      "title": "Moduli analitici",
+      "consumption": {
+        "title": "Analisi del consumo",
+        "description": "Pattern di consumo orari, giornalieri e stagionali con rilevamento anomalie."
+      },
+      "cost": {
+        "title": "Ottimizzazione dei costi",
+        "description": "Analisi time-of-use, ottimizzazione tariffaria e strategie di riduzione dei picchi di domanda."
+      },
+      "carbon": {
+        "title": "Tracciamento del carbonio",
+        "description": "Monitoraggio dell'intensità di carbonio in tempo reale e report sulle emissioni per conformità ESG."
+      },
+      "forecast": {
+        "title": "Previsione della domanda",
+        "description": "Previsione della domanda con ML per pianificazione proattiva della capacità e gestione del carico."
+      }
+    },
+    "faq": {
+      "q1": "Quali fonti dati sono supportate?",
+      "a1": "Il motore analitico si integra con smart meter, sistemi SCADA, telemetria dei miner, API meteo e feed dati personalizzati tramite REST API.",
+      "q2": "Posso esportare i dati analitici?",
+      "a2": "Sì. I dati possono essere esportati tramite CSV, JSON o consultati programmaticamente tramite l'API EnergieMIND."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Metriche di recupero del calore",
+      "subtitle": "Monitorate l'efficienza termica, l'utilizzo del calore di scarto e l'integrazione con il teleriscaldamento da operazioni minerarie e industriali."
+    },
+    "features": {
+      "title": "Intelligence termica",
+      "efficiency": {
+        "title": "Efficienza termica",
+        "description": "Rapporti COP, tassi di cattura del calore e benchmark di efficienza del sistema nel tempo."
+      },
+      "waste": {
+        "title": "Utilizzo del calore di scarto",
+        "description": "Percentuale di calore di scarto recuperato utilizzato per riscaldamento, essiccazione o energia urbana."
+      },
+      "district": {
+        "title": "Teleriscaldamento",
+        "description": "Metriche di integrazione per reti di teleriscaldamento e accumulo di energia termica."
+      },
+      "savings": {
+        "title": "Risparmio energetico",
+        "description": "Risparmio di combustibile quantificato e riduzione del carbonio dalle operazioni di recupero del calore."
+      }
+    },
+    "faq": {
+      "q1": "Come viene misurato il recupero del calore?",
+      "a1": "Sensori termici, misuratori di portata e calcoli del differenziale di temperatura forniscono metriche di recupero del calore in tempo reale integrate nella dashboard della piattaforma.",
+      "q2": "Quali settori ne traggono beneficio?",
+      "a2": "Operazioni di mining, data center, produzione industriale e strutture di energie rinnovabili con sottoprodotti termici beneficiano del monitoraggio del recupero del calore."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "Ottimizzazione con IA",
+      "subtitle": "Gestione intelligente dell'energia con bilanciamento del carico guidato dall'IA, manutenzione predittiva e regolazione autonoma dell'efficienza."
+    },
+    "features": {
+      "title": "Capacità IA",
+      "load": {
+        "title": "Bilanciamento del carico",
+        "description": "Allocazione dinamica della potenza tra miner e strutture in base ai prezzi dell'elettricità e alla domanda."
+      },
+      "predictive": {
+        "title": "Manutenzione predittiva",
+        "description": "I modelli ML prevedono i guasti hardware prima che si verifichino, riducendo i tempi di inattività e i costi di riparazione."
+      },
+      "autonomous": {
+        "title": "Regolazione autonoma",
+        "description": "Parametri di frequenza, tensione e raffreddamento auto-regolanti per un'efficienza ottimale."
+      },
+      "insights": {
+        "title": "Insight intelligenti",
+        "description": "Raccomandazioni operative basate su dati storici e condizioni in tempo reale."
+      }
+    },
+    "faq": {
+      "q1": "Quali modelli IA vengono utilizzati?",
+      "a1": "La piattaforma utilizza modelli ML ensemble per previsione della domanda, rilevamento anomalie e ottimizzazione, addestrati su dati operativi dai deployment infrastrutturali TVK.",
+      "q2": "È richiesta supervisione umana?",
+      "a2": "Le raccomandazioni IA possono operare in modalità consultiva o autonoma in base alle preferenze dell'operatore e ai vincoli di sicurezza."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API e sviluppatori",
+      "subtitle": "Integratevi con la piattaforma EnergieMIND tramite REST API, webhook e SDK. Create dashboard personalizzate e workflow di automazione."
+    },
+    "features": {
+      "title": "Strumenti per sviluppatori",
+      "rest": {
+        "title": "REST API",
+        "description": "REST API completa con autenticazione OAuth 2.0 e rate limiting."
+      },
+      "webhooks": {
+        "title": "Webhook",
+        "description": "Notifiche eventi in tempo reale per avvisi, cambiamenti di stato e soglie metriche."
+      },
+      "sdk": {
+        "title": "SDK",
+        "description": "SDK ufficiali per Python, JavaScript e Go con documentazione completa."
+      },
+      "sandbox": {
+        "title": "Ambiente sandbox",
+        "description": "Testate le integrazioni con dati simulati prima di connettervi all'infrastruttura di produzione."
+      }
+    },
+    "endpoints": {
+      "title": "Panoramica API",
+      "metrics": "GET /v1/metrics — Recupera metriche energetiche e dei miner",
+      "sites": "GET /v1/sites — Elenca i siti infrastrutturali monitorati",
+      "alerts": "GET /v1/alerts — Interroga avvisi attivi e storici",
+      "control": "POST /v1/control — Invia comandi di controllo ai dispositivi"
+    },
+    "faq": {
+      "q1": "Come ottengo l'accesso all'API?",
+      "a1": "Richiedete l'accesso alla piattaforma e selezionate l'accesso API nella vostra richiesta. Gli sviluppatori approvati ricevono chiavi API e credenziali sandbox.",
+      "q2": "Qual è il rate limit?",
+      "a2": "Il livello standard consente 1.000 richieste al minuto. Livelli enterprise con limiti superiori sono disponibili per deployment su larga scala."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Accesso alla piattaforma",
+      "subtitle": "Accedete alla vostra dashboard EnergieMIND e agli strumenti di monitoraggio infrastrutturale."
+    },
+    "form": {
+      "email": "Indirizzo e-mail",
+      "password": "Password",
+      "remember": "Ricordami",
+      "submit": "Accedi",
+      "forgot": "Password dimenticata?",
+      "noAccount": "Non avete un account?",
+      "requestAccess": "Richiedi accesso alla piattaforma"
+    },
+    "notice": "L'accesso alla piattaforma è attualmente disponibile solo per utenti autorizzati. Richiedete l'accesso per unirvi alla piattaforma EnergieMIND.",
+    "faq": {
+      "q1": "Come ottengo le credenziali di accesso?",
+      "a1": "Inviate una richiesta di accesso alla piattaforma. Una volta approvata, riceverete le credenziali tramite e-mail sicura.",
+      "q2": "È supportata l'autenticazione a due fattori?",
+      "a2": "Sì. L'autenticazione a due fattori basata su TOTP è obbligatoria per tutti gli account della piattaforma."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Richiedi accesso alla piattaforma",
+      "subtitle": "Richiedete l'accesso alla piattaforma di intelligence energetica EnergieMIND, alla dashboard e agli strumenti API."
+    },
+    "form": {
+      "fullName": "Nome completo",
+      "email": "Indirizzo e-mail",
+      "company": "Azienda / Organizzazione",
+      "phone": "Numero di telefono",
+      "useCase": "Caso d'uso principale",
+      "useCases": {
+        "operator": "Operatore di struttura",
+        "partner": "Partner infrastrutturale",
+        "developer": "Sviluppatore API",
+        "energy": "Energy manager",
+        "other": "Altro"
+      },
+      "message": "Descrivete la vostra infrastruttura e i vostri requisiti",
+      "submit": "Invia richiesta di accesso",
+      "privacy": "Inviando questo modulo, accettate le nostre pratiche di trattamento dei dati. Le vostre informazioni sono gestite in modo sicuro da TVK Infrastructure & Energy Systems."
+    },
+    "faq": {
+      "q1": "Quanto tempo richiede l'approvazione?",
+      "a1": "Le richieste di accesso vengono generalmente esaminate entro 3–5 giorni lavorativi. Riceverete un'e-mail con i prossimi passi dopo l'approvazione.",
+      "q2": "Cosa include l'accesso alla piattaforma?",
+      "a2": "Gli utenti approvati ricevono accesso alla dashboard, strumenti di monitoraggio e credenziali API opzionali in base al caso d'uso."
+    }
+  },
+  "footer": {
+    "platform": "Piattaforma",
+    "solutions": "Soluzioni",
+    "developers": "Sviluppatori",
+    "company": "Azienda",
+    "legal": "Note legali",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di servizio",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "Contatti",
+    "description": "EnergieMIND è la piattaforma di intelligence energetica per dashboard, monitoraggio dei miner, recupero del calore e ottimizzazione con IA."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "Piattaforma di intelligence energetica per monitoraggio infrastrutturale, gestione flotte di miner e ottimizzazione guidata dall'IA.",
+      "contactType": "Supporto piattaforma"
+    },
+    "website": {
+      "description": "Piattaforma tecnologica e dashboard per operazioni energetiche, monitoraggio dei miner, metriche di recupero del calore e ottimizzazione con IA."
+    }
+  },
+  "useCases": {
+    "operator": "Operatore di struttura",
+    "partner": "Partner infrastrutturale",
+    "developer": "Sviluppatore API",
+    "energy": "Energy manager",
+    "other": "Altro"
+  }
+}

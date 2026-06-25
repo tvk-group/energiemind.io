@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Platformă de inteligență energetică și panou de infrastructură",
+      "description": "EnergieMIND este platforma tehnologică pentru panouri energetice, monitorizarea minerelor, metrici de recuperare a căldurii, optimizare AI și inteligență de infrastructură. Dezvoltată de TVK Infrastructure & Energy Systems.",
+      "keywords": "EnergieMIND, panou energetic, monitorizare minere, recuperare căldură, optimizare AI, inteligență infrastructură, TVK",
+      "ogTitle": "EnergieMIND — Platformă de inteligență energetică",
+      "ogDescription": "Viitorul panou și platformă de inteligență a infrastructurii pentru operațiuni energetice, monitorizarea minerelor și optimizare bazată pe AI.",
+      "twitterTitle": "EnergieMIND — Platformă de inteligență energetică",
+      "twitterDescription": "Platformă tehnologică pentru panouri energetice, monitorizarea minerelor, recuperarea căldurii și optimizare AI."
+    },
+    "dashboard": {
+      "title": "Panou energetic — Centru de operațiuni în timp real | EnergieMIND",
+      "description": "Panou energetic centralizat pentru monitorizarea în timp real a consumului de energie, producției, metricilor de eficiență și KPI-urilor operaționale în întreaga infrastructură.",
+      "keywords": "panou energetic, centru de operațiuni, monitorizare în timp real, KPI, EnergieMIND",
+      "ogTitle": "Panou energetic EnergieMIND",
+      "ogDescription": "Centru de operațiuni în timp real pentru monitorizarea și controlul infrastructurii energetice.",
+      "twitterTitle": "Panou energetic EnergieMIND",
+      "twitterDescription": "Panou centralizat pentru operațiuni energetice, KPI-uri și controlul infrastructurii."
+    },
+    "minerMonitoring": {
+      "title": "Monitorizare minere — Inteligență flotă ASIC | EnergieMIND",
+      "description": "Monitorizați flotele de minere ASIC cu urmărirea hash rate, alerte de temperatură, analiza consumului de energie, raportare uptime și status firmware în toate implementările.",
+      "keywords": "monitorizare minere, flotă ASIC, hash rate, infrastructură minare, EnergieMIND",
+      "ogTitle": "Monitorizare minere EnergieMIND",
+      "ogDescription": "Inteligență flotă ASIC cu monitorizare hash rate, temperatură, energie și uptime.",
+      "twitterTitle": "Monitorizare minere EnergieMIND",
+      "twitterDescription": "Platformă completă de monitorizare și inteligență pentru flote de minere ASIC."
+    },
+    "energyAnalytics": {
+      "title": "Analiză energetică — Inteligență consum și eficiență | EnergieMIND",
+      "description": "Analiză energetică avansată pentru modele de consum, optimizarea costurilor, urmărirea amprentei de carbon și prognoză predictivă a cererii în toate facilitățile.",
+      "keywords": "analiză energetică, analiză consum, eficiență, urmărire carbon, EnergieMIND",
+      "ogTitle": "Analiză energetică EnergieMIND",
+      "ogDescription": "Modele de consum, optimizare costuri și inteligență energetică predictivă.",
+      "twitterTitle": "Analiză energetică EnergieMIND",
+      "twitterDescription": "Analiză avansată pentru consum energetic, eficiență și prognoză."
+    },
+    "heatRecovery": {
+      "title": "Metrici recuperare căldură — Platformă eficiență termică | EnergieMIND",
+      "description": "Urmăriți performanța recuperării căldurii, rapoartele de eficiență termică, utilizarea căldurii reziduale și integrarea cu încălzirea urbană din operațiuni de minare și industriale.",
+      "keywords": "recuperare căldură, eficiență termică, căldură reziduală, încălzire urbană, EnergieMIND",
+      "ogTitle": "Metrici recuperare căldură EnergieMIND",
+      "ogDescription": "Urmărirea eficienței termice și inteligență pentru utilizarea căldurii reziduale.",
+      "twitterTitle": "Metrici recuperare căldură EnergieMIND",
+      "twitterDescription": "Monitorizați performanța recuperării căldurii și eficiența termică în operațiuni."
+    },
+    "aiOptimization": {
+      "title": "Optimizare AI — Management inteligent al energiei | EnergieMIND",
+      "description": "Optimizare bazată pe AI pentru echilibrarea sarcinii, mentenanță predictivă, alocare dinamică a energiei și reglare autonomă a eficienței în infrastructura energetică.",
+      "keywords": "optimizare AI, management energie, mentenanță predictivă, echilibrare sarcină, EnergieMIND",
+      "ogTitle": "Optimizare AI EnergieMIND",
+      "ogDescription": "Management inteligent al energiei cu echilibrare sarcină bazată pe AI și mentenanță predictivă.",
+      "twitterTitle": "Optimizare AI EnergieMIND",
+      "twitterDescription": "Optimizare bazată pe AI pentru infrastructura energetică și operațiuni de minare."
+    },
+    "api": {
+      "title": "API și dezvoltatori — Integrare cu platforma EnergieMIND",
+      "description": "Documentație pentru dezvoltatori, referință REST API, webhook-uri, SDK-uri și ghiduri de integrare pentru platforma de inteligență energetică EnergieMIND.",
+      "keywords": "API EnergieMIND, documentație dezvoltatori, REST API, SDK, webhook-uri",
+      "ogTitle": "API EnergieMIND pentru dezvoltatori",
+      "ogDescription": "REST API, webhook-uri și SDK-uri pentru integrarea platformei de inteligență energetică.",
+      "twitterTitle": "API EnergieMIND pentru dezvoltatori",
+      "twitterDescription": "Instrumente pentru dezvoltatori și documentație API pentru platforma EnergieMIND."
+    },
+    "login": {
+      "title": "Autentificare — Acces la platforma EnergieMIND",
+      "description": "Conectați-vă la panoul platformei EnergieMIND. Acces securizat pentru operatori autorizați, manageri de facilități și parteneri de infrastructură.",
+      "keywords": "autentificare EnergieMIND, acces platformă, conectare panou",
+      "ogTitle": "Autentificare platformă EnergieMIND",
+      "ogDescription": "Autentificare securizată pentru utilizatorii autorizați ai platformei EnergieMIND.",
+      "twitterTitle": "Autentificare platformă EnergieMIND",
+      "twitterDescription": "Conectați-vă la panoul de inteligență energetică EnergieMIND."
+    },
+    "requestAccess": {
+      "title": "Solicitare acces platformă — EnergieMIND",
+      "description": "Solicitați acces la platforma de inteligență energetică EnergieMIND. Aplicați pentru credențiale panou, chei API și instrumente de monitorizare a infrastructurii.",
+      "keywords": "solicitare acces, aplicație platformă, înregistrare EnergieMIND",
+      "ogTitle": "Solicitare acces platformă EnergieMIND",
+      "ogDescription": "Aplicați pentru acces panou, chei API și instrumente de monitorizare a infrastructurii.",
+      "twitterTitle": "Solicitare acces platformă EnergieMIND",
+      "twitterDescription": "Aplicați pentru acces la platforma de inteligență energetică EnergieMIND."
+    }
+  },
+  "nav": {
+    "platform": "Platformă",
+    "dashboard": "Panou",
+    "minerMonitoring": "Monitorizare minere",
+    "energyAnalytics": "Analiză energetică",
+    "heatRecovery": "Recuperare căldură",
+    "aiOptimization": "Optimizare AI",
+    "api": "API / Dezvoltatori",
+    "login": "Autentificare",
+    "requestAccess": "Solicitare acces",
+    "language": "Limbă",
+    "menu": "Meniu",
+    "close": "Închide"
+  },
+  "common": {
+    "learnMore": "Află mai multe",
+    "getStarted": "Începe",
+    "requestAccess": "Solicitare acces platformă",
+    "viewDashboard": "Vezi panoul",
+    "exploreApi": "Explorează API",
+    "comingSoon": "În curând",
+    "readDocumentation": "Citește documentația",
+    "contactSupport": "Contactează suportul",
+    "allRightsReserved": "Toate drepturile rezervate.",
+    "operatedBy": "Operat de TVK Infrastructure & Energy Systems LTD",
+    "partOf": "Parte din ecosistemul TVK Group",
+    "home": "Acasă",
+    "relatedPages": "Pagini conexe",
+    "features": "Funcționalități",
+    "faq": "Întrebări frecvente",
+    "submit": "Trimite",
+    "submitting": "Se trimite...",
+    "email": "E-mail",
+    "company": "Companie",
+    "fullName": "Nume complet",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "useCase": "Caz de utilizare",
+    "selectOption": "Selectează o opțiune",
+    "required": "Câmp obligatoriu",
+    "successMessage": "Solicitarea dvs. a fost trimisă. Echipa noastră vă va contacta în curând.",
+    "errorMessage": "A apărut o eroare. Vă rugăm să încercați din nou.",
+    "platformBadge": "Platformă tehnologică",
+    "underDevelopment": "Modulele platformei sunt în dezvoltare activă"
+  },
+  "home": {
+    "hero": {
+      "title": "Inteligență energetică pentru operațiuni de infrastructură",
+      "subtitle": "EnergieMIND este platforma tehnologică și viitorul panou pentru operațiuni energetice, monitorizarea minerelor, metrici de recuperare a căldurii și optimizare bazată pe AI.",
+      "cta": "Solicitare acces platformă",
+      "secondary": "Explorează platforma"
+    },
+    "intro": {
+      "title": "Construită pentru liderii infrastructurii energetice",
+      "description": "EnergieMIND unifică monitorizarea în timp real, analiza și automatizarea inteligentă pentru facilități de minare, site-uri de energie regenerabilă și operațiuni termice industriale. Operat de TVK Infrastructure & Energy Systems în cadrul ecosistemului TVK Group."
+    },
+    "features": {
+      "title": "Capacități ale platformei",
+      "dashboard": {
+        "title": "Panou energetic",
+        "description": "Centru de operațiuni centralizat cu KPI-uri în timp real, alerte și vizibilitate multi-site."
+      },
+      "miner": {
+        "title": "Monitorizare minere",
+        "description": "Inteligență flotă ASIC cu urmărirea hash rate, temperatură, consum de energie și uptime."
+      },
+      "analytics": {
+        "title": "Analiză energetică",
+        "description": "Modele de consum, optimizare costuri și prognoză predictivă a cererii."
+      },
+      "heat": {
+        "title": "Metrici recuperare căldură",
+        "description": "Urmărirea eficienței termice și utilizarea căldurii reziduale în operațiuni."
+      },
+      "ai": {
+        "title": "Optimizare AI",
+        "description": "Echilibrare inteligentă a sarcinii, mentenanță predictivă și reglare autonomă."
+      },
+      "api": {
+        "title": "API și dezvoltatori",
+        "description": "REST API, webhook-uri și SDK-uri pentru integrare perfectă cu platforma."
+      }
+    },
+    "stats": {
+      "title": "Infrastructură la scară",
+      "sites": "Site-uri monitorizate",
+      "sitesValue": "Multi-Site",
+      "power": "Energie monitorizată",
+      "powerValue": "Scară MW",
+      "languages": "Limbi",
+      "languagesValue": "25+",
+      "uptime": "Disponibilitate platformă",
+      "uptimeValue": "99,9%"
+    },
+    "cta": {
+      "title": "Pregătit să vă transformați operațiunile energetice?",
+      "description": "Solicitați acces la platforma EnergieMIND și alăturați-vă operatorilor de infrastructură care folosesc management inteligent al energiei.",
+      "button": "Solicitare acces platformă"
+    },
+    "faq": {
+      "q1": "Ce este EnergieMIND?",
+      "a1": "EnergieMIND este o platformă tehnologică pentru panouri energetice, monitorizarea minerelor, metrici de recuperare a căldurii și optimizare AI. Este operată de TVK Infrastructure & Energy Systems ca parte a ecosistemului TVK Group.",
+      "q2": "Cine poate accesa platforma?",
+      "a2": "Platforma este concepută pentru operatori de facilități, parteneri de infrastructură, manageri de energie și participanți autorizați din ecosistemul TVK. Solicitați acces prin formularul nostru de aplicație.",
+      "q3": "EnergieMIND suportă mai multe limbi?",
+      "a3": "Da. Site-ul platformei și viitorul panou suportă 25 de limbi cu conținut complet localizat, fără traducere automată.",
+      "q4": "Cum se raportează EnergieMIND la TVK Group?",
+      "a4": "EnergieMIND este un brand de inteligență energetică operat de TVK Infrastructure & Energy Systems LTD, alături de EnteleKRON și alte produse din ecosistemul TVK."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Panou energetic",
+      "subtitle": "Centru de operațiuni în timp real pentru monitorizarea consumului de energie, eficienței producției și KPI-urilor de infrastructură în toate facilitățile."
+    },
+    "features": {
+      "title": "Capacități panou",
+      "realtime": {
+        "title": "Monitorizare în timp real",
+        "description": "Consum de energie, producție și metrici de eficiență actualizate live în fiecare secundă."
+      },
+      "alerts": {
+        "title": "Alerte inteligente",
+        "description": "Praguri configurabile cu notificări instantanee pentru anomalii și evenimente critice."
+      },
+      "multisite": {
+        "title": "Vizualizare multi-site",
+        "description": "Panou unificat pentru facilități de minare, instalații solare și site-uri industriale."
+      },
+      "reports": {
+        "title": "Rapoarte personalizate",
+        "description": "Rapoarte programate și la cerere cu export în PDF, CSV și endpoint-uri API."
+      }
+    },
+    "faq": {
+      "q1": "Ce metrici afișează panoul?",
+      "a1": "Panoul afișează consum de energie în timp real, producție, rapoarte de eficiență, cost per kWh, intensitate carbon, uptime și KPI-uri personalizate configurate per facilitate.",
+      "q2": "Pot monitoriza mai multe site-uri?",
+      "a2": "Da. Vizualizarea multi-site oferă metrici agregate și per site cu capacități de detaliere pentru analiză aprofundată."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Monitorizare minere",
+      "subtitle": "Inteligență completă flotă ASIC cu urmărirea hash rate, monitorizare termică, analiză energie și status firmware în toate implementările."
+    },
+    "features": {
+      "title": "Funcționalități de monitorizare",
+      "hashrate": {
+        "title": "Urmărire hash rate",
+        "description": "Hash rate per dispozitiv și la nivel de flotă, cu tendințe istorice și benchmark-uri de performanță."
+      },
+      "thermal": {
+        "title": "Monitorizare termică",
+        "description": "Urmărirea temperaturii cipurilor și ambientale cu alerte predictive de supraîncălzire."
+      },
+      "power": {
+        "title": "Analiză energie",
+        "description": "Consum de energie per unitate, rapoarte de eficiență (J/TH) și alocare costuri pe pool sau facilitate."
+      },
+      "firmware": {
+        "title": "Status firmware",
+        "description": "Urmărirea versiunii firmware EnergieMIND, management actualizări și sincronizare configurație."
+      }
+    },
+    "faq": {
+      "q1": "Ce minere sunt suportate?",
+      "a1": "Platforma suportă Antminer și dispozitive ASIC compatibile cu firmware EnergieMIND, cu extindere planificată la platforme hardware suplimentare.",
+      "q2": "Cât de des sunt actualizate datele?",
+      "a2": "Metricile minerelor sunt colectate la fiecare 30 de secunde, cu streaming în timp real disponibil prin WebSocket API."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Analiză energetică",
+      "subtitle": "Analiză avansată pentru modele de consum, optimizarea costurilor, urmărirea amprentei de carbon și prognoză predictivă a cererii."
+    },
+    "features": {
+      "title": "Module de analiză",
+      "consumption": {
+        "title": "Analiză consum",
+        "description": "Modele de consum orare, zilnice și sezoniere cu detectare anomalii."
+      },
+      "cost": {
+        "title": "Optimizare costuri",
+        "description": "Analiză pe intervale orare, optimizare tarife și strategii de reducere a taxelor de vârf."
+      },
+      "carbon": {
+        "title": "Urmărire carbon",
+        "description": "Monitorizare în timp real a intensității carbonului și raportare emisii pentru conformitate ESG."
+      },
+      "forecast": {
+        "title": "Prognoză cerere",
+        "description": "Predicție cerere bazată pe ML pentru planificare proactivă a capacității și management sarcină."
+      }
+    },
+    "faq": {
+      "q1": "Ce surse de date sunt suportate?",
+      "a1": "Motorul de analiză se integrează cu contoare inteligente, sisteme SCADA, telemetrie minere, API-uri meteo și fluxuri de date personalizate prin REST API.",
+      "q2": "Pot exporta date de analiză?",
+      "a2": "Da. Datele pot fi exportate prin CSV, JSON sau accesate programatic prin API-ul EnergieMIND."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Metrici recuperare căldură",
+      "subtitle": "Urmăriți eficiența termică, utilizarea căldurii reziduale și integrarea cu încălzirea urbană din operațiuni de minare și industriale."
+    },
+    "features": {
+      "title": "Inteligență termică",
+      "efficiency": {
+        "title": "Eficiență termică",
+        "description": "Rapoarte COP, rate de captare căldură și benchmark-uri eficiență sistem în timp."
+      },
+      "waste": {
+        "title": "Utilizare căldură reziduală",
+        "description": "Procentul de căldură reziduală recuperată utilizată pentru încălzire, uscare sau energie urbană."
+      },
+      "district": {
+        "title": "Încălzire urbană",
+        "description": "Metrici de integrare pentru rețele de încălzire urbană și stocare energie termică."
+      },
+      "savings": {
+        "title": "Economii de energie",
+        "description": "Economii de combustibil cuantificate și reducere carbon din operațiuni de recuperare căldură."
+      }
+    },
+    "faq": {
+      "q1": "Cum se măsoară recuperarea căldurii?",
+      "a1": "Senzori termici, contoare de debit și calcule diferențiale de temperatură furnizează metrici de recuperare căldură în timp real integrate în panoul platformei.",
+      "q2": "Ce industrii beneficiază?",
+      "a2": "Operațiuni de minare, centre de date, producție industrială și facilități de energie regenerabilă cu subproduse termice beneficiază de monitorizarea recuperării căldurii."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "Optimizare AI",
+      "subtitle": "Management inteligent al energiei cu echilibrare sarcină bazată pe AI, mentenanță predictivă și reglare autonomă a eficienței."
+    },
+    "features": {
+      "title": "Capacități AI",
+      "load": {
+        "title": "Echilibrare sarcină",
+        "description": "Alocare dinamică a energiei între minere și facilități pe baza prețurilor energiei și cererii."
+      },
+      "predictive": {
+        "title": "Mentenanță predictivă",
+        "description": "Modelele ML prevăd defecțiunile hardware înainte să apară, reducând timpul de nefuncționare și costurile de reparație."
+      },
+      "autonomous": {
+        "title": "Reglare autonomă",
+        "description": "Parametri de frecvență, tensiune și răcire auto-ajustabili pentru eficiență optimă."
+      },
+      "insights": {
+        "title": "Perspective inteligență",
+        "description": "Recomandări acționabile bazate pe date istorice și condiții în timp real."
+      }
+    },
+    "faq": {
+      "q1": "Ce modele AI sunt utilizate?",
+      "a1": "Platforma folosește modele ML ensemble pentru prognoză cerere, detectare anomalii și optimizare, antrenate pe date operaționale din implementările de infrastructură TVK.",
+      "q2": "Este necesară supravegherea umană?",
+      "a2": "Recomandările AI pot funcționa în mod consultativ sau autonom, în funcție de preferințele operatorului și constrângerile de siguranță."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API și dezvoltatori",
+      "subtitle": "Integrați-vă cu platforma EnergieMIND folosind REST API, webhook-uri și SDK-uri. Construiți panouri personalizate și fluxuri de automatizare."
+    },
+    "features": {
+      "title": "Instrumente pentru dezvoltatori",
+      "rest": {
+        "title": "REST API",
+        "description": "REST API completă cu autentificare OAuth 2.0 și limitare rată."
+      },
+      "webhooks": {
+        "title": "Webhook-uri",
+        "description": "Notificări evenimente în timp real pentru alerte, schimbări de status și praguri metrici."
+      },
+      "sdk": {
+        "title": "SDK-uri",
+        "description": "SDK-uri oficiale pentru Python, JavaScript și Go cu documentație completă."
+      },
+      "sandbox": {
+        "title": "Mediu sandbox",
+        "description": "Testați integrările cu date simulate înainte de conectarea la infrastructura de producție."
+      }
+    },
+    "endpoints": {
+      "title": "Prezentare generală API",
+      "metrics": "GET /v1/metrics — Preluare metrici energetice și minere",
+      "sites": "GET /v1/sites — Listare site-uri infrastructură monitorizate",
+      "alerts": "GET /v1/alerts — Interogare alerte active și istorice",
+      "control": "POST /v1/control — Trimitere comenzi de control către dispozitive"
+    },
+    "faq": {
+      "q1": "Cum obțin acces la API?",
+      "a1": "Solicitați acces la platformă și selectați acces API în aplicația dvs. Dezvoltatorii aprobați primesc chei API și credențiale sandbox.",
+      "q2": "Care este limita de rată?",
+      "a2": "Nivelul standard permite 1.000 de cereri pe minut. Niveluri enterprise cu limite mai mari sunt disponibile pentru implementări la scară largă."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Autentificare platformă",
+      "subtitle": "Conectați-vă pentru a accesa panoul EnergieMIND și instrumentele de monitorizare a infrastructurii."
+    },
+    "form": {
+      "email": "Adresă e-mail",
+      "password": "Parolă",
+      "remember": "Ține-mă minte",
+      "submit": "Conectare",
+      "forgot": "Ați uitat parola?",
+      "noAccount": "Nu aveți cont?",
+      "requestAccess": "Solicitare acces platformă"
+    },
+    "notice": "Autentificarea pe platformă este disponibilă în prezent doar pentru utilizatorii autorizați. Solicitați acces pentru a vă alătura platformei EnergieMIND.",
+    "faq": {
+      "q1": "Cum obțin credențiale de autentificare?",
+      "a1": "Trimiteți o solicitare de acces la platformă. După aprobare, veți primi credențialele de autentificare prin e-mail securizat.",
+      "q2": "Este suportată autentificarea cu doi factori?",
+      "a2": "Da. Autentificarea cu doi factori bazată pe TOTP este obligatorie pentru toate conturile platformei."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Solicitare acces platformă",
+      "subtitle": "Aplicați pentru acces la platforma de inteligență energetică EnergieMIND, panou și instrumente API."
+    },
+    "form": {
+      "fullName": "Nume complet",
+      "email": "Adresă e-mail",
+      "company": "Companie / Organizație",
+      "phone": "Număr de telefon",
+      "useCase": "Caz de utilizare principal",
+      "useCases": {
+        "operator": "Operator facilitate",
+        "partner": "Partener infrastructură",
+        "developer": "Dezvoltator API",
+        "energy": "Manager energie",
+        "other": "Altele"
+      },
+      "message": "Spuneți-ne despre infrastructura și cerințele dvs.",
+      "submit": "Trimite solicitarea de acces",
+      "privacy": "Prin trimitere, sunteți de acord cu practicile noastre de prelucrare a datelor. Informațiile dvs. sunt gestionate în siguranță de TVK Infrastructure & Energy Systems."
+    },
+    "faq": {
+      "q1": "Cât durează aprobarea?",
+      "a1": "Solicitările de acces sunt de obicei analizate în 3–5 zile lucrătoare. Veți primi un e-mail cu pașii următori după aprobare.",
+      "q2": "Ce include accesul la platformă?",
+      "a2": "Utilizatorii aprobați primesc acces la panou, instrumente de monitorizare și credențiale API opționale în funcție de cazul de utilizare."
+    }
+  },
+  "footer": {
+    "platform": "Platformă",
+    "solutions": "Soluții",
+    "developers": "Dezvoltatori",
+    "company": "Companie",
+    "legal": "Legal",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni și condiții",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "Contact",
+    "description": "EnergieMIND este platforma de inteligență energetică pentru panouri, monitorizarea minerelor, recuperarea căldurii și optimizare AI."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "Platformă de inteligență energetică pentru monitorizarea infrastructurii, managementul flotei de minere și optimizare bazată pe AI.",
+      "contactType": "Suport platformă"
+    },
+    "website": {
+      "description": "Platformă tehnologică și panou pentru operațiuni energetice, monitorizarea minerelor, metrici de recuperare a căldurii și optimizare AI."
+    }
+  },
+  "useCases": {
+    "operator": "Operator facilitate",
+    "partner": "Partener infrastructură",
+    "developer": "Dezvoltator API",
+    "energy": "Manager energie",
+    "other": "Altele"
+  }
+}

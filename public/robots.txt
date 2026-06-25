@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /_next/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+Host: https://energiemind.io
+Sitemap: https://energiemind.io/sitemap.xml
+Sitemap: https://energiemind.io/sitemaps/sitemap-index.xml

@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Enerji Zekası Platformu ve Altyapı Panosu",
+      "description": "EnergieMIND; enerji panoları, madenci izleme, ısı geri kazanım metrikleri, yapay zeka optimizasyonu ve altyapı zekası için teknoloji platformudur. TVK Infrastructure & Energy Systems tarafından geliştirilmiştir.",
+      "keywords": "EnergieMIND, enerji panosu, madenci izleme, ısı geri kazanımı, yapay zeka optimizasyonu, altyapı zekası, TVK",
+      "ogTitle": "EnergieMIND — Enerji Zekası Platformu",
+      "ogDescription": "Enerji operasyonları, madenci izleme ve yapay zeka destekli optimizasyon için geleceğin panosu ve altyapı zekası platformu.",
+      "twitterTitle": "EnergieMIND — Enerji Zekası Platformu",
+      "twitterDescription": "Enerji panoları, madenci izleme, ısı geri kazanımı ve yapay zeka optimizasyonu için teknoloji platformu."
+    },
+    "dashboard": {
+      "title": "Enerji Panosu — Gerçek Zamanlı Operasyon Merkezi | EnergieMIND",
+      "description": "Altyapınız genelinde güç tüketimi, üretim, verimlilik metrikleri ve operasyonel KPI'ların gerçek zamanlı izlenmesi için merkezi enerji panosu.",
+      "keywords": "enerji panosu, operasyon merkezi, gerçek zamanlı izleme, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND Enerji Panosu",
+      "ogDescription": "Enerji altyapısı izleme ve kontrolü için gerçek zamanlı operasyon merkezi.",
+      "twitterTitle": "EnergieMIND Enerji Panosu",
+      "twitterDescription": "Enerji operasyonları, KPI'lar ve altyapı kontrolü için merkezi pano."
+    },
+    "minerMonitoring": {
+      "title": "Madenci İzleme — ASIC Filo Zekası | EnergieMIND",
+      "description": "Tüm dağıtımlar genelinde hash oranı takibi, sıcaklık uyarıları, güç tüketimi analizi, çalışma süresi raporlaması ve firmware durumu ile ASIC madenci filolarını izleyin.",
+      "keywords": "madenci izleme, ASIC filo, hash oranı, madencilik altyapısı, EnergieMIND",
+      "ogTitle": "EnergieMIND Madenci İzleme",
+      "ogDescription": "Hash oranı, sıcaklık, güç ve çalışma süresi izlemeli ASIC filo zekası.",
+      "twitterTitle": "EnergieMIND Madenci İzleme",
+      "twitterDescription": "Kapsamlı ASIC madenci filo izleme ve zeka platformu."
+    },
+    "energyAnalytics": {
+      "title": "Enerji Analitiği — Tüketim ve Verimlilik Zekası | EnergieMIND",
+      "description": "Tesisler genelinde tüketim kalıpları, maliyet optimizasyonu, karbon ayak izi takibi ve öngörücü talep tahmini için gelişmiş enerji analitiği.",
+      "keywords": "enerji analitiği, tüketim analizi, verimlilik, karbon takibi, EnergieMIND",
+      "ogTitle": "EnergieMIND Enerji Analitiği",
+      "ogDescription": "Tüketim kalıpları, maliyet optimizasyonu ve öngörücü enerji zekası.",
+      "twitterTitle": "EnergieMIND Enerji Analitiği",
+      "twitterDescription": "Enerji tüketimi, verimlilik ve tahmin için gelişmiş analitik."
+    },
+    "heatRecovery": {
+      "title": "Isı Geri Kazanım Metrikleri — Termal Verimlilik Platformu | EnergieMIND",
+      "description": "Madencilik ve endüstriyel operasyonlardan ısı geri kazanım performansı, termal verimlilik oranları, atık ısı kullanımı ve merkezi ısıtma entegrasyonunu takip edin.",
+      "keywords": "ısı geri kazanımı, termal verimlilik, atık ısı, merkezi ısıtma, EnergieMIND",
+      "ogTitle": "EnergieMIND Isı Geri Kazanım Metrikleri",
+      "ogDescription": "Termal verimlilik takibi ve atık ısı kullanım zekası.",
+      "twitterTitle": "EnergieMIND Isı Geri Kazanım Metrikleri",
+      "twitterDescription": "Operasyonlar genelinde ısı geri kazanım performansı ve termal verimliliği izleyin."
+    },
+    "aiOptimization": {
+      "title": "Yapay Zeka Optimizasyonu — Akıllı Enerji Yönetimi | EnergieMIND",
+      "description": "Enerji altyapısı genelinde yük dengeleme, öngörücü bakım, dinamik güç tahsisi ve otonom verimlilik ayarı için yapay zeka destekli optimizasyon.",
+      "keywords": "yapay zeka optimizasyonu, enerji yönetimi, öngörücü bakım, yük dengeleme, EnergieMIND",
+      "ogTitle": "EnergieMIND Yapay Zeka Optimizasyonu",
+      "ogDescription": "Yapay zeka destekli yük dengeleme ve öngörücü bakımla akıllı enerji yönetimi.",
+      "twitterTitle": "EnergieMIND Yapay Zeka Optimizasyonu",
+      "twitterDescription": "Enerji altyapısı ve madencilik operasyonları için yapay zeka destekli optimizasyon."
+    },
+    "api": {
+      "title": "API ve Geliştiriciler — EnergieMIND Platformu ile Entegrasyon",
+      "description": "EnergieMIND enerji zekası platformu için geliştirici belgeleri, REST API referansı, webhook'lar, SDK'lar ve entegrasyon kılavuzları.",
+      "keywords": "EnergieMIND API, geliştirici belgeleri, REST API, SDK, webhook",
+      "ogTitle": "Geliştiriciler için EnergieMIND API",
+      "ogDescription": "Enerji zekası platformu entegrasyonu için REST API, webhook'lar ve SDK'lar.",
+      "twitterTitle": "Geliştiriciler için EnergieMIND API",
+      "twitterDescription": "EnergieMIND platformu için geliştirici araçları ve API belgeleri."
+    },
+    "login": {
+      "title": "Giriş — EnergieMIND Platform Erişimi",
+      "description": "EnergieMIND platform panosuna giriş yapın. Yetkili operatörler, tesis yöneticileri ve altyapı ortakları için güvenli erişim.",
+      "keywords": "EnergieMIND giriş, platform erişimi, pano girişi",
+      "ogTitle": "EnergieMIND Platform Girişi",
+      "ogDescription": "Yetkili EnergieMIND platform kullanıcıları için güvenli giriş.",
+      "twitterTitle": "EnergieMIND Platform Girişi",
+      "twitterDescription": "EnergieMIND enerji zekası panonuza giriş yapın."
+    },
+    "requestAccess": {
+      "title": "Platform Erişimi Talep Et — EnergieMIND",
+      "description": "EnergieMIND enerji zekası platformuna erişim talep edin. Pano kimlik bilgileri, API anahtarları ve altyapı izleme araçları için başvurun.",
+      "keywords": "erişim talebi, platform başvurusu, EnergieMIND kayıt",
+      "ogTitle": "EnergieMIND Platform Erişimi Talep Et",
+      "ogDescription": "Pano erişimi, API anahtarları ve altyapı izleme araçları için başvurun.",
+      "twitterTitle": "EnergieMIND Platform Erişimi Talep Et",
+      "twitterDescription": "EnergieMIND enerji zekası platformuna erişim için başvurun."
+    }
+  },
+  "nav": {
+    "platform": "Platform",
+    "dashboard": "Pano",
+    "minerMonitoring": "Madenci İzleme",
+    "energyAnalytics": "Enerji Analitiği",
+    "heatRecovery": "Isı Geri Kazanımı",
+    "aiOptimization": "Yapay Zeka Optimizasyonu",
+    "api": "API / Geliştiriciler",
+    "login": "Giriş",
+    "requestAccess": "Erişim Talep Et",
+    "language": "Dil",
+    "menu": "Menü",
+    "close": "Kapat"
+  },
+  "common": {
+    "learnMore": "Daha Fazla Bilgi",
+    "getStarted": "Başlayın",
+    "requestAccess": "Platform Erişimi Talep Et",
+    "viewDashboard": "Panoyu Görüntüle",
+    "exploreApi": "API'yi Keşfet",
+    "comingSoon": "Yakında",
+    "readDocumentation": "Belgeleri Oku",
+    "contactSupport": "Destek ile İletişime Geç",
+    "allRightsReserved": "Tüm hakları saklıdır.",
+    "operatedBy": "TVK Infrastructure & Energy Systems LTD tarafından işletilmektedir",
+    "partOf": "TVK Group ekosisteminin bir parçası",
+    "home": "Ana Sayfa",
+    "relatedPages": "İlgili Sayfalar",
+    "features": "Özellikler",
+    "faq": "Sıkça Sorulan Sorular",
+    "submit": "Gönder",
+    "submitting": "Gönderiliyor...",
+    "email": "E-posta",
+    "company": "Şirket",
+    "fullName": "Ad Soyad",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "useCase": "Kullanım Senaryosu",
+    "selectOption": "Bir seçenek belirleyin",
+    "required": "Zorunlu alan",
+    "successMessage": "Talebiniz gönderildi. Ekibimiz kısa süre içinde sizinle iletişime geçecektir.",
+    "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "platformBadge": "Teknoloji Platformu",
+    "underDevelopment": "Platform modülleri aktif olarak geliştirilmektedir"
+  },
+  "home": {
+    "hero": {
+      "title": "Altyapı Operasyonları için Enerji Zekası",
+      "subtitle": "EnergieMIND; enerji operasyonları, madenci izleme, ısı geri kazanım metrikleri ve yapay zeka destekli optimizasyon için teknoloji platformu ve geleceğin panosudur.",
+      "cta": "Platform Erişimi Talep Et",
+      "secondary": "Platformu Keşfet"
+    },
+    "intro": {
+      "title": "Enerji Altyapısı Liderleri için Tasarlandı",
+      "description": "EnergieMIND; madencilik tesisleri, yenilenebilir enerji sahaları ve endüstriyel termal operasyonlar için gerçek zamanlı izleme, analitik ve akıllı otomasyonu bir araya getirir. TVK Group ekosistemi içinde TVK Infrastructure & Energy Systems tarafından işletilmektedir."
+    },
+    "features": {
+      "title": "Platform Yetenekleri",
+      "dashboard": {
+        "title": "Enerji Panosu",
+        "description": "Gerçek zamanlı KPI'lar, uyarılar ve çoklu saha görünürlüğüne sahip merkezi operasyon merkezi."
+      },
+      "miner": {
+        "title": "Madenci İzleme",
+        "description": "Hash oranı, sıcaklık, güç tüketimi ve çalışma süresi takibiyle ASIC filo zekası."
+      },
+      "analytics": {
+        "title": "Enerji Analitiği",
+        "description": "Tüketim kalıpları, maliyet optimizasyonu ve öngörücü talep tahmini."
+      },
+      "heat": {
+        "title": "Isı Geri Kazanım Metrikleri",
+        "description": "Operasyonlar genelinde termal verimlilik takibi ve atık ısı kullanımı."
+      },
+      "ai": {
+        "title": "Yapay Zeka Optimizasyonu",
+        "description": "Akıllı yük dengeleme, öngörücü bakım ve otonom ayarlama."
+      },
+      "api": {
+        "title": "API ve Geliştiriciler",
+        "description": "Sorunsuz platform entegrasyonu için REST API, webhook'lar ve SDK'lar."
+      }
+    },
+    "stats": {
+      "title": "Ölçekte Altyapı",
+      "sites": "İzleme Sahaları",
+      "sitesValue": "Çoklu Saha",
+      "power": "İzlenen Güç",
+      "powerValue": "MW Ölçeği",
+      "languages": "Diller",
+      "languagesValue": "25+",
+      "uptime": "Platform Çalışma Süresi",
+      "uptimeValue": "99,9%"
+    },
+    "cta": {
+      "title": "Enerji Operasyonlarınızı Dönüştürmeye Hazır mısınız?",
+      "description": "EnergieMIND platformuna erişim talep edin ve akıllı enerji yönetimi kullanan altyapı operatörlerine katılın.",
+      "button": "Platform Erişimi Talep Et"
+    },
+    "faq": {
+      "q1": "EnergieMIND nedir?",
+      "a1": "EnergieMIND; enerji panoları, madenci izleme, ısı geri kazanım metrikleri ve yapay zeka optimizasyonu için bir teknoloji platformudur. TVK Group ekosisteminin bir parçası olarak TVK Infrastructure & Energy Systems tarafından işletilmektedir.",
+      "q2": "Platforma kimler erişebilir?",
+      "a2": "Platform; tesis operatörleri, altyapı ortakları, enerji yöneticileri ve yetkili TVK ekosistemi katılımcıları için tasarlanmıştır. Başvuru formumuz aracılığıyla erişim talep edin.",
+      "q3": "EnergieMIND birden fazla dili destekliyor mu?",
+      "a3": "Evet. Platform web sitesi ve gelecekteki pano, makine çevirisi değil tamamen yerelleştirilmiş içerikle 25 dili desteklemektedir.",
+      "q4": "EnergieMIND'in TVK Group ile ilişkisi nedir?",
+      "a4": "EnergieMIND; EnteleKRON ve diğer TVK ekosistemi ürünlerinin yanı sıra TVK Infrastructure & Energy Systems LTD tarafından işletilen bir enerji zekası markasıdır."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Enerji Panosu",
+      "subtitle": "Tüm tesisleriniz genelinde güç tüketimi, üretim verimliliği ve altyapı KPI'larının izlenmesi için gerçek zamanlı operasyon merkezi."
+    },
+    "features": {
+      "title": "Pano Yetenekleri",
+      "realtime": {
+        "title": "Gerçek Zamanlı İzleme",
+        "description": "Her saniye güncellenen canlı güç tüketimi, üretim çıktısı ve verimlilik metrikleri."
+      },
+      "alerts": {
+        "title": "Akıllı Uyarılar",
+        "description": "Anomaliler ve kritik olaylar için anlık bildirimlerle yapılandırılabilir eşik değerleri."
+      },
+      "multisite": {
+        "title": "Çoklu Saha Görünümü",
+        "description": "Madencilik tesisleri, güneş kurulumları ve endüstriyel sahalar genelinde birleşik pano."
+      },
+      "reports": {
+        "title": "Özel Raporlar",
+        "description": "PDF, CSV ve API uç noktalarına dışa aktarımlı planlanmış ve talep üzerine raporlar."
+      }
+    },
+    "faq": {
+      "q1": "Pano hangi metrikleri gösterir?",
+      "a1": "Pano; gerçek zamanlı güç tüketimi, üretim çıktısı, verimlilik oranları, kWh başına maliyet, karbon yoğunluğu, çalışma süresi ve tesis başına yapılandırılmış özel KPI'ları gösterir.",
+      "q2": "Birden fazla sahayı izleyebilir miyim?",
+      "a2": "Evet. Çoklu saha görünümü, detaylı analiz için derinlemesine inceleme imkânıyla toplu ve saha bazlı metrikler sunar."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Madenci İzleme",
+      "subtitle": "Tüm dağıtımlar genelinde hash oranı takibi, termal izleme, güç analizi ve firmware durumuyla kapsamlı ASIC filo zekası."
+    },
+    "features": {
+      "title": "İzleme Özellikleri",
+      "hashrate": {
+        "title": "Hash Oranı Takibi",
+        "description": "Geçmiş trendler ve performans kıyaslamalarıyla cihaz ve filo genelinde hash oranı."
+      },
+      "thermal": {
+        "title": "Termal İzleme",
+        "description": "Öngörücü aşırı ısınma uyarılarıyla çip ve ortam sıcaklığı takibi."
+      },
+      "power": {
+        "title": "Güç Analizi",
+        "description": "Birim başına güç tüketimi, verimlilik oranları (J/TH) ve havuz veya tesis bazında maliyet tahsisi."
+      },
+      "firmware": {
+        "title": "Firmware Durumu",
+        "description": "EnergieMIND firmware sürüm takibi, güncelleme yönetimi ve yapılandırma senkronizasyonu."
+      }
+    },
+    "faq": {
+      "q1": "Hangi madenciler destekleniyor?",
+      "a1": "Platform; EnergieMIND firmware çalıştıran Antminer ve uyumlu ASIC cihazlarını desteklemekte olup ek donanım platformlarına genişleme planlanmaktadır.",
+      "q2": "Veriler ne sıklıkla güncellenir?",
+      "a2": "Madenci metrikleri her 30 saniyede bir toplanır; WebSocket API üzerinden gerçek zamanlı akış mevcuttur."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Enerji Analitiği",
+      "subtitle": "Tüketim kalıpları, maliyet optimizasyonu, karbon ayak izi takibi ve öngörücü talep tahmini için gelişmiş analitik."
+    },
+    "features": {
+      "title": "Analitik Modülleri",
+      "consumption": {
+        "title": "Tüketim Analizi",
+        "description": "Anomali tespitiyle saatlik, günlük ve mevsimsel tüketim kalıpları."
+      },
+      "cost": {
+        "title": "Maliyet Optimizasyonu",
+        "description": "Kullanım zamanı analizi, tarife optimizasyonu ve talep ücreti azaltma stratejileri."
+      },
+      "carbon": {
+        "title": "Karbon Takibi",
+        "description": "ESG uyumluluğu için gerçek zamanlı karbon yoğunluğu izleme ve emisyon raporlaması."
+      },
+      "forecast": {
+        "title": "Talep Tahmini",
+        "description": "Proaktif kapasite planlaması ve yük yönetimi için ML destekli talep tahmini."
+      }
+    },
+    "faq": {
+      "q1": "Hangi veri kaynakları destekleniyor?",
+      "a1": "Analitik motor; akıllı sayaçlar, SCADA sistemleri, madenci telemetrisi, hava durumu API'leri ve REST API üzerinden özel veri akışlarıyla entegre olur.",
+      "q2": "Analitik verileri dışa aktarabilir miyim?",
+      "a2": "Evet. Veriler CSV, JSON ile dışa aktarılabilir veya EnergieMIND API üzerinden programatik olarak erişilebilir."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Isı Geri Kazanım Metrikleri",
+      "subtitle": "Madencilik ve endüstriyel operasyonlardan termal verimlilik, atık ısı kullanımı ve merkezi ısıtma entegrasyonunu takip edin."
+    },
+    "features": {
+      "title": "Termal Zeka",
+      "efficiency": {
+        "title": "Termal Verimlilik",
+        "description": "COP oranları, ısı yakalama oranları ve zaman içindeki sistem verimliliği kıyaslamaları."
+      },
+      "waste": {
+        "title": "Atık Isı Kullanımı",
+        "description": "Isıtma, kurutma veya merkezi enerji için kullanılan geri kazanılmış atık ısı yüzdesi."
+      },
+      "district": {
+        "title": "Merkezi Isıtma",
+        "description": "Merkezi ısıtma ağları ve termal enerji depolama için entegrasyon metrikleri."
+      },
+      "savings": {
+        "title": "Enerji Tasarrufu",
+        "description": "Isı geri kazanım operasyonlarından ölçülebilir yakıt tasarrufu ve karbon azaltımı."
+      }
+    },
+    "faq": {
+      "q1": "Isı geri kazanımı nasıl ölçülür?",
+      "a1": "Termal sensörler, debimetreler ve sıcaklık farkı hesaplamaları, platform panosuna entegre gerçek zamanlı ısı geri kazanım metrikleri sağlar.",
+      "q2": "Hangi sektörler fayda sağlar?",
+      "a2": "Madencilik operasyonları, veri merkezleri, endüstriyel üretim ve termal yan ürünleri olan yenilenebilir enerji tesisleri ısı geri kazanım izlemesinden fayda sağlar."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "Yapay Zeka Optimizasyonu",
+      "subtitle": "Yapay zeka destekli yük dengeleme, öngörücü bakım ve otonom verimlilik ayarıyla akıllı enerji yönetimi."
+    },
+    "features": {
+      "title": "Yapay Zeka Yetenekleri",
+      "load": {
+        "title": "Yük Dengeleme",
+        "description": "Elektrik fiyatları ve talebe göre madenciler ve tesisler arasında dinamik güç tahsisi."
+      },
+      "predictive": {
+        "title": "Öngörücü Bakım",
+        "description": "ML modelleri donanım arızalarını oluşmadan önce tahmin ederek kesinti süresini ve onarım maliyetlerini azaltır."
+      },
+      "autonomous": {
+        "title": "Otonom Ayarlama",
+        "description": "Optimum verimlilik için kendi kendine ayarlanan frekans, voltaj ve soğutma parametreleri."
+      },
+      "insights": {
+        "title": "Zeka İçgörüleri",
+        "description": "Geçmiş veriler ve gerçek zamanlı koşullarla desteklenen uygulanabilir öneriler."
+      }
+    },
+    "faq": {
+      "q1": "Hangi yapay zeka modelleri kullanılıyor?",
+      "a1": "Platform; TVK altyapı dağıtımlarından operasyonel verilerle eğitilmiş talep tahmini, anomali tespiti ve optimizasyon için topluluk ML modelleri kullanır.",
+      "q2": "İnsan denetimi gerekli mi?",
+      "a2": "Yapay zeka önerileri, operatör tercihlerine ve güvenlik kısıtlamalarına göre danışmanlık veya otonom modda çalışabilir."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API ve Geliştiriciler",
+      "subtitle": "REST API, webhook'lar ve SDK'lar kullanarak EnergieMIND platformu ile entegre olun. Özel panolar ve otomasyon iş akışları oluşturun."
+    },
+    "features": {
+      "title": "Geliştirici Araçları",
+      "rest": {
+        "title": "REST API",
+        "description": "OAuth 2.0 kimlik doğrulama ve hız sınırlamasıyla tam özellikli REST API."
+      },
+      "webhooks": {
+        "title": "Webhook'lar",
+        "description": "Uyarılar, durum değişiklikleri ve metrik eşik değerleri için gerçek zamanlı olay bildirimleri."
+      },
+      "sdk": {
+        "title": "SDK'lar",
+        "description": "Kapsamlı belgelerle Python, JavaScript ve Go için resmi SDK'lar."
+      },
+      "sandbox": {
+        "title": "Sandbox Ortamı",
+        "description": "Üretim altyapısına bağlanmadan önce simüle edilmiş verilerle entegrasyonları test edin."
+      }
+    },
+    "endpoints": {
+      "title": "API Genel Bakış",
+      "metrics": "GET /v1/metrics — Enerji ve madenci metriklerini al",
+      "sites": "GET /v1/sites — İzlenen altyapı sahalarını listele",
+      "alerts": "GET /v1/alerts — Aktif ve geçmiş uyarıları sorgula",
+      "control": "POST /v1/control — Cihazlara kontrol komutları gönder"
+    },
+    "faq": {
+      "q1": "API erişimini nasıl alabilirim?",
+      "a1": "Platform erişimi talep edin ve başvurunuzda API erişimini seçin. Onaylanan geliştiriciler API anahtarları ve sandbox kimlik bilgileri alır.",
+      "q2": "Hız sınırı nedir?",
+      "a2": "Standart katman dakikada 1.000 isteğe izin verir. Büyük ölçekli dağıtımlar için daha yüksek limitli kurumsal katmanlar mevcuttur."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Platform Girişi",
+      "subtitle": "EnergieMIND panonuza ve altyapı izleme araçlarınıza erişmek için giriş yapın."
+    },
+    "form": {
+      "email": "E-posta Adresi",
+      "password": "Şifre",
+      "remember": "Beni hatırla",
+      "submit": "Giriş Yap",
+      "forgot": "Şifrenizi mi unuttunuz?",
+      "noAccount": "Hesabınız yok mu?",
+      "requestAccess": "Platform Erişimi Talep Et"
+    },
+    "notice": "Platform girişi şu anda yalnızca yetkili kullanıcılar için kullanılabilir. EnergieMIND platformuna katılmak için erişim talep edin.",
+    "faq": {
+      "q1": "Giriş kimlik bilgilerini nasıl alabilirim?",
+      "a1": "Platform erişim talebi gönderin. Onaylandıktan sonra güvenli e-posta yoluyla giriş kimlik bilgilerinizi alacaksınız.",
+      "q2": "İki faktörlü kimlik doğrulama destekleniyor mu?",
+      "a2": "Evet. TOTP tabanlı iki faktörlü kimlik doğrulama tüm platform hesapları için zorunludur."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Platform Erişimi Talep Et",
+      "subtitle": "EnergieMIND enerji zekası platformu, pano ve API araçlarına erişim için başvurun."
+    },
+    "form": {
+      "fullName": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "company": "Şirket / Kuruluş",
+      "phone": "Telefon Numarası",
+      "useCase": "Birincil Kullanım Senaryosu",
+      "useCases": {
+        "operator": "Tesis Operatörü",
+        "partner": "Altyapı Ortağı",
+        "developer": "API Geliştiricisi",
+        "energy": "Enerji Yöneticisi",
+        "other": "Diğer"
+      },
+      "message": "Altyapınız ve gereksinimleriniz hakkında bize bilgi verin",
+      "submit": "Erişim Talebi Gönder",
+      "privacy": "Göndererek veri işleme uygulamalarımızı kabul etmiş olursunuz. Bilgileriniz TVK Infrastructure & Energy Systems tarafından güvenli şekilde işlenir."
+    },
+    "faq": {
+      "q1": "Onay süreci ne kadar sürer?",
+      "a1": "Erişim talepleri genellikle 3–5 iş günü içinde incelenir. Onaylandığında sonraki adımları içeren bir e-posta alacaksınız.",
+      "q2": "Platform erişimi neleri kapsar?",
+      "a2": "Onaylanan kullanıcılar; kullanım senaryolarına göre pano erişimi, izleme araçları ve isteğe bağlı API kimlik bilgileri alır."
+    }
+  },
+  "footer": {
+    "platform": "Platform",
+    "solutions": "Çözümler",
+    "developers": "Geliştiriciler",
+    "company": "Şirket",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "İletişim",
+    "description": "EnergieMIND; panolar, madenci izleme, ısı geri kazanımı ve yapay zeka optimizasyonu için enerji zekası platformudur."
+  },
+  "schema": {
+    "organization": {
+      "name": "TVK Infrastructure & Energy Systems tarafından EnergieMIND",
+      "description": "Altyapı izleme, madenci filo yönetimi ve yapay zeka destekli optimizasyon için enerji zekası platformu.",
+      "contactType": "Platform Desteği"
+    },
+    "website": {
+      "description": "Enerji operasyonları, madenci izleme, ısı geri kazanım metrikleri ve yapay zeka optimizasyonu için teknoloji platformu ve pano."
+    }
+  },
+  "useCases": {
+    "operator": "Tesis Operatörü",
+    "partner": "Altyapı Ortağı",
+    "developer": "API Geliştiricisi",
+    "energy": "Enerji Yöneticisi",
+    "other": "Diğer"
+  }
+}

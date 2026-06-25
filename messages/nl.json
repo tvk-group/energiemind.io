@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Energie-intelligentieplatform en infrastructuurdashboard",
+      "description": "EnergieMIND is het technologieplatform voor energiedashboards, minermonitoring, warmteterugwinning, AI-optimalisatie en infrastructuurintelligentie. Ontwikkeld door TVK Infrastructure & Energy Systems.",
+      "keywords": "EnergieMIND, energiedashboard, minermonitoring, warmteterugwinning, AI-optimalisatie, infrastructuurintelligentie, TVK",
+      "ogTitle": "EnergieMIND — Energie-intelligentieplatform",
+      "ogDescription": "Toekomstig dashboard en infrastructuurintelligentieplatform voor energieoperaties, minermonitoring en AI-gestuurde optimalisatie.",
+      "twitterTitle": "EnergieMIND — Energie-intelligentieplatform",
+      "twitterDescription": "Technologieplatform voor energiedashboards, minermonitoring, warmteterugwinning en AI-optimalisatie."
+    },
+    "dashboard": {
+      "title": "Energiedashboard — Realtime operationeel centrum | EnergieMIND",
+      "description": "Gecentraliseerd energiedashboard voor realtime monitoring van energieverbruik, opwekking, efficiëntiemetingen en operationele KPI's in uw gehele infrastructuur.",
+      "keywords": "energiedashboard, operationeel centrum, realtime monitoring, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND Energiedashboard",
+      "ogDescription": "Realtime operationeel centrum voor monitoring en beheer van energie-infrastructuur.",
+      "twitterTitle": "EnergieMIND Energiedashboard",
+      "twitterDescription": "Gecentraliseerd dashboard voor energieoperaties, KPI's en infrastructuurbeheer."
+    },
+    "minerMonitoring": {
+      "title": "Minermonitoring — ASIC-vlootintelligentie | EnergieMIND",
+      "description": "Monitor ASIC-minervloten met hash rate-tracking, temperatuurwaarschuwingen, stroomverbruikanalyse, uptime-rapportage en firmwarestatus voor alle implementaties.",
+      "keywords": "minermonitoring, ASIC-vloot, hash rate, mininginfrastructuur, EnergieMIND",
+      "ogTitle": "EnergieMIND Minermonitoring",
+      "ogDescription": "ASIC-vlootintelligentie met monitoring van hash rate, temperatuur, stroomverbruik en uptime.",
+      "twitterTitle": "EnergieMIND Minermonitoring",
+      "twitterDescription": "Compleet platform voor minermonitoring en ASIC-vlootintelligentie."
+    },
+    "energyAnalytics": {
+      "title": "Energie-analyse — Verbruiks- en efficiëntie-intelligentie | EnergieMIND",
+      "description": "Geavanceerde energie-analyse voor verbruikspatronen, kostenoptimalisatie, CO₂-voetafdruktracking en voorspellende vraagprognoses voor alle faciliteiten.",
+      "keywords": "energie-analyse, verbruiksanalyse, efficiëntie, CO₂-tracking, EnergieMIND",
+      "ogTitle": "EnergieMIND Energie-analyse",
+      "ogDescription": "Verbruikspatronen, kostenoptimalisatie en voorspellende energie-intelligentie.",
+      "twitterTitle": "EnergieMIND Energie-analyse",
+      "twitterDescription": "Geavanceerde analyse voor energieverbruik, efficiëntie en prognoses."
+    },
+    "heatRecovery": {
+      "title": "Warmteterugwinning — Platform voor thermische efficiëntie | EnergieMIND",
+      "description": "Volg warmteterugwinningsprestaties, thermische efficiëntieratio's, afvalwarmtebenutting en integratie met stadsverwarming vanuit mining- en industriële operaties.",
+      "keywords": "warmteterugwinning, thermische efficiëntie, afvalwarmte, stadsverwarming, EnergieMIND",
+      "ogTitle": "EnergieMIND Warmteterugwinning",
+      "ogDescription": "Tracking van thermische efficiëntie en intelligentie voor afvalwarmtebenutting.",
+      "twitterTitle": "EnergieMIND Warmteterugwinning",
+      "twitterDescription": "Monitor warmteterugwinningsprestaties en thermische efficiëntie in uw operaties."
+    },
+    "aiOptimization": {
+      "title": "AI-optimalisatie — Intelligente energiebeheer | EnergieMIND",
+      "description": "AI-gestuurde optimalisatie voor load balancing, voorspellend onderhoud, dynamische stroomverdeling en autonome efficiëntieafstemming in de gehele energie-infrastructuur.",
+      "keywords": "AI-optimalisatie, energiebeheer, voorspellend onderhoud, load balancing, EnergieMIND",
+      "ogTitle": "EnergieMIND AI-optimalisatie",
+      "ogDescription": "Intelligent energiebeheer met AI-gestuurde load balancing en voorspellend onderhoud.",
+      "twitterTitle": "EnergieMIND AI-optimalisatie",
+      "twitterDescription": "AI-gestuurde optimalisatie voor energie-infrastructuur en miningoperaties."
+    },
+    "api": {
+      "title": "API en ontwikkelaars — Integratie met het EnergieMIND-platform",
+      "description": "Ontwikkelaarsdocumentatie, REST API-referentie, webhooks, SDK's en integratiegidsen voor het EnergieMIND energie-intelligentieplatform.",
+      "keywords": "EnergieMIND API, ontwikkelaarsdocumentatie, REST API, SDK, webhooks",
+      "ogTitle": "EnergieMIND API voor ontwikkelaars",
+      "ogDescription": "REST API, webhooks en SDK's voor integratie met het energie-intelligentieplatform.",
+      "twitterTitle": "EnergieMIND API voor ontwikkelaars",
+      "twitterDescription": "Ontwikkelaarstools en API-documentatie voor het EnergieMIND-platform."
+    },
+    "login": {
+      "title": "Inloggen — Toegang tot het EnergieMIND-platform",
+      "description": "Meld u aan bij het EnergieMIND-platformdashboard. Veilige toegang voor geautoriseerde operators, faciliteitsmanagers en infrastructuurpartners.",
+      "keywords": "EnergieMIND inloggen, platformtoegang, dashboard aanmelden",
+      "ogTitle": "EnergieMIND Platformlogin",
+      "ogDescription": "Veilig inloggen voor geautoriseerde EnergieMIND-platformgebruikers.",
+      "twitterTitle": "EnergieMIND Platformlogin",
+      "twitterDescription": "Meld u aan bij uw EnergieMIND energie-intelligentiedashboard."
+    },
+    "requestAccess": {
+      "title": "Platformtoegang aanvragen — EnergieMIND",
+      "description": "Vraag toegang aan tot het EnergieMIND energie-intelligentieplatform. Dien een aanvraag in voor dashboardreferenties, API-sleutels en infrastructuurmonitoringtools.",
+      "keywords": "toegang aanvragen, platformaanvraag, EnergieMIND registratie",
+      "ogTitle": "EnergieMIND Platformtoegang aanvragen",
+      "ogDescription": "Dien een aanvraag in voor dashboardtoegang, API-sleutels en infrastructuurmonitoringtools.",
+      "twitterTitle": "EnergieMIND Platformtoegang aanvragen",
+      "twitterDescription": "Dien een aanvraag in voor toegang tot het EnergieMIND energie-intelligentieplatform."
+    }
+  },
+  "nav": {
+    "platform": "Platform",
+    "dashboard": "Dashboard",
+    "minerMonitoring": "Minermonitoring",
+    "energyAnalytics": "Energie-analyse",
+    "heatRecovery": "Warmteterugwinning",
+    "aiOptimization": "AI-optimalisatie",
+    "api": "API / Ontwikkelaars",
+    "login": "Inloggen",
+    "requestAccess": "Toegang aanvragen",
+    "language": "Taal",
+    "menu": "Menu",
+    "close": "Sluiten"
+  },
+  "common": {
+    "learnMore": "Meer informatie",
+    "getStarted": "Aan de slag",
+    "requestAccess": "Platformtoegang aanvragen",
+    "viewDashboard": "Dashboard bekijken",
+    "exploreApi": "API verkennen",
+    "comingSoon": "Binnenkort beschikbaar",
+    "readDocumentation": "Documentatie lezen",
+    "contactSupport": "Contact opnemen met support",
+    "allRightsReserved": "Alle rechten voorbehouden.",
+    "operatedBy": "Beheerd door TVK Infrastructure & Energy Systems LTD",
+    "partOf": "Onderdeel van het TVK Group-ecosysteem",
+    "home": "Home",
+    "relatedPages": "Gerelateerde pagina's",
+    "features": "Functies",
+    "faq": "Veelgestelde vragen",
+    "submit": "Verzenden",
+    "submitting": "Bezig met verzenden...",
+    "email": "E-mail",
+    "company": "Bedrijf",
+    "fullName": "Volledige naam",
+    "phone": "Telefoon",
+    "message": "Bericht",
+    "useCase": "Gebruiksscenario",
+    "selectOption": "Selecteer een optie",
+    "required": "Verplicht veld",
+    "successMessage": "Uw aanvraag is verzonden. Ons team neemt binnenkort contact met u op.",
+    "errorMessage": "Er is een fout opgetreden. Probeer het opnieuw.",
+    "platformBadge": "Technologieplatform",
+    "underDevelopment": "Platformmodules worden actief ontwikkeld"
+  },
+  "home": {
+    "hero": {
+      "title": "Energie-intelligentie voor infrastructuuroperaties",
+      "subtitle": "EnergieMIND is het technologieplatform en toekomstige dashboard voor energieoperaties, minermonitoring, warmteterugwinning en AI-gestuurde optimalisatie.",
+      "cta": "Platformtoegang aanvragen",
+      "secondary": "Platform verkennen"
+    },
+    "intro": {
+      "title": "Gebouwd voor leiders in energie-infrastructuur",
+      "description": "EnergieMIND verenigt realtime monitoring, analyse en intelligente automatisering voor miningfaciliteiten, locaties voor hernieuwbare energie en industriële thermische operaties. Beheerd door TVK Infrastructure & Energy Systems binnen het TVK Group-ecosysteem."
+    },
+    "features": {
+      "title": "Platformmogelijkheden",
+      "dashboard": {
+        "title": "Energiedashboard",
+        "description": "Gecentraliseerd operationeel centrum met realtime KPI's, waarschuwingen en multi-site zichtbaarheid."
+      },
+      "miner": {
+        "title": "Minermonitoring",
+        "description": "ASIC-vlootintelligentie met tracking van hash rate, temperatuur, stroomverbruik en uptime."
+      },
+      "analytics": {
+        "title": "Energie-analyse",
+        "description": "Verbruikspatronen, kostenoptimalisatie en voorspellende vraagprognoses."
+      },
+      "heat": {
+        "title": "Warmteterugwinning",
+        "description": "Tracking van thermische efficiëntie en afvalwarmtebenutting in operaties."
+      },
+      "ai": {
+        "title": "AI-optimalisatie",
+        "description": "Intelligente load balancing, voorspellend onderhoud en autonome afstemming."
+      },
+      "api": {
+        "title": "API en ontwikkelaars",
+        "description": "REST API, webhooks en SDK's voor naadloze platformintegratie."
+      }
+    },
+    "stats": {
+      "title": "Infrastructuur op schaal",
+      "sites": "Gemonitorde locaties",
+      "sitesValue": "Multi-site",
+      "power": "Gemonitorde stroom",
+      "powerValue": "MW-schaal",
+      "languages": "Talen",
+      "languagesValue": "25+",
+      "uptime": "Platform uptime",
+      "uptimeValue": "99,9%"
+    },
+    "cta": {
+      "title": "Klaar om uw energieoperaties te transformeren?",
+      "description": "Vraag toegang aan tot het EnergieMIND-platform en sluit u aan bij infrastructuuroperators die intelligent energiebeheer gebruiken.",
+      "button": "Platformtoegang aanvragen"
+    },
+    "faq": {
+      "q1": "Wat is EnergieMIND?",
+      "a1": "EnergieMIND is een technologieplatform voor energiedashboards, minermonitoring, warmteterugwinning en AI-optimalisatie. Het wordt beheerd door TVK Infrastructure & Energy Systems als onderdeel van het TVK Group-ecosysteem.",
+      "q2": "Wie heeft toegang tot het platform?",
+      "a2": "Het platform is ontworpen voor faciliteitsoperators, infrastructuurpartners, energiemanagers en geautoriseerde deelnemers in het TVK-ecosysteem. Vraag toegang aan via ons aanvraagformulier.",
+      "q3": "Ondersteunt EnergieMIND meerdere talen?",
+      "a3": "Ja. De platformwebsite en het toekomstige dashboard ondersteunen 25 talen met volledig gelokaliseerde content, geen machinale vertaling.",
+      "q4": "Hoe verhoudt EnergieMIND zich tot TVK Group?",
+      "a4": "EnergieMIND is een energie-intelligentiemerk beheerd door TVK Infrastructure & Energy Systems LTD, naast EnteleKRON en andere producten in het TVK-ecosysteem."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Energiedashboard",
+      "subtitle": "Realtime operationeel centrum voor het monitoren van energieverbruik, opwekkingsefficiëntie en infrastructuur-KPI's in al uw faciliteiten."
+    },
+    "features": {
+      "title": "Dashboardmogelijkheden",
+      "realtime": {
+        "title": "Realtime monitoring",
+        "description": "Live energieverbruik, opwekking en efficiëntiemetingen, elke seconde bijgewerkt."
+      },
+      "alerts": {
+        "title": "Slimme waarschuwingen",
+        "description": "Configureerbare drempelwaarden met directe meldingen bij anomalieën en kritieke gebeurtenissen."
+      },
+      "multisite": {
+        "title": "Multi-site weergave",
+        "description": "Uniform dashboard voor miningfaciliteiten, zonne-installaties en industriële locaties."
+      },
+      "reports": {
+        "title": "Aangepaste rapporten",
+        "description": "Geplande en on-demand rapporten met export naar PDF, CSV en API-endpoints."
+      }
+    },
+    "faq": {
+      "q1": "Welke meetwaarden toont het dashboard?",
+      "a1": "Het dashboard toont realtime energieverbruik, opwekking, efficiëntieratio's, kosten per kWh, CO₂-intensiteit, uptime en aangepaste KPI's per faciliteit.",
+      "q2": "Kan ik meerdere locaties monitoren?",
+      "a2": "Ja. De multi-site weergave biedt geaggregeerde en per-locatie meetwaarden met drill-down mogelijkheden voor gedetailleerde analyse."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Minermonitoring",
+      "subtitle": "Complete ASIC-vlootintelligentie met hash rate-tracking, thermische monitoring, stroomanalyse en firmwarestatus voor alle implementaties."
+    },
+    "features": {
+      "title": "Monitoringfuncties",
+      "hashrate": {
+        "title": "Hash rate-tracking",
+        "description": "Hash rate per apparaat en vlootbreed, met historische trends en prestatiebenchmarks."
+      },
+      "thermal": {
+        "title": "Thermische monitoring",
+        "description": "Chip- en omgevingstemperatuurtracking met voorspellende oververhittingswaarschuwingen."
+      },
+      "power": {
+        "title": "Stroomanalyse",
+        "description": "Stroomverbruik per eenheid, efficiëntieratio's (J/TH) en kostentoewijzing per pool of faciliteit."
+      },
+      "firmware": {
+        "title": "Firmwarestatus",
+        "description": "EnergieMIND firmwareversietracking, updatebeheer en configuratiesynchronisatie."
+      }
+    },
+    "faq": {
+      "q1": "Welke miners worden ondersteund?",
+      "a1": "Het platform ondersteunt Antminer en compatibele ASIC-apparaten met EnergieMIND-firmware, met uitbreiding naar aanvullende hardwareplatformen gepland.",
+      "q2": "Hoe vaak worden gegevens bijgewerkt?",
+      "a2": "Minermetingen worden elke 30 seconden verzameld, met realtime streaming beschikbaar via WebSocket API."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Energie-analyse",
+      "subtitle": "Geavanceerde analyse voor verbruikspatronen, kostenoptimalisatie, CO₂-voetafdruktracking en voorspellende vraagprognoses."
+    },
+    "features": {
+      "title": "Analysemodules",
+      "consumption": {
+        "title": "Verbruiksanalyse",
+        "description": "Uurlijkse, dagelijkse en seizoensgebonden verbruikspatronen met anomaliedetectie."
+      },
+      "cost": {
+        "title": "Kostenoptimalisatie",
+        "description": "Analyse op basis van tijd-van-gebruik, tariefoptimalisatie en strategieën voor vermindering van piekbelastingkosten."
+      },
+      "carbon": {
+        "title": "CO₂-tracking",
+        "description": "Realtime monitoring van CO₂-intensiteit en emissierapportage voor ESG-compliance."
+      },
+      "forecast": {
+        "title": "Vraagprognose",
+        "description": "ML-gestuurde vraagvoorspelling voor proactieve capaciteitsplanning en loadbeheer."
+      }
+    },
+    "faq": {
+      "q1": "Welke gegevensbronnen worden ondersteund?",
+      "a1": "De analyse-engine integreert met slimme meters, SCADA-systemen, minertelemetrie, weer-API's en aangepaste gegevensfeeds via REST API.",
+      "q2": "Kan ik analysedata exporteren?",
+      "a2": "Ja. Gegevens kunnen worden geëxporteerd via CSV, JSON of programmatisch worden benaderd via de EnergieMIND API."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Warmteterugwinning",
+      "subtitle": "Volg thermische efficiëntie, afvalwarmtebenutting en integratie met stadsverwarming vanuit mining- en industriële operaties."
+    },
+    "features": {
+      "title": "Thermische intelligentie",
+      "efficiency": {
+        "title": "Thermische efficiëntie",
+        "description": "COP-ratio's, warmteopvangpercentages en systeemefficiëntiebenchmarks over tijd."
+      },
+      "waste": {
+        "title": "Afvalwarmtebenutting",
+        "description": "Percentage teruggewonnen afvalwarmte gebruikt voor verwarming, droging of stadsenergie."
+      },
+      "district": {
+        "title": "Stadsverwarming",
+        "description": "Integratiemetingen voor stadsverwarmingsnetwerken en thermische energieopslag."
+      },
+      "savings": {
+        "title": "Energiebesparing",
+        "description": "Gekwantificeerde brandstofbesparing en CO₂-reductie door warmteterugwinningsoperaties."
+      }
+    },
+    "faq": {
+      "q1": "Hoe wordt warmteterugwinning gemeten?",
+      "a1": "Thermische sensoren, debietmeters en temperatuurverschilberekeningen leveren realtime warmteterugwinningsmetingen geïntegreerd in het platformdashboard.",
+      "q2": "Welke sectoren profiteren hiervan?",
+      "a2": "Miningoperaties, datacenters, industriële productie en faciliteiten voor hernieuwbare energie met thermische bijproducten profiteren van warmteterugwinningsmonitoring."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "AI-optimalisatie",
+      "subtitle": "Intelligent energiebeheer met AI-gestuurde load balancing, voorspellend onderhoud en autonome efficiëntieafstemming."
+    },
+    "features": {
+      "title": "AI-mogelijkheden",
+      "load": {
+        "title": "Load balancing",
+        "description": "Dynamische stroomverdeling over miners en faciliteiten op basis van elektriciteitsprijzen en vraag."
+      },
+      "predictive": {
+        "title": "Voorspellend onderhoud",
+        "description": "ML-modellen voorspellen hardwarestoringen voordat ze optreden, waardoor downtime en reparatiekosten worden verminderd."
+      },
+      "autonomous": {
+        "title": "Autonome afstemming",
+        "description": "Zelfaanpassende frequentie-, spanning- en koelparameters voor optimale efficiëntie."
+      },
+      "insights": {
+        "title": "Intelligentie-inzichten",
+        "description": "Uitvoerbare aanbevelingen op basis van historische gegevens en realtime omstandigheden."
+      }
+    },
+    "faq": {
+      "q1": "Welke AI-modellen worden gebruikt?",
+      "a1": "Het platform gebruikt ensemble ML-modellen voor vraagprognoses, anomaliedetectie en optimalisatie, getraind op operationele gegevens van TVK-infrastructuurimplementaties.",
+      "q2": "Is menselijk toezicht vereist?",
+      "a2": "AI-aanbevelingen kunnen werken in adviesmodus of autonome modus, afhankelijk van operatorvoorkeuren en veiligheidsbeperkingen."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API en ontwikkelaars",
+      "subtitle": "Integreer met het EnergieMIND-platform via REST API, webhooks en SDK's. Bouw aangepaste dashboards en automatiseringsworkflows."
+    },
+    "features": {
+      "title": "Ontwikkelaarstools",
+      "rest": {
+        "title": "REST API",
+        "description": "Volledig uitgeruste REST API met OAuth 2.0-authenticatie en rate limiting."
+      },
+      "webhooks": {
+        "title": "Webhooks",
+        "description": "Realtime gebeurtenismeldingen voor waarschuwingen, statuswijzigingen en meetwaardedrempels."
+      },
+      "sdk": {
+        "title": "SDK's",
+        "description": "Officiële SDK's voor Python, JavaScript en Go met uitgebreide documentatie."
+      },
+      "sandbox": {
+        "title": "Sandbox-omgeving",
+        "description": "Test integraties met gesimuleerde gegevens voordat u verbinding maakt met productie-infrastructuur."
+      }
+    },
+    "endpoints": {
+      "title": "API-overzicht",
+      "metrics": "GET /v1/metrics — Energie- en minermetingen ophalen",
+      "sites": "GET /v1/sites — Gemonitorde infrastructuurlocaties weergeven",
+      "alerts": "GET /v1/alerts — Actieve en historische waarschuwingen opvragen",
+      "control": "POST /v1/control — Besturingscommando's naar apparaten sturen"
+    },
+    "faq": {
+      "q1": "Hoe krijg ik API-toegang?",
+      "a1": "Vraag platformtoegang aan en selecteer API-toegang in uw aanvraag. Goedgekeurde ontwikkelaars ontvangen API-sleutels en sandbox-referenties.",
+      "q2": "Wat is de rate limit?",
+      "a2": "Het standaardniveau staat 1.000 verzoeken per minuut toe. Enterprise-niveaus met hogere limieten zijn beschikbaar voor grootschalige implementaties."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Platformlogin",
+      "subtitle": "Meld u aan voor toegang tot uw EnergieMIND-dashboard en infrastructuurmonitoringtools."
+    },
+    "form": {
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "remember": "Onthoud mij",
+      "submit": "Inloggen",
+      "forgot": "Wachtwoord vergeten?",
+      "noAccount": "Nog geen account?",
+      "requestAccess": "Platformtoegang aanvragen"
+    },
+    "notice": "Platformlogin is momenteel alleen beschikbaar voor geautoriseerde gebruikers. Vraag toegang aan om deel te nemen aan het EnergieMIND-platform.",
+    "faq": {
+      "q1": "Hoe krijg ik inloggegevens?",
+      "a1": "Dien een platformtoegangsaanvraag in. Na goedkeuring ontvangt u inloggegevens via beveiligde e-mail.",
+      "q2": "Wordt tweefactorauthenticatie ondersteund?",
+      "a2": "Ja. TOTP-gebaseerde tweefactorauthenticatie is verplicht voor alle platformaccounts."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Platformtoegang aanvragen",
+      "subtitle": "Dien een aanvraag in voor toegang tot het EnergieMIND energie-intelligentieplatform, dashboard en API-tools."
+    },
+    "form": {
+      "fullName": "Volledige naam",
+      "email": "E-mailadres",
+      "company": "Bedrijf / Organisatie",
+      "phone": "Telefoonnummer",
+      "useCase": "Primair gebruiksscenario",
+      "useCases": {
+        "operator": "Faciliteitsoperator",
+        "partner": "Infrastructuurpartner",
+        "developer": "API-ontwikkelaar",
+        "energy": "Energiemanager",
+        "other": "Overig"
+      },
+      "message": "Vertel ons over uw infrastructuur en vereisten",
+      "submit": "Toegangsaanvraag verzenden",
+      "privacy": "Door te verzenden gaat u akkoord met onze gegevensverwerkingspraktijken. Uw gegevens worden veilig verwerkt door TVK Infrastructure & Energy Systems."
+    },
+    "faq": {
+      "q1": "Hoe lang duurt de goedkeuring?",
+      "a1": "Toegangsaanvragen worden doorgaans binnen 3–5 werkdagen beoordeeld. U ontvangt een e-mail met vervolgstappen na goedkeuring.",
+      "q2": "Wat is inbegrepen bij platformtoegang?",
+      "a2": "Goedgekeurde gebruikers ontvangen dashboardtoegang, monitoringtools en optionele API-referenties op basis van hun gebruiksscenario."
+    }
+  },
+  "footer": {
+    "platform": "Platform",
+    "solutions": "Oplossingen",
+    "developers": "Ontwikkelaars",
+    "company": "Bedrijf",
+    "legal": "Juridisch",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "Contact",
+    "description": "EnergieMIND is het energie-intelligentieplatform voor dashboards, minermonitoring, warmteterugwinning en AI-optimalisatie."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "Energie-intelligentieplatform voor infrastructuurmonitoring, minervlootbeheer en AI-gestuurde optimalisatie.",
+      "contactType": "Platformsupport"
+    },
+    "website": {
+      "description": "Technologieplatform en dashboard voor energieoperaties, minermonitoring, warmteterugwinning en AI-optimalisatie."
+    }
+  },
+  "useCases": {
+    "operator": "Faciliteitsoperator",
+    "partner": "Infrastructuurpartner",
+    "developer": "API-ontwikkelaar",
+    "energy": "Energiemanager",
+    "other": "Overig"
+  }
+}

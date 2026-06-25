@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — 能源智能平台与基础设施仪表板",
+      "description": "EnergieMIND 是面向能源仪表板、矿机监控、余热回收指标、AI 优化和基础设施智能分析的技术平台。由 TVK Infrastructure & Energy Systems 打造。",
+      "keywords": "EnergieMIND, 能源仪表板, 矿机监控, 余热回收, AI 优化, 基础设施智能, TVK",
+      "ogTitle": "EnergieMIND — 能源智能平台",
+      "ogDescription": "面向能源运营、矿机监控和 AI 驱动优化的未来仪表板与基础设施智能平台。",
+      "twitterTitle": "EnergieMIND — 能源智能平台",
+      "twitterDescription": "面向能源仪表板、矿机监控、余热回收和 AI 优化的技术平台。"
+    },
+    "dashboard": {
+      "title": "能源仪表板 — 实时运营中心 | EnergieMIND",
+      "description": "集中式能源仪表板，实时监控电力消耗、发电量、效率指标和跨基础设施的运营 KPI。",
+      "keywords": "能源仪表板, 运营中心, 实时监控, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND 能源仪表板",
+      "ogDescription": "面向能源基础设施监控与控制的实时运营中心。",
+      "twitterTitle": "EnergieMIND 能源仪表板",
+      "twitterDescription": "面向能源运营、KPI 和基础设施控制的集中式仪表板。"
+    },
+    "minerMonitoring": {
+      "title": "矿机监控 — ASIC 矿场智能 | EnergieMIND",
+      "description": "监控 ASIC 矿机集群，涵盖算力追踪、温度告警、功耗分析、运行时间报告和全部署固件状态。",
+      "keywords": "矿机监控, ASIC 矿场, 算力, 挖矿基础设施, EnergieMIND",
+      "ogTitle": "EnergieMIND 矿机监控",
+      "ogDescription": "ASIC 矿场智能，涵盖算力、温度、功耗和运行时间监控。",
+      "twitterTitle": "EnergieMIND 矿机监控",
+      "twitterDescription": "完整的 ASIC 矿机集群监控与智能平台。"
+    },
+    "energyAnalytics": {
+      "title": "能源分析 — 消耗与效率智能 | EnergieMIND",
+      "description": "高级能源分析，涵盖消耗模式、成本优化、碳足迹追踪和跨设施的预测性需求预测。",
+      "keywords": "能源分析, 消耗分析, 效率, 碳追踪, EnergieMIND",
+      "ogTitle": "EnergieMIND 能源分析",
+      "ogDescription": "消耗模式、成本优化和预测性能源智能。",
+      "twitterTitle": "EnergieMIND 能源分析",
+      "twitterDescription": "面向能源消耗、效率和预测的高级分析。"
+    },
+    "heatRecovery": {
+      "title": "余热回收指标 — 热效率平台 | EnergieMIND",
+      "description": "追踪余热回收性能、热效率比、废热利用和来自挖矿与工业运营的区域供热集成。",
+      "keywords": "余热回收, 热效率, 废热, 区域供热, EnergieMIND",
+      "ogTitle": "EnergieMIND 余热回收指标",
+      "ogDescription": "热效率追踪与废热利用智能。",
+      "twitterTitle": "EnergieMIND 余热回收指标",
+      "twitterDescription": "监控跨运营的余热回收性能和热效率。"
+    },
+    "aiOptimization": {
+      "title": "AI 优化 — 智能能源管理 | EnergieMIND",
+      "description": "AI 驱动的优化，涵盖负载均衡、预测性维护、动态电力分配和跨能源基础设施的自主效率调优。",
+      "keywords": "AI 优化, 能源管理, 预测性维护, 负载均衡, EnergieMIND",
+      "ogTitle": "EnergieMIND AI 优化",
+      "ogDescription": "AI 驱动的负载均衡与预测性维护智能能源管理。",
+      "twitterTitle": "EnergieMIND AI 优化",
+      "twitterDescription": "面向能源基础设施和挖矿运营的 AI 驱动优化。"
+    },
+    "api": {
+      "title": "API 与开发者 — 集成 EnergieMIND 平台",
+      "description": "面向 EnergieMIND 能源智能平台的开发者文档、REST API 参考、Webhook、SDK 和集成指南。",
+      "keywords": "EnergieMIND API, 开发者文档, REST API, SDK, Webhook",
+      "ogTitle": "面向开发者的 EnergieMIND API",
+      "ogDescription": "面向能源智能平台集成的 REST API、Webhook 和 SDK。",
+      "twitterTitle": "面向开发者的 EnergieMIND API",
+      "twitterDescription": "EnergieMIND 平台的开发者工具和 API 文档。"
+    },
+    "login": {
+      "title": "登录 — EnergieMIND 平台访问",
+      "description": "登录 EnergieMIND 平台仪表板。为授权运营人员、设施管理员和基础设施合作伙伴提供安全访问。",
+      "keywords": "EnergieMIND 登录, 平台访问, 仪表板登录",
+      "ogTitle": "EnergieMIND 平台登录",
+      "ogDescription": "面向授权 EnergieMIND 平台用户的安全登录。",
+      "twitterTitle": "EnergieMIND 平台登录",
+      "twitterDescription": "登录您的 EnergieMIND 能源智能仪表板。"
+    },
+    "requestAccess": {
+      "title": "申请平台访问 — EnergieMIND",
+      "description": "申请访问 EnergieMIND 能源智能平台。申请仪表板凭据、API 密钥和基础设施监控工具。",
+      "keywords": "申请访问, 平台申请, EnergieMIND 注册",
+      "ogTitle": "申请 EnergieMIND 平台访问",
+      "ogDescription": "申请仪表板访问、API 密钥和基础设施监控工具。",
+      "twitterTitle": "申请 EnergieMIND 平台访问",
+      "twitterDescription": "申请访问 EnergieMIND 能源智能平台。"
+    }
+  },
+  "nav": {
+    "platform": "平台",
+    "dashboard": "仪表板",
+    "minerMonitoring": "矿机监控",
+    "energyAnalytics": "能源分析",
+    "heatRecovery": "余热回收",
+    "aiOptimization": "AI 优化",
+    "api": "API / 开发者",
+    "login": "登录",
+    "requestAccess": "申请访问",
+    "language": "语言",
+    "menu": "菜单",
+    "close": "关闭"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "getStarted": "立即开始",
+    "requestAccess": "申请平台访问",
+    "viewDashboard": "查看仪表板",
+    "exploreApi": "探索 API",
+    "comingSoon": "即将推出",
+    "readDocumentation": "阅读文档",
+    "contactSupport": "联系支持",
+    "allRightsReserved": "保留所有权利。",
+    "operatedBy": "由 TVK Infrastructure & Energy Systems LTD 运营",
+    "partOf": "TVK Group 生态系统的一部分",
+    "home": "首页",
+    "relatedPages": "相关页面",
+    "features": "功能",
+    "faq": "常见问题",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "email": "电子邮件",
+    "company": "公司",
+    "fullName": "姓名",
+    "phone": "电话",
+    "message": "留言",
+    "useCase": "使用场景",
+    "selectOption": "请选择",
+    "required": "必填项",
+    "successMessage": "您的申请已提交。我们的团队将尽快与您联系。",
+    "errorMessage": "发生错误，请重试。",
+    "platformBadge": "技术平台",
+    "underDevelopment": "平台模块正在积极开发中"
+  },
+  "home": {
+    "hero": {
+      "title": "面向基础设施运营的能源智能",
+      "subtitle": "EnergieMIND 是面向能源运营、矿机监控、余热回收指标和 AI 驱动优化的技术平台与未来仪表板。",
+      "cta": "申请平台访问",
+      "secondary": "探索平台"
+    },
+    "intro": {
+      "title": "为能源基础设施领导者打造",
+      "description": "EnergieMIND 为矿场设施、可再生能源站点和工业热力运营统一实时监控、分析和智能自动化。由 TVK Infrastructure & Energy Systems 在 TVK Group 生态系统内运营。"
+    },
+    "features": {
+      "title": "平台能力",
+      "dashboard": {
+        "title": "能源仪表板",
+        "description": "集中式运营中心，提供实时 KPI、告警和多站点可视化。"
+      },
+      "miner": {
+        "title": "矿机监控",
+        "description": "ASIC 矿场智能，涵盖算力、温度、功耗和运行时间追踪。"
+      },
+      "analytics": {
+        "title": "能源分析",
+        "description": "消耗模式、成本优化和预测性需求预测。"
+      },
+      "heat": {
+        "title": "余热回收指标",
+        "description": "跨运营的热效率追踪和废热利用。"
+      },
+      "ai": {
+        "title": "AI 优化",
+        "description": "智能负载均衡、预测性维护和自主调优。"
+      },
+      "api": {
+        "title": "API 与开发者",
+        "description": "REST API、Webhook 和 SDK，实现无缝平台集成。"
+      }
+    },
+    "stats": {
+      "title": "大规模基础设施",
+      "sites": "监控站点",
+      "sitesValue": "多站点",
+      "power": "追踪电力",
+      "powerValue": "MW 级",
+      "languages": "语言",
+      "languagesValue": "25+",
+      "uptime": "平台可用性",
+      "uptimeValue": "99.9%"
+    },
+    "cta": {
+      "title": "准备好变革您的能源运营了吗？",
+      "description": "申请访问 EnergieMIND 平台，加入使用智能能源管理的基础设施运营者行列。",
+      "button": "申请平台访问"
+    },
+    "faq": {
+      "q1": "什么是 EnergieMIND？",
+      "a1": "EnergieMIND 是面向能源仪表板、矿机监控、余热回收指标和 AI 优化的技术平台。由 TVK Infrastructure & Energy Systems 作为 TVK Group 生态系统的一部分运营。",
+      "q2": "谁可以访问该平台？",
+      "a2": "该平台面向设施运营者、基础设施合作伙伴、能源管理员和授权的 TVK 生态系统参与者。请通过我们的申请表申请访问。",
+      "q3": "EnergieMIND 是否支持多种语言？",
+      "a3": "是的。平台网站和未来仪表板支持 25 种语言，提供完整本地化内容，而非机器翻译。",
+      "q4": "EnergieMIND 与 TVK Group 有何关系？",
+      "a4": "EnergieMIND 是由 TVK Infrastructure & Energy Systems LTD 运营的能源智能品牌，与 EnteleKRON 及其他 TVK 生态系统产品并列。"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "能源仪表板",
+      "subtitle": "实时运营中心，监控所有设施的电力消耗、发电效率和基础设施 KPI。"
+    },
+    "features": {
+      "title": "仪表板能力",
+      "realtime": {
+        "title": "实时监控",
+        "description": "电力消耗、发电输出和效率指标每秒实时更新。"
+      },
+      "alerts": {
+        "title": "智能告警",
+        "description": "可配置阈值，针对异常和关键事件即时通知。"
+      },
+      "multisite": {
+        "title": "多站点视图",
+        "description": "跨矿场设施、太阳能装置和工业站点的统一仪表板。"
+      },
+      "reports": {
+        "title": "自定义报告",
+        "description": "定时和按需报告，支持导出为 PDF、CSV 和 API 端点。"
+      }
+    },
+    "faq": {
+      "q1": "仪表板显示哪些指标？",
+      "a1": "仪表板显示实时电力消耗、发电输出、效率比、每 kWh 成本、碳强度、运行时间和按设施配置的自定义 KPI。",
+      "q2": "我可以监控多个站点吗？",
+      "a2": "可以。多站点视图提供汇总和分站点指标，支持下钻分析以获取详细洞察。"
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "矿机监控",
+      "subtitle": "完整的 ASIC 矿场智能，涵盖算力追踪、热力监控、功耗分析和全部署固件状态。"
+    },
+    "features": {
+      "title": "监控功能",
+      "hashrate": {
+        "title": "算力追踪",
+        "description": "单设备和全矿场算力，含历史趋势和性能基准。"
+      },
+      "thermal": {
+        "title": "热力监控",
+        "description": "芯片和环境温度追踪，含预测性过热告警。"
+      },
+      "power": {
+        "title": "功耗分析",
+        "description": "单台功耗、效率比（J/TH）以及按矿池或设施的成本分摊。"
+      },
+      "firmware": {
+        "title": "固件状态",
+        "description": "EnergieMIND 固件版本追踪、更新管理和配置同步。"
+      }
+    },
+    "faq": {
+      "q1": "支持哪些矿机？",
+      "a1": "该平台支持运行 EnergieMIND 固件的 Antminer 及兼容 ASIC 设备，并计划扩展至更多硬件平台。",
+      "q2": "数据多久更新一次？",
+      "a2": "矿机指标每 30 秒采集一次，可通过 WebSocket API 获取实时流数据。"
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "能源分析",
+      "subtitle": "面向消耗模式、成本优化、碳足迹追踪和预测性需求预测的高级分析。"
+    },
+    "features": {
+      "title": "分析模块",
+      "consumption": {
+        "title": "消耗分析",
+        "description": "小时、日和季节性消耗模式，含异常检测。"
+      },
+      "cost": {
+        "title": "成本优化",
+        "description": "分时用电分析、电价优化和需求电费削减策略。"
+      },
+      "carbon": {
+        "title": "碳追踪",
+        "description": "实时碳强度监控和 ESG 合规排放报告。"
+      },
+      "forecast": {
+        "title": "需求预测",
+        "description": "ML 驱动的需求预测，支持主动容量规划和负载管理。"
+      }
+    },
+    "faq": {
+      "q1": "支持哪些数据源？",
+      "a1": "分析引擎集成智能电表、SCADA 系统、矿机遥测、天气 API 以及通过 REST API 的自定义数据源。",
+      "q2": "我可以导出分析数据吗？",
+      "a2": "可以。数据可通过 CSV、JSON 导出，或通过 EnergieMIND API 以编程方式访问。"
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "余热回收指标",
+      "subtitle": "追踪来自挖矿和工业运营的热效率、废热利用和区域供热集成。"
+    },
+    "features": {
+      "title": "热力智能",
+      "efficiency": {
+        "title": "热效率",
+        "description": "COP 比、热捕获率和系统效率基准随时间变化。"
+      },
+      "waste": {
+        "title": "废热利用",
+        "description": "回收废热用于供暖、干燥或区域能源的占比。"
+      },
+      "district": {
+        "title": "区域供热",
+        "description": "面向区域供热网络和热能储存的集成指标。"
+      },
+      "savings": {
+        "title": "节能效益",
+        "description": "量化余热回收运营带来的燃料节约和碳减排。"
+      }
+    },
+    "faq": {
+      "q1": "余热回收如何测量？",
+      "a1": "热传感器、流量计和温差计算提供实时余热回收指标，并集成至平台仪表板。",
+      "q2": "哪些行业受益？",
+      "a2": "挖矿运营、数据中心、工业制造和具有热力副产品的可再生能源设施均可从余热回收监控中受益。"
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "AI 优化",
+      "subtitle": "AI 驱动的负载均衡、预测性维护和自主效率调优智能能源管理。"
+    },
+    "features": {
+      "title": "AI 能力",
+      "load": {
+        "title": "负载均衡",
+        "description": "根据电价和需求在矿机和设施间动态分配电力。"
+      },
+      "predictive": {
+        "title": "预测性维护",
+        "description": "ML 模型在硬件故障发生前进行预测，减少停机时间和维修成本。"
+      },
+      "autonomous": {
+        "title": "自主调优",
+        "description": "自动调整频率、电压和冷却参数以实现最优效率。"
+      },
+      "insights": {
+        "title": "智能洞察",
+        "description": "基于历史数据和实时条件的可执行建议。"
+      }
+    },
+    "faq": {
+      "q1": "使用哪些 AI 模型？",
+      "a1": "该平台使用集成 ML 模型进行需求预测、异常检测和优化，基于 TVK 基础设施部署的运营数据训练。",
+      "q2": "是否需要人工监督？",
+      "a2": "AI 建议可根据运营者偏好和安全约束，以建议模式或自主模式运行。"
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API 与开发者",
+      "subtitle": "使用 REST API、Webhook 和 SDK 集成 EnergieMIND 平台。构建自定义仪表板和自动化工作流。"
+    },
+    "features": {
+      "title": "开发者工具",
+      "rest": {
+        "title": "REST API",
+        "description": "功能完整的 REST API，支持 OAuth 2.0 认证和速率限制。"
+      },
+      "webhooks": {
+        "title": "Webhook",
+        "description": "针对告警、状态变更和指标阈值的实时事件通知。"
+      },
+      "sdk": {
+        "title": "SDK",
+        "description": "官方 Python、JavaScript 和 Go SDK，附完整文档。"
+      },
+      "sandbox": {
+        "title": "沙盒环境",
+        "description": "在连接生产基础设施前，使用模拟数据测试集成。"
+      }
+    },
+    "endpoints": {
+      "title": "API 概览",
+      "metrics": "GET /v1/metrics — 获取能源和矿机指标",
+      "sites": "GET /v1/sites — 列出已监控的基础设施站点",
+      "alerts": "GET /v1/alerts — 查询当前和历史告警",
+      "control": "POST /v1/control — 向设备发送控制命令"
+    },
+    "faq": {
+      "q1": "如何获取 API 访问权限？",
+      "a1": "申请平台访问并在申请中选择 API 访问。获批的开发者将收到 API 密钥和沙盒凭据。",
+      "q2": "速率限制是多少？",
+      "a2": "标准层级允许每分钟 1,000 次请求。企业层级提供更高限额，适用于大规模部署。"
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "平台登录",
+      "subtitle": "登录以访问您的 EnergieMIND 仪表板和基础设施监控工具。"
+    },
+    "form": {
+      "email": "电子邮件地址",
+      "password": "密码",
+      "remember": "记住我",
+      "submit": "登录",
+      "forgot": "忘记密码？",
+      "noAccount": "还没有账户？",
+      "requestAccess": "申请平台访问"
+    },
+    "notice": "平台登录目前仅面向授权用户开放。申请访问以加入 EnergieMIND 平台。",
+    "faq": {
+      "q1": "如何获取登录凭据？",
+      "a1": "提交平台访问申请。获批后，您将通过安全电子邮件收到登录凭据。",
+      "q2": "是否支持双因素认证？",
+      "a2": "是的。所有平台账户均要求使用基于 TOTP 的双因素认证。"
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "申请平台访问",
+      "subtitle": "申请访问 EnergieMIND 能源智能平台、仪表板和 API 工具。"
+    },
+    "form": {
+      "fullName": "姓名",
+      "email": "电子邮件地址",
+      "company": "公司 / 组织",
+      "phone": "电话号码",
+      "useCase": "主要使用场景",
+      "useCases": {
+        "operator": "设施运营者",
+        "partner": "基础设施合作伙伴",
+        "developer": "API 开发者",
+        "energy": "能源管理员",
+        "other": "其他"
+      },
+      "message": "请介绍您的基础设施和需求",
+      "submit": "提交访问申请",
+      "privacy": "提交即表示您同意我们的数据处理实践。您的信息由 TVK Infrastructure & Energy Systems 安全处理。"
+    },
+    "faq": {
+      "q1": "审批需要多长时间？",
+      "a1": "访问申请通常在 3–5 个工作日内审核。获批后您将收到包含后续步骤的电子邮件。",
+      "q2": "平台访问包含哪些内容？",
+      "a2": "获批用户可获得仪表板访问、监控工具，以及根据使用场景可选的 API 凭据。"
+    }
+  },
+  "footer": {
+    "platform": "平台",
+    "solutions": "解决方案",
+    "developers": "开发者",
+    "company": "公司",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "联系我们",
+    "description": "EnergieMIND 是面向仪表板、矿机监控、余热回收和 AI 优化的能源智能平台。"
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "面向基础设施监控、矿场管理和 AI 驱动优化的能源智能平台。",
+      "contactType": "平台支持"
+    },
+    "website": {
+      "description": "面向能源运营、矿机监控、余热回收指标和 AI 优化的技术平台与仪表板。"
+    }
+  },
+  "useCases": {
+    "operator": "设施运营者",
+    "partner": "基础设施合作伙伴",
+    "developer": "API 开发者",
+    "energy": "能源管理员",
+    "other": "其他"
+  }
+}

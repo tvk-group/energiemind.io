@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Plattform for energiintelligens og infrastrukturdashboard",
+      "description": "EnergieMIND er teknologiplattformen for energidashboards, gruveovervåking, varmegjenvinningsmålinger, AI-optimalisering og infrastrukturintelligens. Utviklet av TVK Infrastructure & Energy Systems.",
+      "keywords": "EnergieMIND, energidashboard, gruveovervåking, varmegjenvinning, AI-optimalisering, infrastrukturintelligens, TVK",
+      "ogTitle": "EnergieMIND — Plattform for energiintelligens",
+      "ogDescription": "Fremtidens dashboard og infrastrukturintelligensplattform for energidrift, gruveovervåking og AI-drevet optimalisering.",
+      "twitterTitle": "EnergieMIND — Plattform for energiintelligens",
+      "twitterDescription": "Teknologiplattform for energidashboards, gruveovervåking, varmegjenvinning og AI-optimalisering."
+    },
+    "dashboard": {
+      "title": "Energidashboard — Driftssenter i sanntid | EnergieMIND",
+      "description": "Sentralisert energidashboard for sanntidsovervåking av strømforbruk, produksjon, effektivitetsmålinger og operative KPI-er i hele infrastrukturen din.",
+      "keywords": "energidashboard, driftssenter, sanntidsovervåking, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND Energidashboard",
+      "ogDescription": "Driftssenter i sanntid for overvåking og styring av energiinfrastruktur.",
+      "twitterTitle": "EnergieMIND Energidashboard",
+      "twitterDescription": "Sentralisert dashboard for energidrift, KPI-er og infrastrukturstyring."
+    },
+    "minerMonitoring": {
+      "title": "Gruveovervåking — ASIC-flåteintelligens | EnergieMIND",
+      "description": "Overvåk ASIC-gruveflåter med hash rate-sporing, temperaturalarmer, strømanalyse, oppetidsrapportering og firmwarestatus på tvers av alle installasjoner.",
+      "keywords": "gruveovervåking, ASIC-flåte, hash rate, gruveinfrastruktur, EnergieMIND",
+      "ogTitle": "EnergieMIND Gruveovervåking",
+      "ogDescription": "ASIC-flåteintelligens med overvåking av hash rate, temperatur, strøm og oppetid.",
+      "twitterTitle": "EnergieMIND Gruveovervåking",
+      "twitterDescription": "Komplett plattform for overvåking og intelligens av ASIC-gruveflåter."
+    },
+    "energyAnalytics": {
+      "title": "Energianalyse — Intelligens for forbruk og effektivitet | EnergieMIND",
+      "description": "Avansert energianalyse for forbruksmønstre, kostnadsoptimalisering, karbonfotavtrykk-sporing og prediktiv etterspørselsprognose på tvers av anlegg.",
+      "keywords": "energianalyse, forbruksanalyse, effektivitet, karbonsporing, EnergieMIND",
+      "ogTitle": "EnergieMIND Energianalyse",
+      "ogDescription": "Forbruksmønstre, kostnadsoptimalisering og prediktiv energiintelligens.",
+      "twitterTitle": "EnergieMIND Energianalyse",
+      "twitterDescription": "Avansert analyse for energiforbruk, effektivitet og prognoser."
+    },
+    "heatRecovery": {
+      "title": "Varmegjenvinningsmålinger — Plattform for termisk effektivitet | EnergieMIND",
+      "description": "Spor varmegjenvinningsytelse, termiske effektivitetsforhold, utnyttelse av spillvarme og fjernvarmeintegrasjon fra gruve- og industrielle operasjoner.",
+      "keywords": "varmegjenvinning, termisk effektivitet, spillvarme, fjernvarme, EnergieMIND",
+      "ogTitle": "EnergieMIND Varmegjenvinningsmålinger",
+      "ogDescription": "Sporing av termisk effektivitet og intelligens for utnyttelse av spillvarme.",
+      "twitterTitle": "EnergieMIND Varmegjenvinningsmålinger",
+      "twitterDescription": "Overvåk varmegjenvinningsytelse og termisk effektivitet på tvers av operasjoner."
+    },
+    "aiOptimization": {
+      "title": "AI-optimalisering — Intelligent energistyring | EnergieMIND",
+      "description": "AI-drevet optimalisering for lastbalansering, prediktivt vedlikehold, dynamisk strømfordeling og autonom effektivitetsjustering i energiinfrastruktur.",
+      "keywords": "AI-optimalisering, energistyring, prediktivt vedlikehold, lastbalansering, EnergieMIND",
+      "ogTitle": "EnergieMIND AI-optimalisering",
+      "ogDescription": "Intelligent energistyring med AI-drevet lastbalansering og prediktivt vedlikehold.",
+      "twitterTitle": "EnergieMIND AI-optimalisering",
+      "twitterDescription": "AI-drevet optimalisering for energiinfrastruktur og gruvedrift."
+    },
+    "api": {
+      "title": "API og utviklere — Integrer med EnergieMIND-plattformen",
+      "description": "Utviklerdokumentasjon, REST API-referanse, webhooks, SDK-er og integrasjonsguider for EnergieMIND-plattformen for energiintelligens.",
+      "keywords": "EnergieMIND API, utviklerdokumentasjon, REST API, SDK, webhooks",
+      "ogTitle": "EnergieMIND API for utviklere",
+      "ogDescription": "REST API, webhooks og SDK-er for integrasjon av energiintelligensplattformen.",
+      "twitterTitle": "EnergieMIND API for utviklere",
+      "twitterDescription": "Utviklerverktøy og API-dokumentasjon for EnergieMIND-plattformen."
+    },
+    "login": {
+      "title": "Innlogging — Tilgang til EnergieMIND-plattformen",
+      "description": "Logg inn på EnergieMIND-plattformens dashboard. Sikker tilgang for autoriserte operatører, anleggsledere og infrastrukturpartnere.",
+      "keywords": "EnergieMIND innlogging, plattformtilgang, dashboard-innlogging",
+      "ogTitle": "EnergieMIND Plattforminnlogging",
+      "ogDescription": "Sikker innlogging for autoriserte EnergieMIND-plattformbrukere.",
+      "twitterTitle": "EnergieMIND Plattforminnlogging",
+      "twitterDescription": "Logg inn på EnergieMIND-dashboardet for energiintelligens."
+    },
+    "requestAccess": {
+      "title": "Be om plattformtilgang — EnergieMIND",
+      "description": "Be om tilgang til EnergieMIND-plattformen for energiintelligens. Søk om dashboard-legitimasjon, API-nøkler og verktøy for infrastrukturovervåking.",
+      "keywords": "be om tilgang, plattformsøknad, EnergieMIND-registrering",
+      "ogTitle": "Be om EnergieMIND-plattformtilgang",
+      "ogDescription": "Søk om dashboard-tilgang, API-nøkler og verktøy for infrastrukturovervåking.",
+      "twitterTitle": "Be om EnergieMIND-plattformtilgang",
+      "twitterDescription": "Søk om tilgang til EnergieMIND-plattformen for energiintelligens."
+    }
+  },
+  "nav": {
+    "platform": "Plattform",
+    "dashboard": "Dashboard",
+    "minerMonitoring": "Gruveovervåking",
+    "energyAnalytics": "Energianalyse",
+    "heatRecovery": "Varmegjenvinning",
+    "aiOptimization": "AI-optimalisering",
+    "api": "API / Utviklere",
+    "login": "Innlogging",
+    "requestAccess": "Be om tilgang",
+    "language": "Språk",
+    "menu": "Meny",
+    "close": "Lukk"
+  },
+  "common": {
+    "learnMore": "Les mer",
+    "getStarted": "Kom i gang",
+    "requestAccess": "Be om plattformtilgang",
+    "viewDashboard": "Vis dashboard",
+    "exploreApi": "Utforsk API",
+    "comingSoon": "Kommer snart",
+    "readDocumentation": "Les dokumentasjon",
+    "contactSupport": "Kontakt support",
+    "allRightsReserved": "Alle rettigheter forbeholdt.",
+    "operatedBy": "Drevet av TVK Infrastructure & Energy Systems LTD",
+    "partOf": "Del av TVK Group-økosystemet",
+    "home": "Hjem",
+    "relatedPages": "Relaterte sider",
+    "features": "Funksjoner",
+    "faq": "Ofte stilte spørsmål",
+    "submit": "Send inn",
+    "submitting": "Sender inn...",
+    "email": "E-post",
+    "company": "Selskap",
+    "fullName": "Fullt navn",
+    "phone": "Telefon",
+    "message": "Melding",
+    "useCase": "Brukstilfelle",
+    "selectOption": "Velg et alternativ",
+    "required": "Obligatorisk felt",
+    "successMessage": "Forespørselen din er sendt inn. Teamet vårt kontakter deg snart.",
+    "errorMessage": "Det oppstod en feil. Prøv igjen.",
+    "platformBadge": "Teknologiplattform",
+    "underDevelopment": "Plattformmoduler er under aktiv utvikling"
+  },
+  "home": {
+    "hero": {
+      "title": "Energiintelligens for infrastrukturoperasjoner",
+      "subtitle": "EnergieMIND er teknologiplattformen og fremtidens dashboard for energidrift, gruveovervåking, varmegjenvinningsmålinger og AI-drevet optimalisering.",
+      "cta": "Be om plattformtilgang",
+      "secondary": "Utforsk plattformen"
+    },
+    "intro": {
+      "title": "Bygget for ledere innen energiinfrastruktur",
+      "description": "EnergieMIND forener sanntidsovervåking, analyse og intelligent automatisering for gruveanlegg, fornybare energianlegg og industriell termisk drift. Drevet av TVK Infrastructure & Energy Systems innen TVK Group-økosystemet."
+    },
+    "features": {
+      "title": "Plattformfunksjoner",
+      "dashboard": {
+        "title": "Energidashboard",
+        "description": "Sentralisert driftssenter med KPI-er i sanntid, alarmer og synlighet på tvers av flere steder."
+      },
+      "miner": {
+        "title": "Gruveovervåking",
+        "description": "ASIC-flåteintelligens med sporing av hash rate, temperatur, strømforbruk og oppetid."
+      },
+      "analytics": {
+        "title": "Energianalyse",
+        "description": "Forbruksmønstre, kostnadsoptimalisering og prediktiv etterspørselsprognose."
+      },
+      "heat": {
+        "title": "Varmegjenvinningsmålinger",
+        "description": "Sporing av termisk effektivitet og utnyttelse av spillvarme på tvers av operasjoner."
+      },
+      "ai": {
+        "title": "AI-optimalisering",
+        "description": "Intelligent lastbalansering, prediktivt vedlikehold og autonom justering."
+      },
+      "api": {
+        "title": "API og utviklere",
+        "description": "REST API, webhooks og SDK-er for sømløs plattformintegrasjon."
+      }
+    },
+    "stats": {
+      "title": "Infrastruktur i stor skala",
+      "sites": "Overvåkingssteder",
+      "sitesValue": "Flere steder",
+      "power": "Sporet strøm",
+      "powerValue": "MW-skala",
+      "languages": "Språk",
+      "languagesValue": "25+",
+      "uptime": "Plattformoppetid",
+      "uptimeValue": "99.9%"
+    },
+    "cta": {
+      "title": "Klar til å transformere energidriften din?",
+      "description": "Be om tilgang til EnergieMIND-plattformen og bli med infrastrukturoperatører som bruker intelligent energistyring.",
+      "button": "Be om plattformtilgang"
+    },
+    "faq": {
+      "q1": "Hva er EnergieMIND?",
+      "a1": "EnergieMIND er en teknologiplattform for energidashboards, gruveovervåking, varmegjenvinningsmålinger og AI-optimalisering. Den drives av TVK Infrastructure & Energy Systems som en del av TVK Group-økosystemet.",
+      "q2": "Hvem kan få tilgang til plattformen?",
+      "a2": "Plattformen er utviklet for anleggsoperatører, infrastrukturpartnere, energiledere og autoriserte deltakere i TVK-økosystemet. Be om tilgang via søknadsskjemaet vårt.",
+      "q3": "Støtter EnergieMIND flere språk?",
+      "a3": "Ja. Plattformens nettsted og fremtidige dashboard støtter 25 språk med fullstendig lokalisert innhold, ikke maskinoversettelse.",
+      "q4": "Hvordan henger EnergieMIND sammen med TVK Group?",
+      "a4": "EnergieMIND er et merkevare for energiintelligens drevet av TVK Infrastructure & Energy Systems LTD, sammen med EnteleKRON og andre produkter i TVK-økosystemet."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Energidashboard",
+      "subtitle": "Driftssenter i sanntid for overvåking av strømforbruk, produksjonseffektivitet og infrastruktur-KPI-er på tvers av alle anleggene dine."
+    },
+    "features": {
+      "title": "Dashboardfunksjoner",
+      "realtime": {
+        "title": "Sanntidsovervåking",
+        "description": "Live strømforbruk, produksjon og effektivitetsmålinger oppdatert hvert sekund."
+      },
+      "alerts": {
+        "title": "Smarte alarmer",
+        "description": "Konfigurerbare terskler med umiddelbare varsler ved avvik og kritiske hendelser."
+      },
+      "multisite": {
+        "title": "Visning av flere steder",
+        "description": "Samlet dashboard på tvers av gruveanlegg, solinstallasjoner og industrielle steder."
+      },
+      "reports": {
+        "title": "Tilpassede rapporter",
+        "description": "Planlagte og on-demand-rapporter med eksport til PDF, CSV og API-endpoints."
+      }
+    },
+    "faq": {
+      "q1": "Hvilke målinger viser dashboardet?",
+      "a1": "Dashboardet viser strømforbruk i sanntid, produksjon, effektivitetsforhold, kostnad per kWh, karbonintensitet, oppetid og tilpassede KPI-er per anlegg.",
+      "q2": "Kan jeg overvåke flere steder?",
+      "a2": "Ja. Visningen av flere steder gir aggregerte og stedsspesifikke målinger med drill-down-funksjoner for detaljert analyse."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Gruveovervåking",
+      "subtitle": "Komplett ASIC-flåteintelligens med hash rate-sporing, termisk overvåking, strømanalyse og firmwarestatus på tvers av alle installasjoner."
+    },
+    "features": {
+      "title": "Overvåkingsfunksjoner",
+      "hashrate": {
+        "title": "Hash rate-sporing",
+        "description": "Hash rate per enhet og for hele flåten med historiske trender og ytelsesbenchmarks."
+      },
+      "thermal": {
+        "title": "Termisk overvåking",
+        "description": "Sporing av chip- og omgivelsestemperatur med prediktive overopphetingsalarmer."
+      },
+      "power": {
+        "title": "Strømanalyse",
+        "description": "Strømforbruk per enhet, effektivitetsforhold (J/TH) og kostnadsfordeling per pool eller anlegg."
+      },
+      "firmware": {
+        "title": "Firmwarestatus",
+        "description": "Sporing av EnergieMIND firmwareversjon, oppdateringshåndtering og konfigurasjonssynkronisering."
+      }
+    },
+    "faq": {
+      "q1": "Hvilke gruver støttes?",
+      "a1": "Plattformen støtter Antminer og kompatible ASIC-enheter med EnergieMIND firmware, med planlagt utvidelse til flere maskinvareplattformer.",
+      "q2": "Hvor ofte oppdateres data?",
+      "a2": "Gruvemålinger samles inn hvert 30. sekund med sanntidsstreaming via WebSocket API."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Energianalyse",
+      "subtitle": "Avansert analyse for forbruksmønstre, kostnadsoptimalisering, karbonfotavtrykk-sporing og prediktiv etterspørselsprognose."
+    },
+    "features": {
+      "title": "Analysemoduler",
+      "consumption": {
+        "title": "Forbruksanalyse",
+        "description": "Timevise, daglige og sesongbaserte forbruksmønstre med avviksdeteksjon."
+      },
+      "cost": {
+        "title": "Kostnadsoptimalisering",
+        "description": "Tidsbasert analyse, tariffoptimalisering og strategier for reduksjon av effektavgifter."
+      },
+      "carbon": {
+        "title": "Karbonsporing",
+        "description": "Sanntidsovervåking av karbonintensitet og utslippsrapportering for ESG-etterlevelse."
+      },
+      "forecast": {
+        "title": "Etterspørselsprognose",
+        "description": "ML-drevet etterspørselsprognose for proaktiv kapasitetsplanlegging og laststyring."
+      }
+    },
+    "faq": {
+      "q1": "Hvilke datakilder støttes?",
+      "a1": "Analysemotoren integreres med smarte målere, SCADA-systemer, gruvetelemetri, vær-API-er og tilpassede datastrømmer via REST API.",
+      "q2": "Kan jeg eksportere analysedata?",
+      "a2": "Ja. Data kan eksporteres via CSV, JSON eller nås programmatisk via EnergieMIND API."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Varmegjenvinningsmålinger",
+      "subtitle": "Spor termisk effektivitet, utnyttelse av spillvarme og fjernvarmeintegrasjon fra gruve- og industrielle operasjoner."
+    },
+    "features": {
+      "title": "Termisk intelligens",
+      "efficiency": {
+        "title": "Termisk effektivitet",
+        "description": "COP-forhold, varmeopptakshastigheter og systemeffektivitetsbenchmarks over tid."
+      },
+      "waste": {
+        "title": "Utnyttelse av spillvarme",
+        "description": "Andel gjenvunnet spillvarme brukt til oppvarming, tørking eller fjernenergi."
+      },
+      "district": {
+        "title": "Fjernvarme",
+        "description": "Integrasjonsmålinger for fjernvarmenett og termisk energilagring."
+      },
+      "savings": {
+        "title": "Energibesparelser",
+        "description": "Kvantifiserte drivstoffbesparelser og karbonreduksjon fra varmegjenvinningsoperasjoner."
+      }
+    },
+    "faq": {
+      "q1": "Hvordan måles varmegjenvinning?",
+      "a1": "Termiske sensorer, strømningsmålere og temperaturdifferanseberegninger gir varmegjenvinningsmålinger i sanntid integrert i plattformens dashboard.",
+      "q2": "Hvilke bransjer drar nytte av dette?",
+      "a2": "Gruvedrift, datasentre, industriell produksjon og fornybare energianlegg med termiske biprodukter drar nytte av overvåking av varmegjenvinning."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "AI-optimalisering",
+      "subtitle": "Intelligent energistyring med AI-drevet lastbalansering, prediktivt vedlikehold og autonom effektivitetsjustering."
+    },
+    "features": {
+      "title": "AI-funksjoner",
+      "load": {
+        "title": "Lastbalansering",
+        "description": "Dynamisk strømfordeling mellom gruver og anlegg basert på strømpriser og etterspørsel."
+      },
+      "predictive": {
+        "title": "Prediktivt vedlikehold",
+        "description": "ML-modeller forutsier maskinvarefeil før de oppstår, og reduserer nedetid og reparasjonskostnader."
+      },
+      "autonomous": {
+        "title": "Autonom justering",
+        "description": "Selvjusterende frekvens, spenning og kjøleparametere for optimal effektivitet."
+      },
+      "insights": {
+        "title": "Intelligensinnsikt",
+        "description": "Handlingsbare anbefalinger drevet av historiske data og sanntidsforhold."
+      }
+    },
+    "faq": {
+      "q1": "Hvilke AI-modeller brukes?",
+      "a1": "Plattformen bruker ensemble ML-modeller for etterspørselsprognose, avviksdeteksjon og optimalisering, trent på operative data fra TVK-infrastrukturinstallasjoner.",
+      "q2": "Kreves menneskelig tilsyn?",
+      "a2": "AI-anbefalinger kan kjøre i rådgivende modus eller autonom modus basert på operatørens preferanser og sikkerhetsbegrensninger."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API og utviklere",
+      "subtitle": "Integrer med EnergieMIND-plattformen ved hjelp av REST API, webhooks og SDK-er. Bygg tilpassede dashboards og automatiseringsarbeidsflyter."
+    },
+    "features": {
+      "title": "Utviklerverktøy",
+      "rest": {
+        "title": "REST API",
+        "description": "Fullverdig REST API med OAuth 2.0-autentisering og rate limiting."
+      },
+      "webhooks": {
+        "title": "Webhooks",
+        "description": "Hendelsesvarsler i sanntid for alarmer, statusendringer og måleterskler."
+      },
+      "sdk": {
+        "title": "SDK-er",
+        "description": "Offisielle SDK-er for Python, JavaScript og Go med omfattende dokumentasjon."
+      },
+      "sandbox": {
+        "title": "Sandbox-miljø",
+        "description": "Test integrasjoner med simulerte data før du kobler til produksjonsinfrastruktur."
+      }
+    },
+    "endpoints": {
+      "title": "API-oversikt",
+      "metrics": "GET /v1/metrics — Hent energi- og gruvemålinger",
+      "sites": "GET /v1/sites — List overvåkede infrastruktursteder",
+      "alerts": "GET /v1/alerts — Søk aktive og historiske alarmer",
+      "control": "POST /v1/control — Send styringskommandoer til enheter"
+    },
+    "faq": {
+      "q1": "Hvordan får jeg API-tilgang?",
+      "a1": "Be om plattformtilgang og velg API-tilgang i søknaden din. Godkjente utviklere mottar API-nøkler og sandbox-legitimasjon.",
+      "q2": "Hva er rate limit?",
+      "a2": "Standardnivået tillater 1 000 forespørsler per minutt. Enterprise-nivåer med høyere grenser er tilgjengelige for storskala installasjoner."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Plattforminnlogging",
+      "subtitle": "Logg inn for å få tilgang til EnergieMIND-dashboardet og verktøy for infrastrukturovervåking."
+    },
+    "form": {
+      "email": "E-postadresse",
+      "password": "Passord",
+      "remember": "Husk meg",
+      "submit": "Logg inn",
+      "forgot": "Glemt passord?",
+      "noAccount": "Har du ikke en konto?",
+      "requestAccess": "Be om plattformtilgang"
+    },
+    "notice": "Plattforminnlogging er for øyeblikket kun tilgjengelig for autoriserte brukere. Be om tilgang for å bli med i EnergieMIND-plattformen.",
+    "faq": {
+      "q1": "Hvordan får jeg innloggingslegitimasjon?",
+      "a1": "Send inn en plattformtilgangsforespørsel. Når den er godkjent, mottar du innloggingslegitimasjon via sikker e-post.",
+      "q2": "Støttes tofaktorautentisering?",
+      "a2": "Ja. TOTP-basert tofaktorautentisering kreves for alle plattformkontoer."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Be om plattformtilgang",
+      "subtitle": "Søk om tilgang til EnergieMIND-plattformen for energiintelligens, dashboard og API-verktøy."
+    },
+    "form": {
+      "fullName": "Fullt navn",
+      "email": "E-postadresse",
+      "company": "Selskap / Organisasjon",
+      "phone": "Telefonnummer",
+      "useCase": "Primært brukstilfelle",
+      "useCases": {
+        "operator": "Anleggsoperatør",
+        "partner": "Infrastrukturpartner",
+        "developer": "API-utvikler",
+        "energy": "Energiledere",
+        "other": "Annet"
+      },
+      "message": "Fortell oss om infrastrukturen og kravene dine",
+      "submit": "Send inn tilgangsforespørsel",
+      "privacy": "Ved å sende inn godtar du våre databehandlingsrutiner. Informasjonen din håndteres sikkert av TVK Infrastructure & Energy Systems."
+    },
+    "faq": {
+      "q1": "Hvor lang tid tar godkjenningen?",
+      "a1": "Tilgangsforespørsler behandles vanligvis innen 3–5 virkedager. Du mottar en e-post med neste steg ved godkjenning.",
+      "q2": "Hva inkluderes med plattformtilgang?",
+      "a2": "Godkjente brukere mottar dashboard-tilgang, overvåkingsverktøy og valgfri API-legitimasjon basert på brukstilfellet sitt."
+    }
+  },
+  "footer": {
+    "platform": "Plattform",
+    "solutions": "Løsninger",
+    "developers": "Utviklere",
+    "company": "Selskap",
+    "legal": "Juridisk",
+    "privacy": "Personvernerklæring",
+    "terms": "Vilkår for bruk",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "Kontakt",
+    "description": "EnergieMIND er plattformen for energiintelligens med dashboards, gruveovervåking, varmegjenvinning og AI-optimalisering."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND av TVK Infrastructure & Energy Systems",
+      "description": "Plattform for energiintelligens med infrastrukturovervåking, flåtestyring av gruver og AI-drevet optimalisering.",
+      "contactType": "Plattformstøtte"
+    },
+    "website": {
+      "description": "Teknologiplattform og dashboard for energidrift, gruveovervåking, varmegjenvinningsmålinger og AI-optimalisering."
+    }
+  },
+  "useCases": {
+    "operator": "Anleggsoperatør",
+    "partner": "Infrastrukturpartner",
+    "developer": "API-utvikler",
+    "energy": "Energiledere",
+    "other": "Annet"
+  }
+}
