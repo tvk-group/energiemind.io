@@ -30,7 +30,29 @@ SUPABASE_JWKS_URL=https://your-project.supabase.co/auth/v1/.well-known/jwks.json
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
 NEXT_PUBLIC_APP_URL=https://energiemind.io
+
+# Direct Postgres (migrations, Supabase CLI, SQL tools)
+DATABASE_URL=postgresql://postgres:[YOUR-PASSWORD]@db.your-project.supabase.co:5432/postgres
 ```
+
+### Direct database connection
+
+For this project (`ahlfixcfgibmtpppxtgg`):
+
+| Setting  | Value |
+|----------|-------|
+| Host     | `db.ahlfixcfgibmtpppxtgg.supabase.co` |
+| Port     | `5432` |
+| Database | `postgres` |
+| User     | `postgres` |
+
+Connection string (replace `[YOUR-PASSWORD]` with your database password from **Project Settings → Database**):
+
+```
+postgresql://postgres:[YOUR-PASSWORD]@db.ahlfixcfgibmtpppxtgg.supabase.co:5432/postgres
+```
+
+The Next.js app uses the Supabase REST client (`@supabase/ssr`) for runtime queries — `DATABASE_URL` is only needed for local migrations, the Supabase CLI, or direct SQL tooling.
 
 ## 3b. API routes with `withSupabase`
 
