@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://energiemind.io/en/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://energiemind.io/en/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://energiemind.io/tr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://energiemind.io/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://energiemind.io/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://energiemind.io/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://energiemind.io/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://energiemind.io/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://energiemind.io/nl/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://energiemind.io/ar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energiemind.io/ru/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://energiemind.io/zh-cn/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://energiemind.io/zh-tw/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://energiemind.io/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://energiemind.io/ko/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://energiemind.io/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://energiemind.io/ur/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://energiemind.io/pl/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://energiemind.io/ro/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://energiemind.io/el/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://energiemind.io/sv/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://energiemind.io/no/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://energiemind.io/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://energiemind.io/fi/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://energiemind.io/he/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://energiemind.io/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energiemind.io/en/" />
+  </url>
+  <url>
+    <loc>https://energiemind.io/en/dashboard/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://energiemind.io/en/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://energiemind.io/tr/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://energiemind.io/de/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://energiemind.io/fr/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://energiemind.io/es/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://energiemind.io/it/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://energiemind.io/pt/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://energiemind.io/nl/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://energiemind.io/ar/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energiemind.io/ru/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://energiemind.io/zh-cn/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://energiemind.io/zh-tw/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://energiemind.io/ja/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://energiemind.io/ko/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://energiemind.io/hi/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://energiemind.io/ur/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://energiemind.io/pl/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://energiemind.io/ro/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://energiemind.io/el/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://energiemind.io/sv/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://energiemind.io/no/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://energiemind.io/da/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://energiemind.io/fi/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://energiemind.io/he/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://energiemind.io/id/dashboard/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energiemind.io/en/dashboard/" />
+  </url>
+  <url>
+    <loc>https://energiemind.io/en/miner-monitoring/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://energiemind.io/en/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://energiemind.io/tr/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://energiemind.io/de/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://energiemind.io/fr/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://energiemind.io/es/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://energiemind.io/it/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://energiemind.io/pt/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://energiemind.io/nl/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://energiemind.io/ar/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energiemind.io/ru/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://energiemind.io/zh-cn/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://energiemind.io/zh-tw/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://energiemind.io/ja/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://energiemind.io/ko/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://energiemind.io/hi/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://energiemind.io/ur/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://energiemind.io/pl/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://energiemind.io/ro/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://energiemind.io/el/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://energiemind.io/sv/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://energiemind.io/no/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://energiemind.io/da/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://energiemind.io/fi/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://energiemind.io/he/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://energiemind.io/id/miner-monitoring/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energiemind.io/en/miner-monitoring/" />
+  </url>
+  <url>
+    <loc>https://energiemind.io/en/energy-analytics/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://energiemind.io/en/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://energiemind.io/tr/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://energiemind.io/de/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://energiemind.io/fr/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://energiemind.io/es/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://energiemind.io/it/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://energiemind.io/pt/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://energiemind.io/nl/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://energiemind.io/ar/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energiemind.io/ru/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://energiemind.io/zh-cn/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://energiemind.io/zh-tw/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://energiemind.io/ja/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://energiemind.io/ko/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://energiemind.io/hi/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://energiemind.io/ur/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://energiemind.io/pl/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://energiemind.io/ro/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://energiemind.io/el/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://energiemind.io/sv/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://energiemind.io/no/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://energiemind.io/da/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://energiemind.io/fi/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://energiemind.io/he/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://energiemind.io/id/energy-analytics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energiemind.io/en/energy-analytics/" />
+  </url>
+  <url>
+    <loc>https://energiemind.io/en/heat-recovery/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://energiemind.io/en/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://energiemind.io/tr/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://energiemind.io/de/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://energiemind.io/fr/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://energiemind.io/es/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://energiemind.io/it/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://energiemind.io/pt/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://energiemind.io/nl/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://energiemind.io/ar/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energiemind.io/ru/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://energiemind.io/zh-cn/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://energiemind.io/zh-tw/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://energiemind.io/ja/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://energiemind.io/ko/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://energiemind.io/hi/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://energiemind.io/ur/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://energiemind.io/pl/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://energiemind.io/ro/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://energiemind.io/el/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://energiemind.io/sv/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://energiemind.io/no/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://energiemind.io/da/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://energiemind.io/fi/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://energiemind.io/he/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://energiemind.io/id/heat-recovery/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energiemind.io/en/heat-recovery/" />
+  </url>
+  <url>
+    <loc>https://energiemind.io/en/ai-optimization/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://energiemind.io/en/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://energiemind.io/tr/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://energiemind.io/de/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://energiemind.io/fr/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://energiemind.io/es/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://energiemind.io/it/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://energiemind.io/pt/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://energiemind.io/nl/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://energiemind.io/ar/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energiemind.io/ru/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://energiemind.io/zh-cn/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://energiemind.io/zh-tw/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://energiemind.io/ja/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://energiemind.io/ko/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://energiemind.io/hi/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://energiemind.io/ur/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://energiemind.io/pl/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://energiemind.io/ro/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://energiemind.io/el/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://energiemind.io/sv/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://energiemind.io/no/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://energiemind.io/da/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://energiemind.io/fi/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://energiemind.io/he/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://energiemind.io/id/ai-optimization/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energiemind.io/en/ai-optimization/" />
+  </url>
+  <url>
+    <loc>https://energiemind.io/en/api/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://energiemind.io/en/api/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://energiemind.io/tr/api/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://energiemind.io/de/api/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://energiemind.io/fr/api/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://energiemind.io/es/api/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://energiemind.io/it/api/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://energiemind.io/pt/api/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://energiemind.io/nl/api/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://energiemind.io/ar/api/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energiemind.io/ru/api/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://energiemind.io/zh-cn/api/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://energiemind.io/zh-tw/api/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://energiemind.io/ja/api/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://energiemind.io/ko/api/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://energiemind.io/hi/api/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://energiemind.io/ur/api/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://energiemind.io/pl/api/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://energiemind.io/ro/api/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://energiemind.io/el/api/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://energiemind.io/sv/api/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://energiemind.io/no/api/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://energiemind.io/da/api/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://energiemind.io/fi/api/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://energiemind.io/he/api/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://energiemind.io/id/api/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energiemind.io/en/api/" />
+  </url>
+  <url>
+    <loc>https://energiemind.io/en/login/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://energiemind.io/en/login/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://energiemind.io/tr/login/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://energiemind.io/de/login/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://energiemind.io/fr/login/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://energiemind.io/es/login/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://energiemind.io/it/login/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://energiemind.io/pt/login/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://energiemind.io/nl/login/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://energiemind.io/ar/login/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energiemind.io/ru/login/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://energiemind.io/zh-cn/login/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://energiemind.io/zh-tw/login/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://energiemind.io/ja/login/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://energiemind.io/ko/login/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://energiemind.io/hi/login/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://energiemind.io/ur/login/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://energiemind.io/pl/login/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://energiemind.io/ro/login/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://energiemind.io/el/login/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://energiemind.io/sv/login/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://energiemind.io/no/login/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://energiemind.io/da/login/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://energiemind.io/fi/login/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://energiemind.io/he/login/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://energiemind.io/id/login/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energiemind.io/en/login/" />
+  </url>
+  <url>
+    <loc>https://energiemind.io/en/request-access/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://energiemind.io/en/request-access/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://energiemind.io/tr/request-access/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://energiemind.io/de/request-access/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://energiemind.io/fr/request-access/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://energiemind.io/es/request-access/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://energiemind.io/it/request-access/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://energiemind.io/pt/request-access/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://energiemind.io/nl/request-access/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://energiemind.io/ar/request-access/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://energiemind.io/ru/request-access/" />
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://energiemind.io/zh-cn/request-access/" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://energiemind.io/zh-tw/request-access/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://energiemind.io/ja/request-access/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://energiemind.io/ko/request-access/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://energiemind.io/hi/request-access/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://energiemind.io/ur/request-access/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://energiemind.io/pl/request-access/" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://energiemind.io/ro/request-access/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://energiemind.io/el/request-access/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://energiemind.io/sv/request-access/" />
+    <xhtml:link rel="alternate" hreflang="no" href="https://energiemind.io/no/request-access/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://energiemind.io/da/request-access/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://energiemind.io/fi/request-access/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://energiemind.io/he/request-access/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://energiemind.io/id/request-access/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://energiemind.io/en/request-access/" />
+  </url>
+</urlset>

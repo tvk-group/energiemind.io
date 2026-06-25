@@ -8,7 +8,7 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const outDir = join(__dirname, "..", "out", "sitemaps");
+const outDir = join(__dirname, "..", "public", "sitemaps");
 const SITE_URL = "https://energiemind.io";
 
 const locales = [
@@ -87,4 +87,4 @@ ${sitemapIndexEntries.join("\n")}
 
 writeFileSync(join(outDir, "sitemap-index.xml"), sitemapIndex);
 
-console.log(`Generated ${locales.length} language sitemaps + sitemap index in out/sitemaps/`);
+console.log(`Generated ${locales.length} language sitemaps + sitemap index in public/sitemaps/`);
