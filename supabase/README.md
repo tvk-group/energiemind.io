@@ -54,6 +54,28 @@ postgresql://postgres:[YOUR-PASSWORD]@db.ahlfixcfgibmtpppxtgg.supabase.co:5432/p
 
 The Next.js app uses the Supabase REST client (`@supabase/ssr`) for runtime queries — `DATABASE_URL` is only needed for local migrations, the Supabase CLI, or direct SQL tooling.
 
+## 3c. Prisma ORM
+
+Prisma is configured for Supabase connection pooling. Add to `.env.local` (replace `[YOUR-PASSWORD]`):
+
+```bash
+# Transaction-mode pooler — app runtime / Prisma Client
+DATABASE_URL="postgresql://postgres.ahlfixcfgibmtpppxtgg:[YOUR-PASSWORD]@aws-0-eu-west-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+
+# Session-mode pooler — Prisma migrations and db pull
+DIRECT_URL="postgresql://postgres.ahlfixcfgibmtpppxtgg:[YOUR-PASSWORD]@aws-0-eu-west-1.pooler.supabase.com:5432/postgres"
+```
+
+Prisma 7 moves connection URLs to `prisma.config.ts` (CLI uses `DIRECT_URL`). Schema: `prisma/schema.prisma`.
+
+```bash
+npx prisma db pull    # introspect existing Supabase schema
+npx prisma generate   # generate client after models exist
+npx prisma migrate dev
+```
+
+Agent skills for Supabase are in `.agents/skills/` (installed via `npx skills add supabase/agent-skills`).
+
 ## 3b. API routes with `withSupabase`
 
 Route handlers use `@/lib/supabase/with-supabase` — a Next.js adapter that composes `@supabase/ssr` (cookies) with `@supabase/server/core` (JWT verify + RLS clients):
