@@ -1,8 +1,8 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { createMiddlewareClient } from "@/utils/supabase/middleware";
+import { createClient } from "@/utils/supabase/middleware";
 
 export async function updateSession(request: NextRequest) {
-  const { supabase, supabaseResponse } = createMiddlewareClient(request);
+  const { supabase, supabaseResponse } = createClient(request);
 
   // Refresh session — required for Server Components and route handlers.
   const {
