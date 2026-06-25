@@ -17,16 +17,35 @@ This creates all tables, RLS policies, triggers, and seed demo data (sites, mine
 
 ## 3. Configure Environment Variables
 
-Copy `.env.example` to `.env.local` and fill in:
+Copy from the Supabase dashboard **Connect** dialog into `.env.local` and Vercel:
 
 ```bash
+# @supabase/server SDK (server-side)
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_PUBLISHABLE_KEY=your-publishable-key
+SUPABASE_SECRET_KEY=your-secret-key
+SUPABASE_JWKS_URL=https://your-project.supabase.co/auth/v1/.well-known/jwks.json
+
+# Browser clients
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
-SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 NEXT_PUBLIC_APP_URL=https://energiemind.io
 ```
 
-For Vercel, add these in Project Settings → Environment Variables.
+## 3b. API routes with `withSupabase`
+
+Route handlers use `@/lib/supabase/with-supabase` — a Next.js adapter that composes `@supabase/ssr` (cookies) with `@supabase/server/core` (JWT verify + RLS clients):
+
+```ts
+import { withSupabase } from "@/lib/supabase/with-supabase";
+
+export const GET = withSupabase({ auth: "user" }, async (_req, ctx) => {
+  const { data } = await ctx.supabase.from("sites").select();
+  return Response.json({ sites: data });
+});
+```
+
+Auth modes: `"user"`, `"publishable"`, `"secret"`, `"none"`.
 
 ## 4. Configure Auth
 
