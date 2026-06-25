@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Platform Kecerdasan Energi & Dasbor Infrastruktur",
+      "description": "EnergieMIND adalah platform teknologi untuk dasbor energi, pemantauan miner, metrik pemulihan panas, optimasi AI, dan kecerdasan infrastruktur. Dibangun oleh TVK Infrastructure & Energy Systems.",
+      "keywords": "EnergieMIND, dasbor energi, pemantauan miner, pemulihan panas, optimasi AI, kecerdasan infrastruktur, TVK",
+      "ogTitle": "EnergieMIND — Platform Kecerdasan Energi",
+      "ogDescription": "Dasbor masa depan dan platform kecerdasan infrastruktur untuk operasi energi, pemantauan miner, dan optimasi berbasis AI.",
+      "twitterTitle": "EnergieMIND — Platform Kecerdasan Energi",
+      "twitterDescription": "Platform teknologi untuk dasbor energi, pemantauan miner, pemulihan panas, dan optimasi AI."
+    },
+    "dashboard": {
+      "title": "Dasbor Energi — Pusat Operasi Real-Time | EnergieMIND",
+      "description": "Dasbor energi terpusat untuk pemantauan real-time konsumsi daya, pembangkitan, metrik efisiensi, dan KPI operasional di seluruh infrastruktur Anda.",
+      "keywords": "dasbor energi, pusat operasi, pemantauan real-time, KPI, EnergieMIND",
+      "ogTitle": "Dasbor Energi EnergieMIND",
+      "ogDescription": "Pusat operasi real-time untuk pemantauan dan kontrol infrastruktur energi.",
+      "twitterTitle": "Dasbor Energi EnergieMIND",
+      "twitterDescription": "Dasbor terpusat untuk operasi energi, KPI, dan kontrol infrastruktur."
+    },
+    "minerMonitoring": {
+      "title": "Pemantauan Miner — Kecerdasan Armada ASIC | EnergieMIND",
+      "description": "Pantau armada miner ASIC dengan pelacakan hash rate, peringatan suhu, analisis konsumsi daya, pelaporan uptime, dan status firmware di semua penyebaran.",
+      "keywords": "pemantauan miner, armada ASIC, hash rate, infrastruktur mining, EnergieMIND",
+      "ogTitle": "Pemantauan Miner EnergieMIND",
+      "ogDescription": "Kecerdasan armada ASIC dengan pemantauan hash rate, suhu, daya, dan uptime.",
+      "twitterTitle": "Pemantauan Miner EnergieMIND",
+      "twitterDescription": "Platform lengkap untuk pemantauan dan kecerdasan armada miner ASIC."
+    },
+    "energyAnalytics": {
+      "title": "Analitik Energi — Kecerdasan Konsumsi & Efisiensi | EnergieMIND",
+      "description": "Analitik energi tingkat lanjut untuk pola konsumsi, optimasi biaya, pelacakan jejak karbon, dan peramalan permintaan prediktif di berbagai fasilitas.",
+      "keywords": "analitik energi, analisis konsumsi, efisiensi, pelacakan karbon, EnergieMIND",
+      "ogTitle": "Analitik Energi EnergieMIND",
+      "ogDescription": "Pola konsumsi, optimasi biaya, dan kecerdasan energi prediktif.",
+      "twitterTitle": "Analitik Energi EnergieMIND",
+      "twitterDescription": "Analitik tingkat lanjut untuk konsumsi energi, efisiensi, dan peramalan."
+    },
+    "heatRecovery": {
+      "title": "Metrik Pemulihan Panas — Platform Efisiensi Termal | EnergieMIND",
+      "description": "Lacak kinerja pemulihan panas, rasio efisiensi termal, pemanfaatan panas buangan, dan integrasi pemanasan distrik dari operasi mining dan industri.",
+      "keywords": "pemulihan panas, efisiensi termal, panas buangan, pemanasan distrik, EnergieMIND",
+      "ogTitle": "Metrik Pemulihan Panas EnergieMIND",
+      "ogDescription": "Pelacakan efisiensi termal dan kecerdasan pemanfaatan panas buangan.",
+      "twitterTitle": "Metrik Pemulihan Panas EnergieMIND",
+      "twitterDescription": "Pantau kinerja pemulihan panas dan efisiensi termal di seluruh operasi."
+    },
+    "aiOptimization": {
+      "title": "Optimasi AI — Manajemen Energi Cerdas | EnergieMIND",
+      "description": "Optimasi berbasis AI untuk penyeimbangan beban, pemeliharaan prediktif, alokasi daya dinamis, dan penyetelan efisiensi otonom di infrastruktur energi.",
+      "keywords": "optimasi AI, manajemen energi, pemeliharaan prediktif, penyeimbangan beban, EnergieMIND",
+      "ogTitle": "Optimasi AI EnergieMIND",
+      "ogDescription": "Manajemen energi cerdas dengan penyeimbangan beban berbasis AI dan pemeliharaan prediktif.",
+      "twitterTitle": "Optimasi AI EnergieMIND",
+      "twitterDescription": "Optimasi berbasis AI untuk infrastruktur energi dan operasi mining."
+    },
+    "api": {
+      "title": "API & Pengembang — Integrasi dengan Platform EnergieMIND",
+      "description": "Dokumentasi pengembang, referensi REST API, webhook, SDK, dan panduan integrasi untuk platform kecerdasan energi EnergieMIND.",
+      "keywords": "EnergieMIND API, dokumentasi pengembang, REST API, SDK, webhook",
+      "ogTitle": "EnergieMIND API untuk Pengembang",
+      "ogDescription": "REST API, webhook, dan SDK untuk integrasi platform kecerdasan energi.",
+      "twitterTitle": "EnergieMIND API untuk Pengembang",
+      "twitterDescription": "Alat pengembang dan dokumentasi API untuk platform EnergieMIND."
+    },
+    "login": {
+      "title": "Login — Akses Platform EnergieMIND",
+      "description": "Masuk ke dasbor platform EnergieMIND. Akses aman untuk operator berwenang, manajer fasilitas, dan mitra infrastruktur.",
+      "keywords": "EnergieMIND login, akses platform, masuk dasbor",
+      "ogTitle": "Login Platform EnergieMIND",
+      "ogDescription": "Login aman untuk pengguna platform EnergieMIND yang berwenang.",
+      "twitterTitle": "Login Platform EnergieMIND",
+      "twitterDescription": "Masuk ke dasbor kecerdasan energi EnergieMIND Anda."
+    },
+    "requestAccess": {
+      "title": "Minta Akses Platform — EnergieMIND",
+      "description": "Minta akses ke platform kecerdasan energi EnergieMIND. Ajukan kredensial dasbor, kunci API, dan alat pemantauan infrastruktur.",
+      "keywords": "minta akses, aplikasi platform, pendaftaran EnergieMIND",
+      "ogTitle": "Minta Akses Platform EnergieMIND",
+      "ogDescription": "Ajukan akses dasbor, kunci API, dan alat pemantauan infrastruktur.",
+      "twitterTitle": "Minta Akses Platform EnergieMIND",
+      "twitterDescription": "Ajukan akses ke platform kecerdasan energi EnergieMIND."
+    }
+  },
+  "nav": {
+    "platform": "Platform",
+    "dashboard": "Dasbor",
+    "minerMonitoring": "Pemantauan Miner",
+    "energyAnalytics": "Analitik Energi",
+    "heatRecovery": "Pemulihan Panas",
+    "aiOptimization": "Optimasi AI",
+    "api": "API / Pengembang",
+    "login": "Login",
+    "requestAccess": "Minta Akses",
+    "language": "Bahasa",
+    "menu": "Menu",
+    "close": "Tutup"
+  },
+  "common": {
+    "learnMore": "Pelajari Lebih Lanjut",
+    "getStarted": "Mulai",
+    "requestAccess": "Minta Akses Platform",
+    "viewDashboard": "Lihat Dasbor",
+    "exploreApi": "Jelajahi API",
+    "comingSoon": "Segera Hadir",
+    "readDocumentation": "Baca Dokumentasi",
+    "contactSupport": "Hubungi Dukungan",
+    "allRightsReserved": "Hak cipta dilindungi.",
+    "operatedBy": "Dioperasikan oleh TVK Infrastructure & Energy Systems LTD",
+    "partOf": "Bagian dari ekosistem TVK Group",
+    "home": "Beranda",
+    "relatedPages": "Halaman Terkait",
+    "features": "Fitur",
+    "faq": "Pertanyaan yang Sering Diajukan",
+    "submit": "Kirim",
+    "submitting": "Mengirim...",
+    "email": "Email",
+    "company": "Perusahaan",
+    "fullName": "Nama Lengkap",
+    "phone": "Telepon",
+    "message": "Pesan",
+    "useCase": "Kasus Penggunaan",
+    "selectOption": "Pilih opsi",
+    "required": "Kolom wajib diisi",
+    "successMessage": "Permintaan Anda telah dikirim. Tim kami akan segera menghubungi Anda.",
+    "errorMessage": "Terjadi kesalahan. Silakan coba lagi.",
+    "platformBadge": "Platform Teknologi",
+    "underDevelopment": "Modul platform sedang dalam pengembangan aktif"
+  },
+  "home": {
+    "hero": {
+      "title": "Kecerdasan Energi untuk Operasi Infrastruktur",
+      "subtitle": "EnergieMIND adalah platform teknologi dan dasbor masa depan untuk operasi energi, pemantauan miner, metrik pemulihan panas, dan optimasi berbasis AI.",
+      "cta": "Minta Akses Platform",
+      "secondary": "Jelajahi Platform"
+    },
+    "intro": {
+      "title": "Dibangun untuk Pemimpin Infrastruktur Energi",
+      "description": "EnergieMIND menyatukan pemantauan real-time, analitik, dan otomatisasi cerdas untuk fasilitas mining, lokasi energi terbarukan, dan operasi termal industri. Dioperasikan oleh TVK Infrastructure & Energy Systems dalam ekosistem TVK Group."
+    },
+    "features": {
+      "title": "Kemampuan Platform",
+      "dashboard": {
+        "title": "Dasbor Energi",
+        "description": "Pusat operasi terpusat dengan KPI real-time, peringatan, dan visibilitas multi-lokasi."
+      },
+      "miner": {
+        "title": "Pemantauan Miner",
+        "description": "Kecerdasan armada ASIC dengan pelacakan hash rate, suhu, konsumsi daya, dan uptime."
+      },
+      "analytics": {
+        "title": "Analitik Energi",
+        "description": "Pola konsumsi, optimasi biaya, dan peramalan permintaan prediktif."
+      },
+      "heat": {
+        "title": "Metrik Pemulihan Panas",
+        "description": "Pelacakan efisiensi termal dan pemanfaatan panas buangan di seluruh operasi."
+      },
+      "ai": {
+        "title": "Optimasi AI",
+        "description": "Penyeimbangan beban cerdas, pemeliharaan prediktif, dan penyetelan otonom."
+      },
+      "api": {
+        "title": "API & Pengembang",
+        "description": "REST API, webhook, dan SDK untuk integrasi platform yang mulus."
+      }
+    },
+    "stats": {
+      "title": "Infrastruktur dalam Skala Besar",
+      "sites": "Lokasi yang Dipantau",
+      "sitesValue": "Multi-Lokasi",
+      "power": "Daya yang Dilacak",
+      "powerValue": "Skala MW",
+      "languages": "Bahasa",
+      "languagesValue": "25+",
+      "uptime": "Uptime Platform",
+      "uptimeValue": "99,9%"
+    },
+    "cta": {
+      "title": "Siap Mengubah Operasi Energi Anda?",
+      "description": "Minta akses ke platform EnergieMIND dan bergabung dengan operator infrastruktur yang menggunakan manajemen energi cerdas.",
+      "button": "Minta Akses Platform"
+    },
+    "faq": {
+      "q1": "Apa itu EnergieMIND?",
+      "a1": "EnergieMIND adalah platform teknologi untuk dasbor energi, pemantauan miner, metrik pemulihan panas, dan optimasi AI. Platform ini dioperasikan oleh TVK Infrastructure & Energy Systems sebagai bagian dari ekosistem TVK Group.",
+      "q2": "Siapa yang dapat mengakses platform?",
+      "a2": "Platform ini dirancang untuk operator fasilitas, mitra infrastruktur, manajer energi, dan peserta ekosistem TVK yang berwenang. Minta akses melalui formulir aplikasi kami.",
+      "q3": "Apakah EnergieMIND mendukung berbagai bahasa?",
+      "a3": "Ya. Situs web platform dan dasbor masa depan mendukung 25 bahasa dengan konten yang dilokalisasi sepenuhnya, bukan terjemahan mesin.",
+      "q4": "Bagaimana hubungan EnergieMIND dengan TVK Group?",
+      "a4": "EnergieMIND adalah merek kecerdasan energi yang dioperasikan oleh TVK Infrastructure & Energy Systems LTD, bersama EnteleKRON dan produk ekosistem TVK lainnya."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Dasbor Energi",
+      "subtitle": "Pusat operasi real-time untuk memantau konsumsi daya, efisiensi pembangkitan, dan KPI infrastruktur di semua fasilitas Anda."
+    },
+    "features": {
+      "title": "Kemampuan Dasbor",
+      "realtime": {
+        "title": "Pemantauan Real-Time",
+        "description": "Konsumsi daya langsung, output pembangkitan, dan metrik efisiensi diperbarui setiap detik."
+      },
+      "alerts": {
+        "title": "Peringatan Cerdas",
+        "description": "Ambang batas yang dapat dikonfigurasi dengan notifikasi instan untuk anomali dan peristiwa kritis."
+      },
+      "multisite": {
+        "title": "Tampilan Multi-Lokasi",
+        "description": "Dasbor terpadu di fasilitas mining, instalasi surya, dan lokasi industri."
+      },
+      "reports": {
+        "title": "Laporan Kustom",
+        "description": "Laporan terjadwal dan sesuai permintaan dengan ekspor ke PDF, CSV, dan endpoint API."
+      }
+    },
+    "faq": {
+      "q1": "Metrik apa yang ditampilkan dasbor?",
+      "a1": "Dasbor menampilkan konsumsi daya real-time, output pembangkitan, rasio efisiensi, biaya per kWh, intensitas karbon, uptime, dan KPI kustom yang dikonfigurasi per fasilitas.",
+      "q2": "Bisakah saya memantau beberapa lokasi?",
+      "a2": "Ya. Tampilan multi-lokasi menyediakan metrik agregat dan per lokasi dengan kemampuan drill-down untuk analisis mendetail."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Pemantauan Miner",
+      "subtitle": "Kecerdasan armada ASIC lengkap dengan pelacakan hash rate, pemantauan termal, analisis daya, dan status firmware di semua penyebaran."
+    },
+    "features": {
+      "title": "Fitur Pemantauan",
+      "hashrate": {
+        "title": "Pelacakan Hash Rate",
+        "description": "Hash rate per perangkat dan seluruh armada dengan tren historis dan tolok ukur kinerja."
+      },
+      "thermal": {
+        "title": "Pemantauan Termal",
+        "description": "Pelacakan suhu chip dan lingkungan dengan peringatan overheating prediktif."
+      },
+      "power": {
+        "title": "Analisis Daya",
+        "description": "Konsumsi daya per unit, rasio efisiensi (J/TH), dan alokasi biaya per pool atau fasilitas."
+      },
+      "firmware": {
+        "title": "Status Firmware",
+        "description": "Pelacakan versi firmware EnergieMIND, manajemen pembaruan, dan sinkronisasi konfigurasi."
+      }
+    },
+    "faq": {
+      "q1": "Miner mana yang didukung?",
+      "a1": "Platform mendukung Antminer dan perangkat ASIC kompatibel yang menjalankan firmware EnergieMIND, dengan rencana perluasan ke platform perangkat keras tambahan.",
+      "q2": "Seberapa sering data diperbarui?",
+      "a2": "Metrik miner dikumpulkan setiap 30 detik dengan streaming real-time tersedia melalui WebSocket API."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Analitik Energi",
+      "subtitle": "Analitik tingkat lanjut untuk pola konsumsi, optimasi biaya, pelacakan jejak karbon, dan peramalan permintaan prediktif."
+    },
+    "features": {
+      "title": "Modul Analitik",
+      "consumption": {
+        "title": "Analisis Konsumsi",
+        "description": "Pola konsumsi per jam, harian, dan musiman dengan deteksi anomali."
+      },
+      "cost": {
+        "title": "Optimasi Biaya",
+        "description": "Analisis waktu penggunaan, optimasi tarif, dan strategi pengurangan biaya permintaan."
+      },
+      "carbon": {
+        "title": "Pelacakan Karbon",
+        "description": "Pemantauan intensitas karbon real-time dan pelaporan emisi untuk kepatuhan ESG."
+      },
+      "forecast": {
+        "title": "Peramalan Permintaan",
+        "description": "Prediksi permintaan berbasis ML untuk perencanaan kapasitas proaktif dan manajemen beban."
+      }
+    },
+    "faq": {
+      "q1": "Sumber data apa yang didukung?",
+      "a1": "Mesin analitik terintegrasi dengan meteran pintar, sistem SCADA, telemetri miner, API cuaca, dan umpan data kustom melalui REST API.",
+      "q2": "Bisakah saya mengekspor data analitik?",
+      "a2": "Ya. Data dapat diekspor melalui CSV, JSON, atau diakses secara programatis melalui EnergieMIND API."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Metrik Pemulihan Panas",
+      "subtitle": "Lacak efisiensi termal, pemanfaatan panas buangan, dan integrasi pemanasan distrik dari operasi mining dan industri."
+    },
+    "features": {
+      "title": "Kecerdasan Termal",
+      "efficiency": {
+        "title": "Efisiensi Termal",
+        "description": "Rasio COP, tingkat penangkapan panas, dan tolok ukur efisiensi sistem dari waktu ke waktu."
+      },
+      "waste": {
+        "title": "Pemanfaatan Panas Buangan",
+        "description": "Persentase panas buangan yang dipulihkan digunakan untuk pemanasan, pengeringan, atau energi distrik."
+      },
+      "district": {
+        "title": "Pemanasan Distrik",
+        "description": "Metrik integrasi untuk jaringan pemanasan distrik dan penyimpanan energi termal."
+      },
+      "savings": {
+        "title": "Penghematan Energi",
+        "description": "Penghematan bahan bakar terkuantifikasi dan pengurangan karbon dari operasi pemulihan panas."
+      }
+    },
+    "faq": {
+      "q1": "Bagaimana pemulihan panas diukur?",
+      "a1": "Sensor termal, flow meter, dan perhitungan diferensial suhu menyediakan metrik pemulihan panas real-time yang terintegrasi ke dasbor platform.",
+      "q2": "Industri apa yang mendapat manfaat?",
+      "a2": "Operasi mining, pusat data, manufaktur industri, dan fasilitas energi terbarukan dengan produk samping termal mendapat manfaat dari pemantauan pemulihan panas."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "Optimasi AI",
+      "subtitle": "Manajemen energi cerdas dengan penyeimbangan beban berbasis AI, pemeliharaan prediktif, dan penyetelan efisiensi otonom."
+    },
+    "features": {
+      "title": "Kemampuan AI",
+      "load": {
+        "title": "Penyeimbangan Beban",
+        "description": "Alokasi daya dinamis di seluruh miner dan fasilitas berdasarkan harga listrik dan permintaan."
+      },
+      "predictive": {
+        "title": "Pemeliharaan Prediktif",
+        "description": "Model ML memprediksi kegagalan perangkat keras sebelum terjadi, mengurangi downtime dan biaya perbaikan."
+      },
+      "autonomous": {
+        "title": "Penyetelan Otonom",
+        "description": "Frekuensi, tegangan, dan parameter pendinginan yang menyesuaikan diri untuk efisiensi optimal."
+      },
+      "insights": {
+        "title": "Wawasan Kecerdasan",
+        "description": "Rekomendasi yang dapat ditindaklanjuti berdasarkan data historis dan kondisi real-time."
+      }
+    },
+    "faq": {
+      "q1": "Model AI apa yang digunakan?",
+      "a1": "Platform menggunakan model ML ensemble untuk peramalan permintaan, deteksi anomali, dan optimasi, dilatih pada data operasional dari penyebaran infrastruktur TVK.",
+      "q2": "Apakah pengawasan manusia diperlukan?",
+      "a2": "Rekomendasi AI dapat beroperasi dalam mode penasihat atau mode otonom berdasarkan preferensi operator dan batasan keamanan."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API & Pengembang",
+      "subtitle": "Integrasikan dengan platform EnergieMIND menggunakan REST API, webhook, dan SDK. Bangun dasbor kustom dan alur kerja otomatisasi."
+    },
+    "features": {
+      "title": "Alat Pengembang",
+      "rest": {
+        "title": "REST API",
+        "description": "REST API lengkap dengan autentikasi OAuth 2.0 dan pembatasan laju."
+      },
+      "webhooks": {
+        "title": "Webhook",
+        "description": "Notifikasi peristiwa real-time untuk peringatan, perubahan status, dan ambang batas metrik."
+      },
+      "sdk": {
+        "title": "SDK",
+        "description": "SDK resmi untuk Python, JavaScript, dan Go dengan dokumentasi komprehensif."
+      },
+      "sandbox": {
+        "title": "Lingkungan Sandbox",
+        "description": "Uji integrasi dengan data simulasi sebelum terhubung ke infrastruktur produksi."
+      }
+    },
+    "endpoints": {
+      "title": "Ikhtisar API",
+      "metrics": "GET /v1/metrics — Ambil metrik energi dan miner",
+      "sites": "GET /v1/sites — Daftar lokasi infrastruktur yang dipantau",
+      "alerts": "GET /v1/alerts — Kueri peringatan aktif dan historis",
+      "control": "POST /v1/control — Kirim perintah kontrol ke perangkat"
+    },
+    "faq": {
+      "q1": "Bagaimana cara mendapatkan akses API?",
+      "a1": "Minta akses platform dan pilih akses API dalam aplikasi Anda. Pengembang yang disetujui menerima kunci API dan kredensial sandbox.",
+      "q2": "Berapa batas laju permintaan?",
+      "a2": "Tingkat standar mengizinkan 1.000 permintaan per menit. Tingkat enterprise dengan batas lebih tinggi tersedia untuk penyebaran skala besar."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Login Platform",
+      "subtitle": "Masuk untuk mengakses dasbor EnergieMIND dan alat pemantauan infrastruktur Anda."
+    },
+    "form": {
+      "email": "Alamat Email",
+      "password": "Kata Sandi",
+      "remember": "Ingat saya",
+      "submit": "Masuk",
+      "forgot": "Lupa kata sandi?",
+      "noAccount": "Belum punya akun?",
+      "requestAccess": "Minta Akses Platform"
+    },
+    "notice": "Login platform saat ini hanya tersedia untuk pengguna berwenang. Minta akses untuk bergabung dengan platform EnergieMIND.",
+    "faq": {
+      "q1": "Bagaimana cara mendapatkan kredensial login?",
+      "a1": "Kirim permintaan akses platform. Setelah disetujui, Anda akan menerima kredensial login melalui email aman.",
+      "q2": "Apakah autentikasi dua faktor didukung?",
+      "a2": "Ya. Autentikasi dua faktor berbasis TOTP diwajibkan untuk semua akun platform."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Minta Akses Platform",
+      "subtitle": "Ajukan akses ke platform kecerdasan energi EnergieMIND, dasbor, dan alat API."
+    },
+    "form": {
+      "fullName": "Nama Lengkap",
+      "email": "Alamat Email",
+      "company": "Perusahaan / Organisasi",
+      "phone": "Nomor Telepon",
+      "useCase": "Kasus Penggunaan Utama",
+      "useCases": {
+        "operator": "Operator Fasilitas",
+        "partner": "Mitra Infrastruktur",
+        "developer": "Pengembang API",
+        "energy": "Manajer Energi",
+        "other": "Lainnya"
+      },
+      "message": "Ceritakan tentang infrastruktur dan kebutuhan Anda",
+      "submit": "Kirim Permintaan Akses",
+      "privacy": "Dengan mengirimkan, Anda menyetujui praktik pemrosesan data kami. Informasi Anda ditangani dengan aman oleh TVK Infrastructure & Energy Systems."
+    },
+    "faq": {
+      "q1": "Berapa lama proses persetujuan?",
+      "a1": "Permintaan akses biasanya ditinjau dalam 3–5 hari kerja. Anda akan menerima email dengan langkah selanjutnya setelah disetujui.",
+      "q2": "Apa yang termasuk dalam akses platform?",
+      "a2": "Pengguna yang disetujui menerima akses dasbor, alat pemantauan, dan kredensial API opsional berdasarkan kasus penggunaan mereka."
+    }
+  },
+  "footer": {
+    "platform": "Platform",
+    "solutions": "Solusi",
+    "developers": "Pengembang",
+    "company": "Perusahaan",
+    "legal": "Hukum",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "Kontak",
+    "description": "EnergieMIND adalah platform kecerdasan energi untuk dasbor, pemantauan miner, pemulihan panas, dan optimasi AI."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "Platform kecerdasan energi untuk pemantauan infrastruktur, manajemen armada miner, dan optimasi berbasis AI.",
+      "contactType": "Dukungan Platform"
+    },
+    "website": {
+      "description": "Platform teknologi dan dasbor untuk operasi energi, pemantauan miner, metrik pemulihan panas, dan optimasi AI."
+    }
+  },
+  "useCases": {
+    "operator": "Operator Fasilitas",
+    "partner": "Mitra Infrastruktur",
+    "developer": "Pengembang API",
+    "energy": "Manajer Energi",
+    "other": "Lainnya"
+  }
+}

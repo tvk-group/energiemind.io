@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — 에너지 인텔리전스 플랫폼 및 인프라 대시보드",
+      "description": "EnergieMIND는 에너지 대시보드, 마이너 모니터링, 폐열 회수 지표, AI 최적화 및 인프라 인텔리전스를 위한 기술 플랫폼입니다. TVK Infrastructure & Energy Systems가 구축했습니다.",
+      "keywords": "EnergieMIND, 에너지 대시보드, 마이너 모니터링, 폐열 회수, AI 최적화, 인프라 인텔리전스, TVK",
+      "ogTitle": "EnergieMIND — 에너지 인텔리전스 플랫폼",
+      "ogDescription": "에너지 운영, 마이너 모니터링, AI 기반 최적화를 위한 차세대 대시보드 및 인프라 인텔리전스 플랫폼.",
+      "twitterTitle": "EnergieMIND — 에너지 인텔리전스 플랫폼",
+      "twitterDescription": "에너지 대시보드, 마이너 모니터링, 폐열 회수, AI 최적화를 위한 기술 플랫폼."
+    },
+    "dashboard": {
+      "title": "에너지 대시보드 — 실시간 운영 센터 | EnergieMIND",
+      "description": "전력 소비, 발전량, 효율 지표 및 인프라 전반의 운영 KPI를 실시간으로 모니터링하는 중앙 집중형 에너지 대시보드.",
+      "keywords": "에너지 대시보드, 운영 센터, 실시간 모니터링, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND 에너지 대시보드",
+      "ogDescription": "에너지 인프라 모니터링 및 제어를 위한 실시간 운영 센터.",
+      "twitterTitle": "EnergieMIND 에너지 대시보드",
+      "twitterDescription": "에너지 운영, KPI 및 인프라 제어를 위한 중앙 집중형 대시보드."
+    },
+    "minerMonitoring": {
+      "title": "마이너 모니터링 — ASIC 플릿 인텔리전스 | EnergieMIND",
+      "description": "해시레이트 추적, 온도 알림, 전력 소비 분석, 가동 시간 보고 및 모든 배포 환경의 펌웨어 상태를 갖춘 ASIC 마이너 플릿 모니터링.",
+      "keywords": "마이너 모니터링, ASIC 플릿, 해시레이트, 채굴 인프라, EnergieMIND",
+      "ogTitle": "EnergieMIND 마이너 모니터링",
+      "ogDescription": "해시레이트, 온도, 전력, 가동 시간을 모니터링하는 ASIC 플릿 인텔리전스.",
+      "twitterTitle": "EnergieMIND 마이너 모니터링",
+      "twitterDescription": "완전한 ASIC 마이너 플릿 모니터링 및 인텔리전스 플랫폼."
+    },
+    "energyAnalytics": {
+      "title": "에너지 분석 — 소비량 및 효율 인텔리전스 | EnergieMIND",
+      "description": "소비 패턴, 비용 최적화, 탄소 발자국 추적 및 시설 전반의 예측 수요 예측을 위한 고급 에너지 분석.",
+      "keywords": "에너지 분석, 소비 분석, 효율, 탄소 추적, EnergieMIND",
+      "ogTitle": "EnergieMIND 에너지 분석",
+      "ogDescription": "소비 패턴, 비용 최적화 및 예측 에너지 인텔리전스.",
+      "twitterTitle": "EnergieMIND 에너지 분석",
+      "twitterDescription": "에너지 소비, 효율 및 예측을 위한 고급 분석."
+    },
+    "heatRecovery": {
+      "title": "폐열 회수 지표 — 열효율 플랫폼 | EnergieMIND",
+      "description": "채굴 및 산업 운영에서 발생하는 폐열 회수 성능, 열효율 비율, 폐열 활용 및 지역 난방 통합 추적.",
+      "keywords": "폐열 회수, 열효율, 폐열, 지역 난방, EnergieMIND",
+      "ogTitle": "EnergieMIND 폐열 회수 지표",
+      "ogDescription": "열효율 추적 및 폐열 활용 인텔리전스.",
+      "twitterTitle": "EnergieMIND 폐열 회수 지표",
+      "twitterDescription": "운영 전반의 폐열 회수 성능 및 열효율 모니터링."
+    },
+    "aiOptimization": {
+      "title": "AI 최적화 — 지능형 에너지 관리 | EnergieMIND",
+      "description": "부하 분산, 예측 정비, 동적 전력 할당 및 에너지 인프라 전반의 자율 효율 튜닝을 위한 AI 기반 최적화.",
+      "keywords": "AI 최적화, 에너지 관리, 예측 정비, 부하 분산, EnergieMIND",
+      "ogTitle": "EnergieMIND AI 최적화",
+      "ogDescription": "AI 기반 부하 분산 및 예측 정비를 통한 지능형 에너지 관리.",
+      "twitterTitle": "EnergieMIND AI 최적화",
+      "twitterDescription": "에너지 인프라 및 채굴 운영을 위한 AI 기반 최적화."
+    },
+    "api": {
+      "title": "API 및 개발자 — EnergieMIND 플랫폼 통합",
+      "description": "EnergieMIND 에너지 인텔리전스 플랫폼을 위한 개발자 문서, REST API 참조, Webhook, SDK 및 통합 가이드.",
+      "keywords": "EnergieMIND API, 개발자 문서, REST API, SDK, Webhook",
+      "ogTitle": "개발자를 위한 EnergieMIND API",
+      "ogDescription": "에너지 인텔리전스 플랫폼 통합을 위한 REST API, Webhook 및 SDK.",
+      "twitterTitle": "개발자를 위한 EnergieMIND API",
+      "twitterDescription": "EnergieMIND 플랫폼의 개발자 도구 및 API 문서."
+    },
+    "login": {
+      "title": "로그인 — EnergieMIND 플랫폼 액세스",
+      "description": "EnergieMIND 플랫폼 대시보드에 로그인하세요. 승인된 운영자, 시설 관리자 및 인프라 파트너를 위한 안전한 액세스.",
+      "keywords": "EnergieMIND 로그인, 플랫폼 액세스, 대시보드 로그인",
+      "ogTitle": "EnergieMIND 플랫폼 로그인",
+      "ogDescription": "승인된 EnergieMIND 플랫폼 사용자를 위한 안전한 로그인.",
+      "twitterTitle": "EnergieMIND 플랫폼 로그인",
+      "twitterDescription": "EnergieMIND 에너지 인텔리전스 대시보드에 로그인하세요."
+    },
+    "requestAccess": {
+      "title": "플랫폼 액세스 신청 — EnergieMIND",
+      "description": "EnergieMIND 에너지 인텔리전스 플랫폼에 대한 액세스를 신청하세요. 대시보드 자격 증명, API 키 및 인프라 모니터링 도구를 신청합니다.",
+      "keywords": "액세스 신청, 플랫폼 신청, EnergieMIND 등록",
+      "ogTitle": "EnergieMIND 플랫폼 액세스 신청",
+      "ogDescription": "대시보드 액세스, API 키 및 인프라 모니터링 도구 신청.",
+      "twitterTitle": "EnergieMIND 플랫폼 액세스 신청",
+      "twitterDescription": "EnergieMIND 에너지 인텔리전스 플랫폼에 대한 액세스를 신청하세요."
+    }
+  },
+  "nav": {
+    "platform": "플랫폼",
+    "dashboard": "대시보드",
+    "minerMonitoring": "마이너 모니터링",
+    "energyAnalytics": "에너지 분석",
+    "heatRecovery": "폐열 회수",
+    "aiOptimization": "AI 최적화",
+    "api": "API / 개발자",
+    "login": "로그인",
+    "requestAccess": "액세스 신청",
+    "language": "언어",
+    "menu": "메뉴",
+    "close": "닫기"
+  },
+  "common": {
+    "learnMore": "자세히 알아보기",
+    "getStarted": "시작하기",
+    "requestAccess": "플랫폼 액세스 신청",
+    "viewDashboard": "대시보드 보기",
+    "exploreApi": "API 탐색",
+    "comingSoon": "출시 예정",
+    "readDocumentation": "문서 읽기",
+    "contactSupport": "지원팀 문의",
+    "allRightsReserved": "모든 권리 보유.",
+    "operatedBy": "TVK Infrastructure & Energy Systems LTD 운영",
+    "partOf": "TVK Group 생태계의 일부",
+    "home": "홈",
+    "relatedPages": "관련 페이지",
+    "features": "기능",
+    "faq": "자주 묻는 질문",
+    "submit": "제출",
+    "submitting": "제출 중...",
+    "email": "이메일",
+    "company": "회사",
+    "fullName": "성명",
+    "phone": "전화",
+    "message": "메시지",
+    "useCase": "사용 사례",
+    "selectOption": "옵션을 선택하세요",
+    "required": "필수 항목",
+    "successMessage": "요청이 제출되었습니다. 담당 팀이 곧 연락드리겠습니다.",
+    "errorMessage": "오류가 발생했습니다. 다시 시도해 주세요.",
+    "platformBadge": "기술 플랫폼",
+    "underDevelopment": "플랫폼 모듈이 현재 적극적으로 개발 중입니다"
+  },
+  "home": {
+    "hero": {
+      "title": "인프라 운영을 위한 에너지 인텔리전스",
+      "subtitle": "EnergieMIND는 에너지 운영, 마이너 모니터링, 폐열 회수 지표, AI 기반 최적화를 위한 기술 플랫폼 및 차세대 대시보드입니다.",
+      "cta": "플랫폼 액세스 신청",
+      "secondary": "플랫폼 탐색"
+    },
+    "intro": {
+      "title": "에너지 인프라 리더를 위해 구축",
+      "description": "EnergieMIND는 채굴 시설, 재생 에너지 사이트, 산업 열 운영을 위한 실시간 모니터링, 분석 및 지능형 자동화를 통합합니다. TVK Infrastructure & Energy Systems가 TVK Group 생태계 내에서 운영합니다."
+    },
+    "features": {
+      "title": "플랫폼 기능",
+      "dashboard": {
+        "title": "에너지 대시보드",
+        "description": "실시간 KPI, 알림 및 다중 사이트 가시성을 갖춘 중앙 집중형 운영 센터."
+      },
+      "miner": {
+        "title": "마이너 모니터링",
+        "description": "해시레이트, 온도, 전력 소비, 가동 시간 추적을 갖춘 ASIC 플릿 인텔리전스."
+      },
+      "analytics": {
+        "title": "에너지 분석",
+        "description": "소비 패턴, 비용 최적화 및 예측 수요 예측."
+      },
+      "heat": {
+        "title": "폐열 회수 지표",
+        "description": "운영 전반의 열효율 추적 및 폐열 활용."
+      },
+      "ai": {
+        "title": "AI 최적화",
+        "description": "지능형 부하 분산, 예측 정비 및 자율 튜닝."
+      },
+      "api": {
+        "title": "API 및 개발자",
+        "description": "원활한 플랫폼 통합을 위한 REST API, Webhook 및 SDK."
+      }
+    },
+    "stats": {
+      "title": "대규모 인프라",
+      "sites": "모니터링 사이트",
+      "sitesValue": "다중 사이트",
+      "power": "추적 전력",
+      "powerValue": "MW 규모",
+      "languages": "언어",
+      "languagesValue": "25+",
+      "uptime": "플랫폼 가동률",
+      "uptimeValue": "99.9%"
+    },
+    "cta": {
+      "title": "에너지 운영을 혁신할 준비가 되셨나요?",
+      "description": "EnergieMIND 플랫폼에 대한 액세스를 신청하고 지능형 에너지 관리를 활용하는 인프라 운영자에 합류하세요.",
+      "button": "플랫폼 액세스 신청"
+    },
+    "faq": {
+      "q1": "EnergieMIND란 무엇인가요?",
+      "a1": "EnergieMIND는 에너지 대시보드, 마이너 모니터링, 폐열 회수 지표, AI 최적화를 위한 기술 플랫폼입니다. TVK Infrastructure & Energy Systems가 TVK Group 생태계의 일부로 운영합니다.",
+      "q2": "누가 플랫폼에 액세스할 수 있나요?",
+      "a2": "이 플랫폼은 시설 운영자, 인프라 파트너, 에너지 관리자 및 승인된 TVK 생태계 참여자를 위해 설계되었습니다. 신청 양식을 통해 액세스를 신청하세요.",
+      "q3": "EnergieMIND는 여러 언어를 지원하나요?",
+      "a3": "예. 플랫폼 웹사이트와 향후 대시보드는 기계 번역이 아닌 완전히 현지화된 콘텐츠로 25개 언어를 지원합니다.",
+      "q4": "EnergieMIND와 TVK Group의 관계는?",
+      "a4": "EnergieMIND는 EnteleKRON 및 기타 TVK 생태계 제품과 함께 TVK Infrastructure & Energy Systems LTD가 운영하는 에너지 인텔리전스 브랜드입니다."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "에너지 대시보드",
+      "subtitle": "모든 시설의 전력 소비, 발전 효율 및 인프라 KPI를 모니터링하는 실시간 운영 센터."
+    },
+    "features": {
+      "title": "대시보드 기능",
+      "realtime": {
+        "title": "실시간 모니터링",
+        "description": "전력 소비, 발전 출력 및 효율 지표를 매초 실시간으로 업데이트."
+      },
+      "alerts": {
+        "title": "스마트 알림",
+        "description": "이상 및 중요 이벤트에 대한 즉시 알림을 위한 구성 가능한 임계값."
+      },
+      "multisite": {
+        "title": "다중 사이트 보기",
+        "description": "채굴 시설, 태양광 설비 및 산업 사이트를 아우르는 통합 대시보드."
+      },
+      "reports": {
+        "title": "맞춤 보고서",
+        "description": "PDF, CSV 및 API 엔드포인트로 보내기가 가능한 예약 및 온디맨드 보고서."
+      }
+    },
+    "faq": {
+      "q1": "대시보드에 어떤 지표가 표시되나요?",
+      "a1": "대시보드에는 실시간 전력 소비, 발전 출력, 효율 비율, kWh당 비용, 탄소 강도, 가동 시간 및 시설별로 구성된 맞춤 KPI가 표시됩니다.",
+      "q2": "여러 사이트를 모니터링할 수 있나요?",
+      "a2": "예. 다중 사이트 보기는 집계 및 사이트별 지표를 제공하며 상세 분석을 위한 드릴다운 기능을 갖추고 있습니다."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "마이너 모니터링",
+      "subtitle": "해시레이트 추적, 열 모니터링, 전력 분석 및 모든 배포 환경의 펌웨어 상태를 갖춘 완전한 ASIC 플릿 인텔리전스."
+    },
+    "features": {
+      "title": "모니터링 기능",
+      "hashrate": {
+        "title": "해시레이트 추적",
+        "description": "장치별 및 플릿 전체 해시레이트, 이력 추세 및 성능 벤치마크."
+      },
+      "thermal": {
+        "title": "열 모니터링",
+        "description": "칩 및 주변 온도 추적, 예측 과열 알림."
+      },
+      "power": {
+        "title": "전력 분석",
+        "description": "장치별 전력 소비, 효율 비율(J/TH) 및 풀 또는 시설별 비용 배분."
+      },
+      "firmware": {
+        "title": "펌웨어 상태",
+        "description": "EnergieMIND 펌웨어 버전 추적, 업데이트 관리 및 구성 동기화."
+      }
+    },
+    "faq": {
+      "q1": "어떤 마이너가 지원되나요?",
+      "a1": "이 플랫폼은 EnergieMIND 펌웨어를 실행하는 Antminer 및 호환 ASIC 장치를 지원하며, 추가 하드웨어 플랫폼으로의 확장을 계획하고 있습니다.",
+      "q2": "데이터는 얼마나 자주 업데이트되나요?",
+      "a2": "마이너 지표는 30초마다 수집되며 WebSocket API를 통해 실시간 스트리밍을 이용할 수 있습니다."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "에너지 분석",
+      "subtitle": "소비 패턴, 비용 최적화, 탄소 발자국 추적 및 예측 수요 예측을 위한 고급 분석."
+    },
+    "features": {
+      "title": "분석 모듈",
+      "consumption": {
+        "title": "소비 분석",
+        "description": "시간별, 일별, 계절별 소비 패턴 및 이상 탐지."
+      },
+      "cost": {
+        "title": "비용 최적화",
+        "description": "시간대별 분석, 요금 최적화 및 수요 요금 절감 전략."
+      },
+      "carbon": {
+        "title": "탄소 추적",
+        "description": "실시간 탄소 강도 모니터링 및 ESG 규정 준수를 위한 배출량 보고."
+      },
+      "forecast": {
+        "title": "수요 예측",
+        "description": "선제적 용량 계획 및 부하 관리를 위한 ML 기반 수요 예측."
+      }
+    },
+    "faq": {
+      "q1": "어떤 데이터 소스가 지원되나요?",
+      "a1": "분석 엔진은 스마트 미터, SCADA 시스템, 마이너 원격 측정, 날씨 API 및 REST API를 통한 맞춤 데이터 피드와 통합됩니다.",
+      "q2": "분석 데이터를 보낼 수 있나요?",
+      "a2": "예. 데이터는 CSV, JSON으로 보내거나 EnergieMIND API를 통해 프로그래밍 방식으로 액세스할 수 있습니다."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "폐열 회수 지표",
+      "subtitle": "채굴 및 산업 운영에서 발생하는 열효율, 폐열 활용 및 지역 난방 통합 추적."
+    },
+    "features": {
+      "title": "열 인텔리전스",
+      "efficiency": {
+        "title": "열효율",
+        "description": "COP 비율, 열 포집률 및 시스템 효율 벤치마크의 시간 경과 변화."
+      },
+      "waste": {
+        "title": "폐열 활용",
+        "description": "난방, 건조 또는 지역 에너지에 사용되는 회수 폐열의 비율."
+      },
+      "district": {
+        "title": "지역 난방",
+        "description": "지역 난방 네트워크 및 열 에너지 저장을 위한 통합 지표."
+      },
+      "savings": {
+        "title": "에너지 절감",
+        "description": "폐열 회수 운영으로 인한 연료 절감 및 탄소 감축의 정량화."
+      }
+    },
+    "faq": {
+      "q1": "폐열 회수는 어떻게 측정되나요?",
+      "a1": "열 센서, 유량계 및 온도 차이 계산을 통해 실시간 폐열 회수 지표를 제공하며 플랫폼 대시보드에 통합됩니다.",
+      "q2": "어떤 산업이 혜택을 받나요?",
+      "a2": "채굴 운영, 데이터 센터, 산업 제조 및 열 부산물이 있는 재생 에너지 시설이 폐열 회수 모니터링의 혜택을 받습니다."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "AI 최적화",
+      "subtitle": "AI 기반 부하 분산, 예측 정비 및 자율 효율 튜닝을 통한 지능형 에너지 관리."
+    },
+    "features": {
+      "title": "AI 기능",
+      "load": {
+        "title": "부하 분산",
+        "description": "전력 가격 및 수요에 따른 마이너 및 시설 간 동적 전력 할당."
+      },
+      "predictive": {
+        "title": "예측 정비",
+        "description": "ML 모델이 하드웨어 고장을 사전에 예측하여 다운타임 및 수리 비용을 절감."
+      },
+      "autonomous": {
+        "title": "자율 튜닝",
+        "description": "최적 효율을 위한 주파수, 전압 및 냉각 매개변수의 자동 조정."
+      },
+      "insights": {
+        "title": "인텔리전스 인사이트",
+        "description": "이력 데이터 및 실시간 조건 기반의 실행 가능한 권장 사항."
+      }
+    },
+    "faq": {
+      "q1": "어떤 AI 모델이 사용되나요?",
+      "a1": "이 플랫폼은 TVK 인프라 배포의 운영 데이터로 훈련된 앙상블 ML 모델을 수요 예측, 이상 탐지 및 최적화에 사용합니다.",
+      "q2": "인간의 감독이 필요한가요?",
+      "a2": "AI 권장 사항은 운영자 설정 및 안전 제약에 따라 자문 모드 또는 자율 모드로 작동할 수 있습니다."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API 및 개발자",
+      "subtitle": "REST API, Webhook 및 SDK를 사용하여 EnergieMIND 플랫폼과 통합하세요. 맞춤 대시보드 및 자동화 워크플로를 구축합니다."
+    },
+    "features": {
+      "title": "개발자 도구",
+      "rest": {
+        "title": "REST API",
+        "description": "OAuth 2.0 인증 및 속도 제한을 갖춘 완전한 기능의 REST API."
+      },
+      "webhooks": {
+        "title": "Webhook",
+        "description": "알림, 상태 변경 및 지표 임계값에 대한 실시간 이벤트 알림."
+      },
+      "sdk": {
+        "title": "SDK",
+        "description": "포괄적인 문서가 포함된 공식 Python, JavaScript 및 Go SDK."
+      },
+      "sandbox": {
+        "title": "샌드박스 환경",
+        "description": "프로덕션 인프라에 연결하기 전에 시뮬레이션 데이터로 통합을 테스트합니다."
+      }
+    },
+    "endpoints": {
+      "title": "API 개요",
+      "metrics": "GET /v1/metrics — 에너지 및 마이너 지표 조회",
+      "sites": "GET /v1/sites — 모니터링 중인 인프라 사이트 목록",
+      "alerts": "GET /v1/alerts — 활성 및 이력 알림 조회",
+      "control": "POST /v1/control — 장치에 제어 명령 전송"
+    },
+    "faq": {
+      "q1": "API 액세스는 어떻게 받나요?",
+      "a1": "플랫폼 액세스를 신청하고 신청서에서 API 액세스를 선택하세요. 승인된 개발자에게 API 키 및 샌드박스 자격 증명이 제공됩니다.",
+      "q2": "속도 제한은 얼마인가요?",
+      "a2": "표준 등급은 분당 1,000회 요청을 허용합니다. 대규모 배포를 위한 더 높은 한도의 엔터프라이즈 등급도 이용 가능합니다."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "플랫폼 로그인",
+      "subtitle": "EnergieMIND 대시보드 및 인프라 모니터링 도구에 액세스하려면 로그인하세요."
+    },
+    "form": {
+      "email": "이메일 주소",
+      "password": "비밀번호",
+      "remember": "로그인 상태 유지",
+      "submit": "로그인",
+      "forgot": "비밀번호를 잊으셨나요?",
+      "noAccount": "계정이 없으신가요?",
+      "requestAccess": "플랫폼 액세스 신청"
+    },
+    "notice": "플랫폼 로그인은 현재 승인된 사용자만 이용할 수 있습니다. EnergieMIND 플랫폼에 참여하려면 액세스를 신청하세요.",
+    "faq": {
+      "q1": "로그인 자격 증명은 어떻게 받나요?",
+      "a1": "플랫폼 액세스 신청을 제출하세요. 승인 후 안전한 이메일로 로그인 자격 증명을 받게 됩니다.",
+      "q2": "이중 인증이 지원되나요?",
+      "a2": "예. 모든 플랫폼 계정에 TOTP 기반 이중 인증이 필수입니다."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "플랫폼 액세스 신청",
+      "subtitle": "EnergieMIND 에너지 인텔리전스 플랫폼, 대시보드 및 API 도구에 대한 액세스를 신청하세요."
+    },
+    "form": {
+      "fullName": "성명",
+      "email": "이메일 주소",
+      "company": "회사 / 조직",
+      "phone": "전화번호",
+      "useCase": "주요 사용 사례",
+      "useCases": {
+        "operator": "시설 운영자",
+        "partner": "인프라 파트너",
+        "developer": "API 개발자",
+        "energy": "에너지 관리자",
+        "other": "기타"
+      },
+      "message": "인프라 및 요구 사항에 대해 알려주세요",
+      "submit": "액세스 신청 제출",
+      "privacy": "제출함으로써 당사의 데이터 처리 관행에 동의하는 것으로 간주됩니다. 귀하의 정보는 TVK Infrastructure & Energy Systems가 안전하게 처리합니다."
+    },
+    "faq": {
+      "q1": "승인에는 얼마나 걸리나요?",
+      "a1": "액세스 신청은 일반적으로 3~5 영업일 이내에 검토됩니다. 승인 후 다음 단계가 포함된 이메일을 받게 됩니다.",
+      "q2": "플랫폼 액세스에 무엇이 포함되나요?",
+      "a2": "승인된 사용자는 대시보드 액세스, 모니터링 도구 및 사용 사례에 따른 선택적 API 자격 증명을 받습니다."
+    }
+  },
+  "footer": {
+    "platform": "플랫폼",
+    "solutions": "솔루션",
+    "developers": "개발자",
+    "company": "회사",
+    "legal": "법률",
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 약관",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "문의",
+    "description": "EnergieMIND는 대시보드, 마이너 모니터링, 폐열 회수, AI 최적화를 위한 에너지 인텔리전스 플랫폼입니다."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "인프라 모니터링, 마이너 플릿 관리, AI 기반 최적화를 위한 에너지 인텔리전스 플랫폼.",
+      "contactType": "플랫폼 지원"
+    },
+    "website": {
+      "description": "에너지 운영, 마이너 모니터링, 폐열 회수 지표, AI 최적화를 위한 기술 플랫폼 및 대시보드."
+    }
+  },
+  "useCases": {
+    "operator": "시설 운영자",
+    "partner": "인프라 파트너",
+    "developer": "API 개발자",
+    "energy": "에너지 관리자",
+    "other": "기타"
+  }
+}

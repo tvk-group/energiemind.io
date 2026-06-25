@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Energy Intelligence Platform & Infrastructure Dashboard",
+      "description": "EnergieMIND is the technology platform for energy dashboards, miner monitoring, heat recovery metrics, AI optimization, and infrastructure intelligence. Built by TVK Infrastructure & Energy Systems.",
+      "keywords": "EnergieMIND, energy dashboard, miner monitoring, heat recovery, AI optimization, infrastructure intelligence, TVK",
+      "ogTitle": "EnergieMIND — Energy Intelligence Platform",
+      "ogDescription": "Future dashboard and infrastructure intelligence platform for energy operations, miner monitoring, and AI-driven optimization.",
+      "twitterTitle": "EnergieMIND — Energy Intelligence Platform",
+      "twitterDescription": "Technology platform for energy dashboards, miner monitoring, heat recovery, and AI optimization."
+    },
+    "dashboard": {
+      "title": "Energy Dashboard — Real-Time Operations Center | EnergieMIND",
+      "description": "Centralized energy dashboard for real-time monitoring of power consumption, generation, efficiency metrics, and operational KPIs across your infrastructure.",
+      "keywords": "energy dashboard, operations center, real-time monitoring, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND Energy Dashboard",
+      "ogDescription": "Real-time operations center for energy infrastructure monitoring and control.",
+      "twitterTitle": "EnergieMIND Energy Dashboard",
+      "twitterDescription": "Centralized dashboard for energy operations, KPIs, and infrastructure control."
+    },
+    "minerMonitoring": {
+      "title": "Miner Monitoring — ASIC Fleet Intelligence | EnergieMIND",
+      "description": "Monitor ASIC miner fleets with hash rate tracking, temperature alerts, power draw analysis, uptime reporting, and firmware status across all deployments.",
+      "keywords": "miner monitoring, ASIC fleet, hash rate, mining infrastructure, EnergieMIND",
+      "ogTitle": "EnergieMIND Miner Monitoring",
+      "ogDescription": "ASIC fleet intelligence with hash rate, temperature, power, and uptime monitoring.",
+      "twitterTitle": "EnergieMIND Miner Monitoring",
+      "twitterDescription": "Complete ASIC miner fleet monitoring and intelligence platform."
+    },
+    "energyAnalytics": {
+      "title": "Energy Analytics — Consumption & Efficiency Intelligence | EnergieMIND",
+      "description": "Advanced energy analytics for consumption patterns, cost optimization, carbon footprint tracking, and predictive demand forecasting across facilities.",
+      "keywords": "energy analytics, consumption analysis, efficiency, carbon tracking, EnergieMIND",
+      "ogTitle": "EnergieMIND Energy Analytics",
+      "ogDescription": "Consumption patterns, cost optimization, and predictive energy intelligence.",
+      "twitterTitle": "EnergieMIND Energy Analytics",
+      "twitterDescription": "Advanced analytics for energy consumption, efficiency, and forecasting."
+    },
+    "heatRecovery": {
+      "title": "Heat Recovery Metrics — Thermal Efficiency Platform | EnergieMIND",
+      "description": "Track heat recovery performance, thermal efficiency ratios, waste heat utilization, and district heating integration from mining and industrial operations.",
+      "keywords": "heat recovery, thermal efficiency, waste heat, district heating, EnergieMIND",
+      "ogTitle": "EnergieMIND Heat Recovery Metrics",
+      "ogDescription": "Thermal efficiency tracking and waste heat utilization intelligence.",
+      "twitterTitle": "EnergieMIND Heat Recovery Metrics",
+      "twitterDescription": "Monitor heat recovery performance and thermal efficiency across operations."
+    },
+    "aiOptimization": {
+      "title": "AI Optimization — Intelligent Energy Management | EnergieMIND",
+      "description": "AI-driven optimization for load balancing, predictive maintenance, dynamic power allocation, and autonomous efficiency tuning across energy infrastructure.",
+      "keywords": "AI optimization, energy management, predictive maintenance, load balancing, EnergieMIND",
+      "ogTitle": "EnergieMIND AI Optimization",
+      "ogDescription": "Intelligent energy management with AI-driven load balancing and predictive maintenance.",
+      "twitterTitle": "EnergieMIND AI Optimization",
+      "twitterDescription": "AI-powered optimization for energy infrastructure and mining operations."
+    },
+    "api": {
+      "title": "API & Developers — Integrate with EnergieMIND Platform",
+      "description": "Developer documentation, REST API reference, webhooks, SDKs, and integration guides for the EnergieMIND energy intelligence platform.",
+      "keywords": "EnergieMIND API, developer documentation, REST API, SDK, webhooks",
+      "ogTitle": "EnergieMIND API for Developers",
+      "ogDescription": "REST API, webhooks, and SDKs for energy intelligence platform integration.",
+      "twitterTitle": "EnergieMIND API for Developers",
+      "twitterDescription": "Developer tools and API documentation for the EnergieMIND platform."
+    },
+    "login": {
+      "title": "Login — EnergieMIND Platform Access",
+      "description": "Sign in to the EnergieMIND platform dashboard. Secure access for authorized operators, facility managers, and infrastructure partners.",
+      "keywords": "EnergieMIND login, platform access, dashboard sign in",
+      "ogTitle": "EnergieMIND Platform Login",
+      "ogDescription": "Secure login for authorized EnergieMIND platform users.",
+      "twitterTitle": "EnergieMIND Platform Login",
+      "twitterDescription": "Sign in to your EnergieMIND energy intelligence dashboard."
+    },
+    "requestAccess": {
+      "title": "Request Platform Access — EnergieMIND",
+      "description": "Request access to the EnergieMIND energy intelligence platform. Apply for dashboard credentials, API keys, and infrastructure monitoring tools.",
+      "keywords": "request access, platform application, EnergieMIND registration",
+      "ogTitle": "Request EnergieMIND Platform Access",
+      "ogDescription": "Apply for dashboard access, API keys, and infrastructure monitoring tools.",
+      "twitterTitle": "Request EnergieMIND Platform Access",
+      "twitterDescription": "Apply for access to the EnergieMIND energy intelligence platform."
+    }
+  },
+  "nav": {
+    "platform": "Platform",
+    "dashboard": "Dashboard",
+    "minerMonitoring": "Miner Monitoring",
+    "energyAnalytics": "Energy Analytics",
+    "heatRecovery": "Heat Recovery",
+    "aiOptimization": "AI Optimization",
+    "api": "API / Developers",
+    "login": "Login",
+    "requestAccess": "Request Access",
+    "language": "Language",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "requestAccess": "Request Platform Access",
+    "viewDashboard": "View Dashboard",
+    "exploreApi": "Explore API",
+    "comingSoon": "Coming Soon",
+    "readDocumentation": "Read Documentation",
+    "contactSupport": "Contact Support",
+    "allRightsReserved": "All rights reserved.",
+    "operatedBy": "Operated by TVK Infrastructure & Energy Systems LTD",
+    "partOf": "Part of the TVK Group ecosystem",
+    "home": "Home",
+    "relatedPages": "Related Pages",
+    "features": "Features",
+    "faq": "Frequently Asked Questions",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "email": "Email",
+    "company": "Company",
+    "fullName": "Full Name",
+    "phone": "Phone",
+    "message": "Message",
+    "useCase": "Use Case",
+    "selectOption": "Select an option",
+    "required": "Required field",
+    "successMessage": "Your request has been submitted. Our team will contact you shortly.",
+    "errorMessage": "An error occurred. Please try again.",
+    "platformBadge": "Technology Platform",
+    "underDevelopment": "Platform modules are actively under development"
+  },
+  "home": {
+    "hero": {
+      "title": "Energy Intelligence for Infrastructure Operations",
+      "subtitle": "EnergieMIND is the technology platform and future dashboard for energy operations, miner monitoring, heat recovery metrics, and AI-driven optimization.",
+      "cta": "Request Platform Access",
+      "secondary": "Explore Platform"
+    },
+    "intro": {
+      "title": "Built for Energy Infrastructure Leaders",
+      "description": "EnergieMIND unifies real-time monitoring, analytics, and intelligent automation for mining facilities, renewable energy sites, and industrial thermal operations. Operated by TVK Infrastructure & Energy Systems within the TVK Group ecosystem."
+    },
+    "features": {
+      "title": "Platform Capabilities",
+      "dashboard": {
+        "title": "Energy Dashboard",
+        "description": "Centralized operations center with real-time KPIs, alerts, and multi-site visibility."
+      },
+      "miner": {
+        "title": "Miner Monitoring",
+        "description": "ASIC fleet intelligence with hash rate, temperature, power draw, and uptime tracking."
+      },
+      "analytics": {
+        "title": "Energy Analytics",
+        "description": "Consumption patterns, cost optimization, and predictive demand forecasting."
+      },
+      "heat": {
+        "title": "Heat Recovery Metrics",
+        "description": "Thermal efficiency tracking and waste heat utilization across operations."
+      },
+      "ai": {
+        "title": "AI Optimization",
+        "description": "Intelligent load balancing, predictive maintenance, and autonomous tuning."
+      },
+      "api": {
+        "title": "API & Developers",
+        "description": "REST API, webhooks, and SDKs for seamless platform integration."
+      }
+    },
+    "stats": {
+      "title": "Infrastructure at Scale",
+      "sites": "Monitoring Sites",
+      "sitesValue": "Multi-Site",
+      "power": "Power Tracked",
+      "powerValue": "MW Scale",
+      "languages": "Languages",
+      "languagesValue": "25+",
+      "uptime": "Platform Uptime",
+      "uptimeValue": "99.9%"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Energy Operations?",
+      "description": "Request access to the EnergieMIND platform and join infrastructure operators using intelligent energy management.",
+      "button": "Request Platform Access"
+    },
+    "faq": {
+      "q1": "What is EnergieMIND?",
+      "a1": "EnergieMIND is a technology platform for energy dashboards, miner monitoring, heat recovery metrics, and AI optimization. It is operated by TVK Infrastructure & Energy Systems as part of the TVK Group ecosystem.",
+      "q2": "Who can access the platform?",
+      "a2": "The platform is designed for facility operators, infrastructure partners, energy managers, and authorized TVK ecosystem participants. Request access through our application form.",
+      "q3": "Does EnergieMIND support multiple languages?",
+      "a3": "Yes. The platform website and future dashboard support 25 languages with fully localized content, not machine translation.",
+      "q4": "How does EnergieMIND relate to TVK Group?",
+      "a4": "EnergieMIND is an energy intelligence brand operated by TVK Infrastructure & Energy Systems LTD, alongside EnteleKRON and other TVK ecosystem products."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Energy Dashboard",
+      "subtitle": "Real-time operations center for monitoring power consumption, generation efficiency, and infrastructure KPIs across all your facilities."
+    },
+    "features": {
+      "title": "Dashboard Capabilities",
+      "realtime": {
+        "title": "Real-Time Monitoring",
+        "description": "Live power consumption, generation output, and efficiency metrics updated every second."
+      },
+      "alerts": {
+        "title": "Smart Alerts",
+        "description": "Configurable thresholds with instant notifications for anomalies and critical events."
+      },
+      "multisite": {
+        "title": "Multi-Site View",
+        "description": "Unified dashboard across mining facilities, solar installations, and industrial sites."
+      },
+      "reports": {
+        "title": "Custom Reports",
+        "description": "Scheduled and on-demand reports with export to PDF, CSV, and API endpoints."
+      }
+    },
+    "faq": {
+      "q1": "What metrics does the dashboard display?",
+      "a1": "The dashboard shows real-time power consumption, generation output, efficiency ratios, cost per kWh, carbon intensity, uptime, and custom KPIs configured per facility.",
+      "q2": "Can I monitor multiple sites?",
+      "a2": "Yes. The multi-site view provides aggregated and per-site metrics with drill-down capabilities for detailed analysis."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Miner Monitoring",
+      "subtitle": "Complete ASIC fleet intelligence with hash rate tracking, thermal monitoring, power analysis, and firmware status across all deployments."
+    },
+    "features": {
+      "title": "Monitoring Features",
+      "hashrate": {
+        "title": "Hash Rate Tracking",
+        "description": "Per-device and fleet-wide hash rate with historical trends and performance benchmarks."
+      },
+      "thermal": {
+        "title": "Thermal Monitoring",
+        "description": "Chip and ambient temperature tracking with predictive overheating alerts."
+      },
+      "power": {
+        "title": "Power Analysis",
+        "description": "Per-unit power draw, efficiency ratios (J/TH), and cost allocation by pool or facility."
+      },
+      "firmware": {
+        "title": "Firmware Status",
+        "description": "EnergieMIND firmware version tracking, update management, and configuration sync."
+      }
+    },
+    "faq": {
+      "q1": "Which miners are supported?",
+      "a1": "The platform supports Antminer and compatible ASIC devices running EnergieMIND firmware, with expansion to additional hardware platforms planned.",
+      "q2": "How often is data updated?",
+      "a2": "Miner metrics are collected every 30 seconds with real-time streaming available via WebSocket API."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Energy Analytics",
+      "subtitle": "Advanced analytics for consumption patterns, cost optimization, carbon footprint tracking, and predictive demand forecasting."
+    },
+    "features": {
+      "title": "Analytics Modules",
+      "consumption": {
+        "title": "Consumption Analysis",
+        "description": "Hourly, daily, and seasonal consumption patterns with anomaly detection."
+      },
+      "cost": {
+        "title": "Cost Optimization",
+        "description": "Time-of-use analysis, tariff optimization, and demand charge reduction strategies."
+      },
+      "carbon": {
+        "title": "Carbon Tracking",
+        "description": "Real-time carbon intensity monitoring and emissions reporting for ESG compliance."
+      },
+      "forecast": {
+        "title": "Demand Forecasting",
+        "description": "ML-powered demand prediction for proactive capacity planning and load management."
+      }
+    },
+    "faq": {
+      "q1": "What data sources are supported?",
+      "a1": "The analytics engine integrates with smart meters, SCADA systems, miner telemetry, weather APIs, and custom data feeds via REST API.",
+      "q2": "Can I export analytics data?",
+      "a2": "Yes. Data can be exported via CSV, JSON, or accessed programmatically through the EnergieMIND API."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Heat Recovery Metrics",
+      "subtitle": "Track thermal efficiency, waste heat utilization, and district heating integration from mining and industrial operations."
+    },
+    "features": {
+      "title": "Thermal Intelligence",
+      "efficiency": {
+        "title": "Thermal Efficiency",
+        "description": "COP ratios, heat capture rates, and system efficiency benchmarks over time."
+      },
+      "waste": {
+        "title": "Waste Heat Utilization",
+        "description": "Percentage of recovered waste heat used for heating, drying, or district energy."
+      },
+      "district": {
+        "title": "District Heating",
+        "description": "Integration metrics for district heating networks and thermal energy storage."
+      },
+      "savings": {
+        "title": "Energy Savings",
+        "description": "Quantified fuel savings and carbon reduction from heat recovery operations."
+      }
+    },
+    "faq": {
+      "q1": "How is heat recovery measured?",
+      "a1": "Thermal sensors, flow meters, and temperature differential calculations provide real-time heat recovery metrics integrated into the platform dashboard.",
+      "q2": "What industries benefit?",
+      "a2": "Mining operations, data centers, industrial manufacturing, and renewable energy facilities with thermal byproducts benefit from heat recovery monitoring."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "AI Optimization",
+      "subtitle": "Intelligent energy management with AI-driven load balancing, predictive maintenance, and autonomous efficiency tuning."
+    },
+    "features": {
+      "title": "AI Capabilities",
+      "load": {
+        "title": "Load Balancing",
+        "description": "Dynamic power allocation across miners and facilities based on electricity prices and demand."
+      },
+      "predictive": {
+        "title": "Predictive Maintenance",
+        "description": "ML models predict hardware failures before they occur, reducing downtime and repair costs."
+      },
+      "autonomous": {
+        "title": "Autonomous Tuning",
+        "description": "Self-adjusting frequency, voltage, and cooling parameters for optimal efficiency."
+      },
+      "insights": {
+        "title": "Intelligence Insights",
+        "description": "Actionable recommendations powered by historical data and real-time conditions."
+      }
+    },
+    "faq": {
+      "q1": "What AI models are used?",
+      "a1": "The platform uses ensemble ML models for demand forecasting, anomaly detection, and optimization, trained on operational data from TVK infrastructure deployments.",
+      "q2": "Is human oversight required?",
+      "a2": "AI recommendations can operate in advisory mode or autonomous mode based on operator preferences and safety constraints."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API & Developers",
+      "subtitle": "Integrate with the EnergieMIND platform using REST API, webhooks, and SDKs. Build custom dashboards and automation workflows."
+    },
+    "features": {
+      "title": "Developer Tools",
+      "rest": {
+        "title": "REST API",
+        "description": "Full-featured REST API with OAuth 2.0 authentication and rate limiting."
+      },
+      "webhooks": {
+        "title": "Webhooks",
+        "description": "Real-time event notifications for alerts, status changes, and metric thresholds."
+      },
+      "sdk": {
+        "title": "SDKs",
+        "description": "Official SDKs for Python, JavaScript, and Go with comprehensive documentation."
+      },
+      "sandbox": {
+        "title": "Sandbox Environment",
+        "description": "Test integrations with simulated data before connecting to production infrastructure."
+      }
+    },
+    "endpoints": {
+      "title": "API Overview",
+      "metrics": "GET /v1/metrics — Retrieve energy and miner metrics",
+      "sites": "GET /v1/sites — List monitored infrastructure sites",
+      "alerts": "GET /v1/alerts — Query active and historical alerts",
+      "control": "POST /v1/control — Send control commands to devices"
+    },
+    "faq": {
+      "q1": "How do I get API access?",
+      "a1": "Request platform access and select API access in your application. Approved developers receive API keys and sandbox credentials.",
+      "q2": "What is the rate limit?",
+      "a2": "Standard tier allows 1,000 requests per minute. Enterprise tiers with higher limits are available for large-scale deployments."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Platform Login",
+      "subtitle": "Sign in to access your EnergieMIND dashboard and infrastructure monitoring tools."
+    },
+    "form": {
+      "email": "Email Address",
+      "password": "Password",
+      "remember": "Remember me",
+      "submit": "Sign In",
+      "forgot": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "requestAccess": "Request Platform Access"
+    },
+    "notice": "Platform login is currently available for authorized users only. Request access to join the EnergieMIND platform.",
+    "faq": {
+      "q1": "How do I get login credentials?",
+      "a1": "Submit a platform access request. Once approved, you will receive login credentials via secure email.",
+      "q2": "Is two-factor authentication supported?",
+      "a2": "Yes. TOTP-based two-factor authentication is required for all platform accounts."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Request Platform Access",
+      "subtitle": "Apply for access to the EnergieMIND energy intelligence platform, dashboard, and API tools."
+    },
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "company": "Company / Organization",
+      "phone": "Phone Number",
+      "useCase": "Primary Use Case",
+      "useCases": {
+        "operator": "Facility Operator",
+        "partner": "Infrastructure Partner",
+        "developer": "API Developer",
+        "energy": "Energy Manager",
+        "other": "Other"
+      },
+      "message": "Tell us about your infrastructure and requirements",
+      "submit": "Submit Access Request",
+      "privacy": "By submitting, you agree to our data processing practices. Your information is handled securely by TVK Infrastructure & Energy Systems."
+    },
+    "faq": {
+      "q1": "How long does approval take?",
+      "a1": "Access requests are typically reviewed within 3–5 business days. You will receive an email with next steps upon approval.",
+      "q2": "What is included with platform access?",
+      "a2": "Approved users receive dashboard access, monitoring tools, and optional API credentials based on their use case."
+    }
+  },
+  "footer": {
+    "platform": "Platform",
+    "solutions": "Solutions",
+    "developers": "Developers",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "Contact",
+    "description": "EnergieMIND is the energy intelligence platform for dashboards, miner monitoring, heat recovery, and AI optimization."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "Energy intelligence platform for infrastructure monitoring, miner fleet management, and AI-driven optimization.",
+      "contactType": "Platform Support"
+    },
+    "website": {
+      "description": "Technology platform and dashboard for energy operations, miner monitoring, heat recovery metrics, and AI optimization."
+    }
+  },
+  "useCases": {
+    "operator": "Facility Operator",
+    "partner": "Infrastructure Partner",
+    "developer": "API Developer",
+    "energy": "Energy Manager",
+    "other": "Other"
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — エネルギーインテリジェンスプラットフォーム＆インフラダッシュボード",
+      "description": "EnergieMIND は、エネルギーダッシュボード、マイナー監視、排熱回収指標、AI 最適化、インフラインテリジェンスのためのテクノロジープラットフォームです。TVK Infrastructure & Energy Systems により構築されています。",
+      "keywords": "EnergieMIND, エネルギーダッシュボード, マイナー監視, 排熱回収, AI 最適化, インフラインテリジェンス, TVK",
+      "ogTitle": "EnergieMIND — エネルギーインテリジェンスプラットフォーム",
+      "ogDescription": "エネルギー運用、マイナー監視、AI 駆動の最適化のための次世代ダッシュボードおよびインフラインテリジェンスプラットフォーム。",
+      "twitterTitle": "EnergieMIND — エネルギーインテリジェンスプラットフォーム",
+      "twitterDescription": "エネルギーダッシュボード、マイナー監視、排熱回収、AI 最適化のためのテクノロジープラットフォーム。"
+    },
+    "dashboard": {
+      "title": "エネルギーダッシュボード — リアルタイム運用センター | EnergieMIND",
+      "description": "電力消費、発電量、効率指標、インフラ全体の運用 KPI をリアルタイムで監視する集中型エネルギーダッシュボード。",
+      "keywords": "エネルギーダッシュボード, 運用センター, リアルタイム監視, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND エネルギーダッシュボード",
+      "ogDescription": "エネルギーインフラの監視と制御のためのリアルタイム運用センター。",
+      "twitterTitle": "EnergieMIND エネルギーダッシュボード",
+      "twitterDescription": "エネルギー運用、KPI、インフラ制御のための集中型ダッシュボード。"
+    },
+    "minerMonitoring": {
+      "title": "マイナー監視 — ASIC フリートインテリジェンス | EnergieMIND",
+      "description": "ハッシュレート追跡、温度アラート、消費電力分析、稼働時間レポート、全デプロイメントのファームウェア状態を備えた ASIC マイナーフリートの監視。",
+      "keywords": "マイナー監視, ASIC フリート, ハッシュレート, マイニングインフラ, EnergieMIND",
+      "ogTitle": "EnergieMIND マイナー監視",
+      "ogDescription": "ハッシュレート、温度、電力、稼働時間を監視する ASIC フリートインテリジェンス。",
+      "twitterTitle": "EnergieMIND マイナー監視",
+      "twitterDescription": "ASIC マイナーフリートの完全な監視およびインテリジェンスプラットフォーム。"
+    },
+    "energyAnalytics": {
+      "title": "エネルギー分析 — 消費量＆効率インテリジェンス | EnergieMIND",
+      "description": "消費パターン、コスト最適化、カーボンフットプリント追跡、施設横断の予測需要予測のための高度なエネルギー分析。",
+      "keywords": "エネルギー分析, 消費分析, 効率, カーボン追跡, EnergieMIND",
+      "ogTitle": "EnergieMIND エネルギー分析",
+      "ogDescription": "消費パターン、コスト最適化、予測エネルギーインテリジェンス。",
+      "twitterTitle": "EnergieMIND エネルギー分析",
+      "twitterDescription": "エネルギー消費、効率、予測のための高度な分析。"
+    },
+    "heatRecovery": {
+      "title": "排熱回収指標 — 熱効率プラットフォーム | EnergieMIND",
+      "description": "マイニングおよび産業運用からの排熱回収性能、熱効率比、廃熱利用、地域暖房統合の追跡。",
+      "keywords": "排熱回収, 熱効率, 廃熱, 地域暖房, EnergieMIND",
+      "ogTitle": "EnergieMIND 排熱回収指標",
+      "ogDescription": "熱効率追跡および廃熱利用インテリジェンス。",
+      "twitterTitle": "EnergieMIND 排熱回収指標",
+      "twitterDescription": "運用全体の排熱回収性能と熱効率の監視。"
+    },
+    "aiOptimization": {
+      "title": "AI 最適化 — インテリジェントエネルギー管理 | EnergieMIND",
+      "description": "負荷分散、予知保全、動的電力配分、エネルギーインフラ全体の自律効率チューニングのための AI 駆動最適化。",
+      "keywords": "AI 最適化, エネルギー管理, 予知保全, 負荷分散, EnergieMIND",
+      "ogTitle": "EnergieMIND AI 最適化",
+      "ogDescription": "AI 駆動の負荷分散と予知保全によるインテリジェントエネルギー管理。",
+      "twitterTitle": "EnergieMIND AI 最適化",
+      "twitterDescription": "エネルギーインフラとマイニング運用のための AI 駆動最適化。"
+    },
+    "api": {
+      "title": "API & 開発者 — EnergieMIND プラットフォームとの統合",
+      "description": "EnergieMIND エネルギーインテリジェンスプラットフォーム向けの開発者ドキュメント、REST API リファレンス、Webhook、SDK、統合ガイド。",
+      "keywords": "EnergieMIND API, 開発者ドキュメント, REST API, SDK, Webhook",
+      "ogTitle": "開発者向け EnergieMIND API",
+      "ogDescription": "エネルギーインテリジェンスプラットフォーム統合のための REST API、Webhook、SDK。",
+      "twitterTitle": "開発者向け EnergieMIND API",
+      "twitterDescription": "EnergieMIND プラットフォームの開発者ツールと API ドキュメント。"
+    },
+    "login": {
+      "title": "ログイン — EnergieMIND プラットフォームアクセス",
+      "description": "EnergieMIND プラットフォームダッシュボードにサインイン。認可されたオペレーター、施設管理者、インフラパートナー向けの安全なアクセス。",
+      "keywords": "EnergieMIND ログイン, プラットフォームアクセス, ダッシュボードサインイン",
+      "ogTitle": "EnergieMIND プラットフォームログイン",
+      "ogDescription": "認可された EnergieMIND プラットフォームユーザー向けの安全なログイン。",
+      "twitterTitle": "EnergieMIND プラットフォームログイン",
+      "twitterDescription": "EnergieMIND エネルギーインテリジェンスダッシュボードにサインイン。"
+    },
+    "requestAccess": {
+      "title": "プラットフォームアクセス申請 — EnergieMIND",
+      "description": "EnergieMIND エネルギーインテリジェンスプラットフォームへのアクセスを申請。ダッシュボード認証情報、API キー、インフラ監視ツールを申請。",
+      "keywords": "アクセス申請, プラットフォーム申請, EnergieMIND 登録",
+      "ogTitle": "EnergieMIND プラットフォームアクセス申請",
+      "ogDescription": "ダッシュボードアクセス、API キー、インフラ監視ツールの申請。",
+      "twitterTitle": "EnergieMIND プラットフォームアクセス申請",
+      "twitterDescription": "EnergieMIND エネルギーインテリジェンスプラットフォームへのアクセスを申請。"
+    }
+  },
+  "nav": {
+    "platform": "プラットフォーム",
+    "dashboard": "ダッシュボード",
+    "minerMonitoring": "マイナー監視",
+    "energyAnalytics": "エネルギー分析",
+    "heatRecovery": "排熱回収",
+    "aiOptimization": "AI 最適化",
+    "api": "API / 開発者",
+    "login": "ログイン",
+    "requestAccess": "アクセス申請",
+    "language": "言語",
+    "menu": "メニュー",
+    "close": "閉じる"
+  },
+  "common": {
+    "learnMore": "詳しく見る",
+    "getStarted": "始める",
+    "requestAccess": "プラットフォームアクセスを申請",
+    "viewDashboard": "ダッシュボードを表示",
+    "exploreApi": "API を探索",
+    "comingSoon": "近日公開",
+    "readDocumentation": "ドキュメントを読む",
+    "contactSupport": "サポートに連絡",
+    "allRightsReserved": "無断転載を禁じます。",
+    "operatedBy": "TVK Infrastructure & Energy Systems LTD により運営",
+    "partOf": "TVK Group エコシステムの一部",
+    "home": "ホーム",
+    "relatedPages": "関連ページ",
+    "features": "機能",
+    "faq": "よくある質問",
+    "submit": "送信",
+    "submitting": "送信中...",
+    "email": "メール",
+    "company": "会社",
+    "fullName": "氏名",
+    "phone": "電話",
+    "message": "メッセージ",
+    "useCase": "ユースケース",
+    "selectOption": "選択してください",
+    "required": "必須項目",
+    "successMessage": "リクエストが送信されました。担当チームがまもなくご連絡いたします。",
+    "errorMessage": "エラーが発生しました。もう一度お試しください。",
+    "platformBadge": "テクノロジープラットフォーム",
+    "underDevelopment": "プラットフォームモジュールは現在積極的に開発中です"
+  },
+  "home": {
+    "hero": {
+      "title": "インフラ運用のためのエネルギーインテリジェンス",
+      "subtitle": "EnergieMIND は、エネルギー運用、マイナー監視、排熱回収指標、AI 駆動の最適化のためのテクノロジープラットフォームおよび次世代ダッシュボードです。",
+      "cta": "プラットフォームアクセスを申請",
+      "secondary": "プラットフォームを探索"
+    },
+    "intro": {
+      "title": "エネルギーインフラのリーダー向けに構築",
+      "description": "EnergieMIND は、マイニング施設、再生可能エネルギーサイト、産業熱運用のリアルタイム監視、分析、インテリジェント自動化を統合します。TVK Infrastructure & Energy Systems により TVK Group エコシステム内で運営されています。"
+    },
+    "features": {
+      "title": "プラットフォーム機能",
+      "dashboard": {
+        "title": "エネルギーダッシュボード",
+        "description": "リアルタイム KPI、アラート、マルチサイト可視化を備えた集中型運用センター。"
+      },
+      "miner": {
+        "title": "マイナー監視",
+        "description": "ハッシュレート、温度、消費電力、稼働時間追跡を備えた ASIC フリートインテリジェンス。"
+      },
+      "analytics": {
+        "title": "エネルギー分析",
+        "description": "消費パターン、コスト最適化、予測需要予測。"
+      },
+      "heat": {
+        "title": "排熱回収指標",
+        "description": "運用全体の熱効率追跡と廃熱利用。"
+      },
+      "ai": {
+        "title": "AI 最適化",
+        "description": "インテリジェント負荷分散、予知保全、自律チューニング。"
+      },
+      "api": {
+        "title": "API & 開発者",
+        "description": "シームレスなプラットフォーム統合のための REST API、Webhook、SDK。"
+      }
+    },
+    "stats": {
+      "title": "大規模インフラ",
+      "sites": "監視サイト",
+      "sitesValue": "マルチサイト",
+      "power": "追跡電力",
+      "powerValue": "MW 規模",
+      "languages": "言語",
+      "languagesValue": "25+",
+      "uptime": "プラットフォーム稼働率",
+      "uptimeValue": "99.9%"
+    },
+    "cta": {
+      "title": "エネルギー運用を変革する準備はできていますか？",
+      "description": "EnergieMIND プラットフォームへのアクセスを申請し、インテリジェントエネルギー管理を活用するインフラオペレーターに参加しましょう。",
+      "button": "プラットフォームアクセスを申請"
+    },
+    "faq": {
+      "q1": "EnergieMIND とは何ですか？",
+      "a1": "EnergieMIND は、エネルギーダッシュボード、マイナー監視、排熱回収指標、AI 最適化のためのテクノロジープラットフォームです。TVK Infrastructure & Energy Systems により TVK Group エコシステムの一部として運営されています。",
+      "q2": "誰がプラットフォームにアクセスできますか？",
+      "a2": "このプラットフォームは、施設オペレーター、インフラパートナー、エネルギーマネージャー、認可された TVK エコシステム参加者向けに設計されています。申請フォームからアクセスを申請してください。",
+      "q3": "EnergieMIND は複数言語に対応していますか？",
+      "a3": "はい。プラットフォームウェブサイトと今後のダッシュボードは、機械翻訳ではなく完全にローカライズされたコンテンツで 25 言語に対応しています。",
+      "q4": "EnergieMIND と TVK Group の関係は？",
+      "a4": "EnergieMIND は、EnteleKRON およびその他の TVK エコシステム製品と並ぶ、TVK Infrastructure & Energy Systems LTD により運営されるエネルギーインテリジェンスブランドです。"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "エネルギーダッシュボード",
+      "subtitle": "すべての施設における電力消費、発電効率、インフラ KPI を監視するリアルタイム運用センター。"
+    },
+    "features": {
+      "title": "ダッシュボード機能",
+      "realtime": {
+        "title": "リアルタイム監視",
+        "description": "電力消費、発電出力、効率指標を毎秒リアルタイムで更新。"
+      },
+      "alerts": {
+        "title": "スマートアラート",
+        "description": "異常や重大イベントに対する即時通知のための設定可能なしきい値。"
+      },
+      "multisite": {
+        "title": "マルチサイトビュー",
+        "description": "マイニング施設、太陽光発電設備、産業サイトを横断する統合ダッシュボード。"
+      },
+      "reports": {
+        "title": "カスタムレポート",
+        "description": "PDF、CSV、API エンドポイントへのエクスポートに対応したスケジュールおよびオンデマンドレポート。"
+      }
+    },
+    "faq": {
+      "q1": "ダッシュボードにはどのような指標が表示されますか？",
+      "a1": "ダッシュボードには、リアルタイムの電力消費、発電出力、効率比、kWh あたりのコスト、カーボン強度、稼働時間、施設ごとに設定されたカスタム KPI が表示されます。",
+      "q2": "複数のサイトを監視できますか？",
+      "a2": "はい。マルチサイトビューは、集計およびサイト別の指標を提供し、詳細分析のためのドリルダウン機能を備えています。"
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "マイナー監視",
+      "subtitle": "ハッシュレート追跡、熱監視、電力分析、全デプロイメントのファームウェア状態を備えた完全な ASIC フリートインテリジェンス。"
+    },
+    "features": {
+      "title": "監視機能",
+      "hashrate": {
+        "title": "ハッシュレート追跡",
+        "description": "デバイス単位およびフリート全体のハッシュレート、履歴トレンド、性能ベンチマーク。"
+      },
+      "thermal": {
+        "title": "熱監視",
+        "description": "チップおよび周囲温度の追跡、予測過熱アラート。"
+      },
+      "power": {
+        "title": "電力分析",
+        "description": "ユニットあたりの消費電力、効率比（J/TH）、プールまたは施設別のコスト配分。"
+      },
+      "firmware": {
+        "title": "ファームウェア状態",
+        "description": "EnergieMIND ファームウェアバージョン追跡、更新管理、設定同期。"
+      }
+    },
+    "faq": {
+      "q1": "どのマイナーがサポートされていますか？",
+      "a1": "このプラットフォームは、EnergieMIND ファームウェアを実行する Antminer および互換 ASIC デバイスをサポートしており、追加のハードウェアプラットフォームへの拡張を計画しています。",
+      "q2": "データはどのくらいの頻度で更新されますか？",
+      "a2": "マイナー指標は 30 秒ごとに収集され、WebSocket API 経由でリアルタイムストリーミングが利用可能です。"
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "エネルギー分析",
+      "subtitle": "消費パターン、コスト最適化、カーボンフットプリント追跡、予測需要予測のための高度な分析。"
+    },
+    "features": {
+      "title": "分析モジュール",
+      "consumption": {
+        "title": "消費分析",
+        "description": "時間別、日別、季節別の消費パターンと異常検知。"
+      },
+      "cost": {
+        "title": "コスト最適化",
+        "description": "時間帯別分析、料金最適化、需要料金削減戦略。"
+      },
+      "carbon": {
+        "title": "カーボン追跡",
+        "description": "リアルタイムのカーボン強度監視と ESG コンプライアンスのための排出量レポート。"
+      },
+      "forecast": {
+        "title": "需要予測",
+        "description": "積極的な容量計画と負荷管理のための ML 駆動需要予測。"
+      }
+    },
+    "faq": {
+      "q1": "どのようなデータソースがサポートされていますか？",
+      "a1": "分析エンジンは、スマートメーター、SCADA システム、マイナーテレメトリ、気象 API、REST API 経由のカスタムデータフィードと統合します。",
+      "q2": "分析データをエクスポートできますか？",
+      "a2": "はい。データは CSV、JSON でエクスポートするか、EnergieMIND API 経由でプログラム的にアクセスできます。"
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "排熱回収指標",
+      "subtitle": "マイニングおよび産業運用からの熱効率、廃熱利用、地域暖房統合の追跡。"
+    },
+    "features": {
+      "title": "熱インテリジェンス",
+      "efficiency": {
+        "title": "熱効率",
+        "description": "COP 比、熱回収率、システム効率ベンチマークの経時変化。"
+      },
+      "waste": {
+        "title": "廃熱利用",
+        "description": "暖房、乾燥、地域エネルギーに使用される回収廃熱の割合。"
+      },
+      "district": {
+        "title": "地域暖房",
+        "description": "地域暖房ネットワークと熱エネルギー貯蔵の統合指標。"
+      },
+      "savings": {
+        "title": "エネルギー節約",
+        "description": "排熱回収運用による燃料節約とカーボン削減の定量化。"
+      }
+    },
+    "faq": {
+      "q1": "排熱回収はどのように測定されますか？",
+      "a1": "熱センサー、流量計、温度差計算によりリアルタイムの排熱回収指標を提供し、プラットフォームダッシュボードに統合されます。",
+      "q2": "どの産業が恩恵を受けますか？",
+      "a2": "マイニング運用、データセンター、産業製造、熱副産物を持つ再生可能エネルギー施設が排熱回収監視の恩恵を受けます。"
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "AI 最適化",
+      "subtitle": "AI 駆動の負荷分散、予知保全、自律効率チューニングによるインテリジェントエネルギー管理。"
+    },
+    "features": {
+      "title": "AI 機能",
+      "load": {
+        "title": "負荷分散",
+        "description": "電力価格と需要に基づくマイナーおよび施設間の動的電力配分。"
+      },
+      "predictive": {
+        "title": "予知保全",
+        "description": "ML モデルがハードウェア故障を事前に予測し、ダウンタイムと修理コストを削減。"
+      },
+      "autonomous": {
+        "title": "自律チューニング",
+        "description": "最適効率のための周波数、電圧、冷却パラメータの自動調整。"
+      },
+      "insights": {
+        "title": "インテリジェンスインサイト",
+        "description": "履歴データとリアルタイム条件に基づく実行可能な推奨事項。"
+      }
+    },
+    "faq": {
+      "q1": "どのような AI モデルが使用されていますか？",
+      "a1": "このプラットフォームは、TVK インフラデプロイメントの運用データで訓練されたアンサンブル ML モデルを需要予測、異常検知、最適化に使用します。",
+      "q2": "人間の監督は必要ですか？",
+      "a2": "AI の推奨事項は、オペレーターの設定と安全制約に基づき、アドバイザリーモードまたは自律モードで動作できます。"
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API & 開発者",
+      "subtitle": "REST API、Webhook、SDK を使用して EnergieMIND プラットフォームと統合。カスタムダッシュボードと自動化ワークフローを構築。"
+    },
+    "features": {
+      "title": "開発者ツール",
+      "rest": {
+        "title": "REST API",
+        "description": "OAuth 2.0 認証とレート制限を備えたフル機能の REST API。"
+      },
+      "webhooks": {
+        "title": "Webhook",
+        "description": "アラート、ステータス変更、指標しきい値のリアルタイムイベント通知。"
+      },
+      "sdk": {
+        "title": "SDK",
+        "description": "包括的なドキュメント付きの公式 Python、JavaScript、Go SDK。"
+      },
+      "sandbox": {
+        "title": "サンドボックス環境",
+        "description": "本番インフラに接続する前に、シミュレーションデータで統合をテスト。"
+      }
+    },
+    "endpoints": {
+      "title": "API 概要",
+      "metrics": "GET /v1/metrics — エネルギーおよびマイナー指標の取得",
+      "sites": "GET /v1/sites — 監視対象インフラサイトの一覧",
+      "alerts": "GET /v1/alerts — アクティブおよび履歴アラートの照会",
+      "control": "POST /v1/control — デバイスへの制御コマンド送信"
+    },
+    "faq": {
+      "q1": "API アクセスを取得するには？",
+      "a1": "プラットフォームアクセスを申請し、申請で API アクセスを選択してください。承認された開発者には API キーとサンドボックス認証情報が提供されます。",
+      "q2": "レート制限は？",
+      "a2": "標準ティアでは毎分 1,000 リクエストが許可されます。大規模デプロイメント向けのより高い制限のエンタープライズティアも利用可能です。"
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "プラットフォームログイン",
+      "subtitle": "EnergieMIND ダッシュボードとインフラ監視ツールにアクセスするためにサインイン。"
+    },
+    "form": {
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "remember": "ログイン状態を保持",
+      "submit": "サインイン",
+      "forgot": "パスワードをお忘れですか？",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "requestAccess": "プラットフォームアクセスを申請"
+    },
+    "notice": "プラットフォームログインは現在、認可されたユーザーのみ利用可能です。EnergieMIND プラットフォームに参加するにはアクセスを申請してください。",
+    "faq": {
+      "q1": "ログイン認証情報を取得するには？",
+      "a1": "プラットフォームアクセス申請を送信してください。承認後、安全なメールでログイン認証情報が届きます。",
+      "q2": "二要素認証はサポートされていますか？",
+      "a2": "はい。すべてのプラットフォームアカウントで TOTP ベースの二要素認証が必須です。"
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "プラットフォームアクセス申請",
+      "subtitle": "EnergieMIND エネルギーインテリジェンスプラットフォーム、ダッシュボード、API ツールへのアクセスを申請。"
+    },
+    "form": {
+      "fullName": "氏名",
+      "email": "メールアドレス",
+      "company": "会社 / 組織",
+      "phone": "電話番号",
+      "useCase": "主なユースケース",
+      "useCases": {
+        "operator": "施設オペレーター",
+        "partner": "インフラパートナー",
+        "developer": "API 開発者",
+        "energy": "エネルギーマネージャー",
+        "other": "その他"
+      },
+      "message": "インフラと要件についてお聞かせください",
+      "submit": "アクセス申請を送信",
+      "privacy": "送信することで、当社のデータ処理慣行に同意したものとみなされます。お客様の情報は TVK Infrastructure & Energy Systems により安全に取り扱われます。"
+    },
+    "faq": {
+      "q1": "承認にはどのくらいかかりますか？",
+      "a1": "アクセス申請は通常 3〜5 営業日以内に審査されます。承認後、次のステップを記載したメールが届きます。",
+      "q2": "プラットフォームアクセスには何が含まれますか？",
+      "a2": "承認されたユーザーには、ダッシュボードアクセス、監視ツール、ユースケースに応じたオプションの API 認証情報が提供されます。"
+    }
+  },
+  "footer": {
+    "platform": "プラットフォーム",
+    "solutions": "ソリューション",
+    "developers": "開発者",
+    "company": "会社",
+    "legal": "法務",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "お問い合わせ",
+    "description": "EnergieMIND は、ダッシュボード、マイナー監視、排熱回収、AI 最適化のためのエネルギーインテリジェンスプラットフォームです。"
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "インフラ監視、マイナーフリート管理、AI 駆動最適化のためのエネルギーインテリジェンスプラットフォーム。",
+      "contactType": "プラットフォームサポート"
+    },
+    "website": {
+      "description": "エネルギー運用、マイナー監視、排熱回収指標、AI 最適化のためのテクノロジープラットフォームおよびダッシュボード。"
+    }
+  },
+  "useCases": {
+    "operator": "施設オペレーター",
+    "partner": "インフラパートナー",
+    "developer": "API 開発者",
+    "energy": "エネルギーマネージャー",
+    "other": "その他"
+  }
+}

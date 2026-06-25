@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Energie-Intelligence-Plattform & Infrastruktur-Dashboard",
+      "description": "EnergieMIND ist die Technologieplattform für Energie-Dashboards, Miner-Überwachung, Wärmerückgewinnungsmetriken, KI-Optimierung und Infrastruktur-Intelligence. Entwickelt von TVK Infrastructure & Energy Systems.",
+      "keywords": "EnergieMIND, Energie-Dashboard, Miner-Überwachung, Wärmerückgewinnung, KI-Optimierung, Infrastruktur-Intelligence, TVK",
+      "ogTitle": "EnergieMIND — Energie-Intelligence-Plattform",
+      "ogDescription": "Zukünftiges Dashboard und Infrastruktur-Intelligence-Plattform für Energiebetrieb, Miner-Überwachung und KI-gestützte Optimierung.",
+      "twitterTitle": "EnergieMIND — Energie-Intelligence-Plattform",
+      "twitterDescription": "Technologieplattform für Energie-Dashboards, Miner-Überwachung, Wärmerückgewinnung und KI-Optimierung."
+    },
+    "dashboard": {
+      "title": "Energie-Dashboard — Echtzeit-Betriebszentrale | EnergieMIND",
+      "description": "Zentralisiertes Energie-Dashboard für die Echtzeitüberwachung von Stromverbrauch, Erzeugung, Effizienzkennzahlen und operativen KPIs in Ihrer gesamten Infrastruktur.",
+      "keywords": "Energie-Dashboard, Betriebszentrale, Echtzeitüberwachung, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND Energie-Dashboard",
+      "ogDescription": "Echtzeit-Betriebszentrale für Überwachung und Steuerung der Energieinfrastruktur.",
+      "twitterTitle": "EnergieMIND Energie-Dashboard",
+      "twitterDescription": "Zentralisiertes Dashboard für Energiebetrieb, KPIs und Infrastruktursteuerung."
+    },
+    "minerMonitoring": {
+      "title": "Miner-Überwachung — ASIC-Flotten-Intelligence | EnergieMIND",
+      "description": "Überwachen Sie ASIC-Miner-Flotten mit Hashrate-Tracking, Temperaturalarmen, Stromverbrauchsanalyse, Verfügbarkeitsberichten und Firmware-Status über alle Standorte hinweg.",
+      "keywords": "Miner-Überwachung, ASIC-Flotte, Hashrate, Mining-Infrastruktur, EnergieMIND",
+      "ogTitle": "EnergieMIND Miner-Überwachung",
+      "ogDescription": "ASIC-Flotten-Intelligence mit Hashrate-, Temperatur-, Strom- und Verfügbarkeitsüberwachung.",
+      "twitterTitle": "EnergieMIND Miner-Überwachung",
+      "twitterDescription": "Umfassende ASIC-Miner-Flottenüberwachung und Intelligence-Plattform."
+    },
+    "energyAnalytics": {
+      "title": "Energie-Analytik — Verbrauchs- & Effizienz-Intelligence | EnergieMIND",
+      "description": "Fortgeschrittene Energie-Analytik für Verbrauchsmuster, Kostenoptimierung, CO₂-Fußabdruck-Tracking und prädiktive Nachfrageprognosen über alle Anlagen hinweg.",
+      "keywords": "Energie-Analytik, Verbrauchsanalyse, Effizienz, CO₂-Tracking, EnergieMIND",
+      "ogTitle": "EnergieMIND Energie-Analytik",
+      "ogDescription": "Verbrauchsmuster, Kostenoptimierung und prädiktive Energie-Intelligence.",
+      "twitterTitle": "EnergieMIND Energie-Analytik",
+      "twitterDescription": "Fortgeschrittene Analytik für Energieverbrauch, Effizienz und Prognosen."
+    },
+    "heatRecovery": {
+      "title": "Wärmerückgewinnungsmetriken — Thermische Effizienz-Plattform | EnergieMIND",
+      "description": "Verfolgen Sie Wärmerückgewinnungsleistung, thermische Effizienzverhältnisse, Abwärmenutzung und Fernwärmeintegration aus Mining- und Industriebetrieben.",
+      "keywords": "Wärmerückgewinnung, thermische Effizienz, Abwärme, Fernwärme, EnergieMIND",
+      "ogTitle": "EnergieMIND Wärmerückgewinnungsmetriken",
+      "ogDescription": "Thermische Effizienzüberwachung und Abwärmenutzungs-Intelligence.",
+      "twitterTitle": "EnergieMIND Wärmerückgewinnungsmetriken",
+      "twitterDescription": "Überwachen Sie Wärmerückgewinnungsleistung und thermische Effizienz in allen Betrieben."
+    },
+    "aiOptimization": {
+      "title": "KI-Optimierung — Intelligentes Energiemanagement | EnergieMIND",
+      "description": "KI-gestützte Optimierung für Lastausgleich, vorausschauende Wartung, dynamische Leistungsverteilung und autonome Effizienzanpassung in der Energieinfrastruktur.",
+      "keywords": "KI-Optimierung, Energiemanagement, vorausschauende Wartung, Lastausgleich, EnergieMIND",
+      "ogTitle": "EnergieMIND KI-Optimierung",
+      "ogDescription": "Intelligentes Energiemanagement mit KI-gestütztem Lastausgleich und vorausschauender Wartung.",
+      "twitterTitle": "EnergieMIND KI-Optimierung",
+      "twitterDescription": "KI-gestützte Optimierung für Energieinfrastruktur und Mining-Betrieb."
+    },
+    "api": {
+      "title": "API & Entwickler — Integration mit der EnergieMIND-Plattform",
+      "description": "Entwicklerdokumentation, REST API-Referenz, Webhooks, SDKs und Integrationsleitfäden für die EnergieMIND Energie-Intelligence-Plattform.",
+      "keywords": "EnergieMIND API, Entwicklerdokumentation, REST API, SDK, Webhooks",
+      "ogTitle": "EnergieMIND API für Entwickler",
+      "ogDescription": "REST API, Webhooks und SDKs für die Integration der Energie-Intelligence-Plattform.",
+      "twitterTitle": "EnergieMIND API für Entwickler",
+      "twitterDescription": "Entwicklertools und API-Dokumentation für die EnergieMIND-Plattform."
+    },
+    "login": {
+      "title": "Anmeldung — Zugang zur EnergieMIND-Plattform",
+      "description": "Melden Sie sich beim EnergieMIND-Plattform-Dashboard an. Sicherer Zugang für autorisierte Betreiber, Anlagenleiter und Infrastrukturpartner.",
+      "keywords": "EnergieMIND Anmeldung, Plattformzugang, Dashboard-Anmeldung",
+      "ogTitle": "EnergieMIND Plattform-Anmeldung",
+      "ogDescription": "Sichere Anmeldung für autorisierte EnergieMIND-Plattformnutzer.",
+      "twitterTitle": "EnergieMIND Plattform-Anmeldung",
+      "twitterDescription": "Melden Sie sich bei Ihrem EnergieMIND Energie-Intelligence-Dashboard an."
+    },
+    "requestAccess": {
+      "title": "Plattformzugang anfordern — EnergieMIND",
+      "description": "Fordern Sie Zugang zur EnergieMIND Energie-Intelligence-Plattform an. Beantragen Sie Dashboard-Zugangsdaten, API-Schlüssel und Infrastrukturüberwachungstools.",
+      "keywords": "Zugang anfordern, Plattformantrag, EnergieMIND Registrierung",
+      "ogTitle": "EnergieMIND Plattformzugang anfordern",
+      "ogDescription": "Beantragen Sie Dashboard-Zugang, API-Schlüssel und Infrastrukturüberwachungstools.",
+      "twitterTitle": "EnergieMIND Plattformzugang anfordern",
+      "twitterDescription": "Beantragen Sie Zugang zur EnergieMIND Energie-Intelligence-Plattform."
+    }
+  },
+  "nav": {
+    "platform": "Plattform",
+    "dashboard": "Dashboard",
+    "minerMonitoring": "Miner-Überwachung",
+    "energyAnalytics": "Energie-Analytik",
+    "heatRecovery": "Wärmerückgewinnung",
+    "aiOptimization": "KI-Optimierung",
+    "api": "API / Entwickler",
+    "login": "Anmeldung",
+    "requestAccess": "Zugang anfordern",
+    "language": "Sprache",
+    "menu": "Menü",
+    "close": "Schließen"
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Jetzt starten",
+    "requestAccess": "Plattformzugang anfordern",
+    "viewDashboard": "Dashboard anzeigen",
+    "exploreApi": "API erkunden",
+    "comingSoon": "Demnächst verfügbar",
+    "readDocumentation": "Dokumentation lesen",
+    "contactSupport": "Support kontaktieren",
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "operatedBy": "Betrieben von TVK Infrastructure & Energy Systems LTD",
+    "partOf": "Teil des TVK Group-Ökosystems",
+    "home": "Startseite",
+    "relatedPages": "Verwandte Seiten",
+    "features": "Funktionen",
+    "faq": "Häufig gestellte Fragen",
+    "submit": "Absenden",
+    "submitting": "Wird gesendet...",
+    "email": "E-Mail",
+    "company": "Unternehmen",
+    "fullName": "Vollständiger Name",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "useCase": "Anwendungsfall",
+    "selectOption": "Option auswählen",
+    "required": "Pflichtfeld",
+    "successMessage": "Ihre Anfrage wurde übermittelt. Unser Team wird sich in Kürze bei Ihnen melden.",
+    "errorMessage": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "platformBadge": "Technologieplattform",
+    "underDevelopment": "Plattformmodule werden aktiv weiterentwickelt"
+  },
+  "home": {
+    "hero": {
+      "title": "Energie-Intelligence für Infrastrukturbetrieb",
+      "subtitle": "EnergieMIND ist die Technologieplattform und das zukünftige Dashboard für Energiebetrieb, Miner-Überwachung, Wärmerückgewinnungsmetriken und KI-gestützte Optimierung.",
+      "cta": "Plattformzugang anfordern",
+      "secondary": "Plattform erkunden"
+    },
+    "intro": {
+      "title": "Entwickelt für Energieinfrastruktur-Verantwortliche",
+      "description": "EnergieMIND vereint Echtzeitüberwachung, Analytik und intelligente Automatisierung für Mining-Anlagen, Erneuerbare-Energien-Standorte und industrielle Wärmebetriebe. Betrieben von TVK Infrastructure & Energy Systems im TVK Group-Ökosystem."
+    },
+    "features": {
+      "title": "Plattformfunktionen",
+      "dashboard": {
+        "title": "Energie-Dashboard",
+        "description": "Zentralisierte Betriebszentrale mit Echtzeit-KPIs, Alarmen und Multi-Standort-Übersicht."
+      },
+      "miner": {
+        "title": "Miner-Überwachung",
+        "description": "ASIC-Flotten-Intelligence mit Hashrate-, Temperatur-, Stromverbrauchs- und Verfügbarkeits-Tracking."
+      },
+      "analytics": {
+        "title": "Energie-Analytik",
+        "description": "Verbrauchsmuster, Kostenoptimierung und prädiktive Nachfrageprognosen."
+      },
+      "heat": {
+        "title": "Wärmerückgewinnungsmetriken",
+        "description": "Thermische Effizienzüberwachung und Abwärmenutzung in allen Betrieben."
+      },
+      "ai": {
+        "title": "KI-Optimierung",
+        "description": "Intelligenter Lastausgleich, vorausschauende Wartung und autonome Anpassung."
+      },
+      "api": {
+        "title": "API & Entwickler",
+        "description": "REST API, Webhooks und SDKs für nahtlose Plattformintegration."
+      }
+    },
+    "stats": {
+      "title": "Infrastruktur im großen Maßstab",
+      "sites": "Überwachte Standorte",
+      "sitesValue": "Multi-Standort",
+      "power": "Erfasste Leistung",
+      "powerValue": "MW Scale",
+      "languages": "Sprachen",
+      "languagesValue": "25+",
+      "uptime": "Plattform-Verfügbarkeit",
+      "uptimeValue": "99,9 %"
+    },
+    "cta": {
+      "title": "Bereit, Ihren Energiebetrieb zu transformieren?",
+      "description": "Fordern Sie Zugang zur EnergieMIND-Plattform an und schließen Sie sich Infrastrukturbetreibern an, die intelligentes Energiemanagement nutzen.",
+      "button": "Plattformzugang anfordern"
+    },
+    "faq": {
+      "q1": "Was ist EnergieMIND?",
+      "a1": "EnergieMIND ist eine Technologieplattform für Energie-Dashboards, Miner-Überwachung, Wärmerückgewinnungsmetriken und KI-Optimierung. Sie wird von TVK Infrastructure & Energy Systems als Teil des TVK Group-Ökosystems betrieben.",
+      "q2": "Wer kann auf die Plattform zugreifen?",
+      "a2": "Die Plattform richtet sich an Anlagenbetreiber, Infrastrukturpartner, Energiemanager und autorisierte TVK-Ökosystem-Teilnehmer. Fordern Sie Zugang über unser Antragsformular an.",
+      "q3": "Unterstützt EnergieMIND mehrere Sprachen?",
+      "a3": "Ja. Die Plattform-Website und das zukünftige Dashboard unterstützen 25 Sprachen mit vollständig lokalisierten Inhalten — keine maschinelle Übersetzung.",
+      "q4": "Wie steht EnergieMIND zur TVK Group?",
+      "a4": "EnergieMIND ist eine Energie-Intelligence-Marke, betrieben von TVK Infrastructure & Energy Systems LTD, neben EnteleKRON und anderen TVK-Ökosystem-Produkten."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Energie-Dashboard",
+      "subtitle": "Echtzeit-Betriebszentrale zur Überwachung von Stromverbrauch, Erzeugungseffizienz und Infrastruktur-KPIs in allen Ihren Anlagen."
+    },
+    "features": {
+      "title": "Dashboard-Funktionen",
+      "realtime": {
+        "title": "Echtzeitüberwachung",
+        "description": "Live-Stromverbrauch, Erzeugungsleistung und Effizienzkennzahlen, sekündlich aktualisiert."
+      },
+      "alerts": {
+        "title": "Intelligente Alarme",
+        "description": "Konfigurierbare Schwellenwerte mit sofortigen Benachrichtigungen bei Anomalien und kritischen Ereignissen."
+      },
+      "multisite": {
+        "title": "Multi-Standort-Ansicht",
+        "description": "Einheitliches Dashboard über Mining-Anlagen, Solarinstallationen und Industriestandorte hinweg."
+      },
+      "reports": {
+        "title": "Individuelle Berichte",
+        "description": "Geplante und bedarfsgesteuerte Berichte mit Export nach PDF, CSV und API-Endpunkten."
+      }
+    },
+    "faq": {
+      "q1": "Welche Kennzahlen zeigt das Dashboard an?",
+      "a1": "Das Dashboard zeigt Echtzeit-Stromverbrauch, Erzeugungsleistung, Effizienzverhältnisse, Kosten pro kWh, CO₂-Intensität, Verfügbarkeit und anlagenspezifisch konfigurierte KPIs.",
+      "q2": "Kann ich mehrere Standorte überwachen?",
+      "a2": "Ja. Die Multi-Standort-Ansicht bietet aggregierte und standortspezifische Kennzahlen mit Drill-down-Funktionen für detaillierte Analysen."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Miner-Überwachung",
+      "subtitle": "Umfassende ASIC-Flotten-Intelligence mit Hashrate-Tracking, thermischer Überwachung, Stromanalyse und Firmware-Status über alle Bereitstellungen hinweg."
+    },
+    "features": {
+      "title": "Überwachungsfunktionen",
+      "hashrate": {
+        "title": "Hashrate-Tracking",
+        "description": "Geräte- und flottenweite Hashrate mit historischen Trends und Leistungsbenchmarks."
+      },
+      "thermal": {
+        "title": "Thermische Überwachung",
+        "description": "Chip- und Umgebungstemperatur-Tracking mit prädiktiven Überhitzungsalarmen."
+      },
+      "power": {
+        "title": "Stromanalyse",
+        "description": "Stromverbrauch pro Einheit, Effizienzverhältnisse (J/TH) und Kostenverteilung nach Pool oder Anlage."
+      },
+      "firmware": {
+        "title": "Firmware-Status",
+        "description": "EnergieMIND Firmware-Versionsverfolgung, Update-Management und Konfigurationssynchronisierung."
+      }
+    },
+    "faq": {
+      "q1": "Welche Miner werden unterstützt?",
+      "a1": "Die Plattform unterstützt Antminer und kompatible ASIC-Geräte mit EnergieMIND-Firmware, mit geplanter Erweiterung auf weitere Hardwareplattformen.",
+      "q2": "Wie oft werden Daten aktualisiert?",
+      "a2": "Miner-Kennzahlen werden alle 30 Sekunden erfasst, mit Echtzeit-Streaming über die WebSocket API."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Energie-Analytik",
+      "subtitle": "Fortgeschrittene Analytik für Verbrauchsmuster, Kostenoptimierung, CO₂-Fußabdruck-Tracking und prädiktive Nachfrageprognosen."
+    },
+    "features": {
+      "title": "Analytik-Module",
+      "consumption": {
+        "title": "Verbrauchsanalyse",
+        "description": "Stündliche, tägliche und saisonale Verbrauchsmuster mit Anomalieerkennung."
+      },
+      "cost": {
+        "title": "Kostenoptimierung",
+        "description": "Zeitabhängige Nutzungsanalyse, Tarifoptimierung und Strategien zur Reduzierung von Leistungsspitzen."
+      },
+      "carbon": {
+        "title": "CO₂-Tracking",
+        "description": "Echtzeit-CO₂-Intensitätsüberwachung und Emissionsberichte für ESG-Compliance."
+      },
+      "forecast": {
+        "title": "Nachfrageprognose",
+        "description": "ML-gestützte Nachfragevorhersage für proaktive Kapazitätsplanung und Lastmanagement."
+      }
+    },
+    "faq": {
+      "q1": "Welche Datenquellen werden unterstützt?",
+      "a1": "Die Analytik-Engine integriert intelligente Zähler, SCADA-Systeme, Miner-Telemetrie, Wetter-APIs und benutzerdefinierte Datenfeeds über REST API.",
+      "q2": "Kann ich Analytikdaten exportieren?",
+      "a2": "Ja. Daten können über CSV, JSON exportiert oder programmatisch über die EnergieMIND API abgerufen werden."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Wärmerückgewinnungsmetriken",
+      "subtitle": "Verfolgen Sie thermische Effizienz, Abwärmenutzung und Fernwärmeintegration aus Mining- und Industriebetrieben."
+    },
+    "features": {
+      "title": "Thermische Intelligence",
+      "efficiency": {
+        "title": "Thermische Effizienz",
+        "description": "COP-Verhältnisse, Wärmeerfassungsraten und Systemeffizienz-Benchmarks im Zeitverlauf."
+      },
+      "waste": {
+        "title": "Abwärmenutzung",
+        "description": "Anteil der zurückgewonnenen Abwärme für Heizung, Trocknung oder Fernenergie."
+      },
+      "district": {
+        "title": "Fernwärme",
+        "description": "Integrationsmetriken für Fernwärmenetze und thermische Energiespeicherung."
+      },
+      "savings": {
+        "title": "Energieeinsparungen",
+        "description": "Quantifizierte Brennstoffeinsparungen und CO₂-Reduktion durch Wärmerückgewinnung."
+      }
+    },
+    "faq": {
+      "q1": "Wie wird Wärmerückgewinnung gemessen?",
+      "a1": "Thermosensoren, Durchflussmesser und Temperaturdifferenzberechnungen liefern Echtzeit-Wärmerückgewinnungsmetriken, integriert in das Plattform-Dashboard.",
+      "q2": "Welche Branchen profitieren?",
+      "a2": "Mining-Betriebe, Rechenzentren, industrielle Fertigung und Erneuerbare-Energien-Anlagen mit thermischen Nebenprodukten profitieren von der Wärmerückgewinnungsüberwachung."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "KI-Optimierung",
+      "subtitle": "Intelligentes Energiemanagement mit KI-gestütztem Lastausgleich, vorausschauender Wartung und autonomer Effizienzanpassung."
+    },
+    "features": {
+      "title": "KI-Funktionen",
+      "load": {
+        "title": "Lastausgleich",
+        "description": "Dynamische Leistungsverteilung über Miner und Anlagen basierend auf Strompreisen und Nachfrage."
+      },
+      "predictive": {
+        "title": "Vorausschauende Wartung",
+        "description": "ML-Modelle prognostizieren Hardwareausfälle, bevor sie eintreten, und reduzieren Ausfallzeiten und Reparaturkosten."
+      },
+      "autonomous": {
+        "title": "Autonome Anpassung",
+        "description": "Selbstanpassende Frequenz-, Spannungs- und Kühlungsparameter für optimale Effizienz."
+      },
+      "insights": {
+        "title": "Intelligence-Einblicke",
+        "description": "Umsetzbare Empfehlungen auf Basis historischer Daten und Echtzeitbedingungen."
+      }
+    },
+    "faq": {
+      "q1": "Welche KI-Modelle werden verwendet?",
+      "a1": "Die Plattform nutzt Ensemble-ML-Modelle für Nachfrageprognosen, Anomalieerkennung und Optimierung, trainiert mit Betriebsdaten aus TVK-Infrastrukturbereitstellungen.",
+      "q2": "Ist menschliche Aufsicht erforderlich?",
+      "a2": "KI-Empfehlungen können im Beratungsmodus oder im autonomen Modus arbeiten — je nach Betreibervorlieben und Sicherheitsanforderungen."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API & Entwickler",
+      "subtitle": "Integrieren Sie sich mit der EnergieMIND-Plattform über REST API, Webhooks und SDKs. Erstellen Sie individuelle Dashboards und Automatisierungsworkflows."
+    },
+    "features": {
+      "title": "Entwicklertools",
+      "rest": {
+        "title": "REST API",
+        "description": "Vollständige REST API mit OAuth 2.0-Authentifizierung und Ratenbegrenzung."
+      },
+      "webhooks": {
+        "title": "Webhooks",
+        "description": "Echtzeit-Ereignisbenachrichtigungen für Alarme, Statusänderungen und Kennzahlenschwellenwerte."
+      },
+      "sdk": {
+        "title": "SDKs",
+        "description": "Offizielle SDKs für Python, JavaScript und Go mit umfassender Dokumentation."
+      },
+      "sandbox": {
+        "title": "Sandbox-Umgebung",
+        "description": "Testen Sie Integrationen mit simulierten Daten, bevor Sie eine Verbindung zur Produktionsinfrastruktur herstellen."
+      }
+    },
+    "endpoints": {
+      "title": "API-Übersicht",
+      "metrics": "GET /v1/metrics — Energie- und Miner-Kennzahlen abrufen",
+      "sites": "GET /v1/sites — Überwachte Infrastrukturstandorte auflisten",
+      "alerts": "GET /v1/alerts — Aktive und historische Alarme abfragen",
+      "control": "POST /v1/control — Steuerbefehle an Geräte senden"
+    },
+    "faq": {
+      "q1": "Wie erhalte ich API-Zugang?",
+      "a1": "Fordern Sie Plattformzugang an und wählen Sie API-Zugang in Ihrem Antrag. Genehmigte Entwickler erhalten API-Schlüssel und Sandbox-Zugangsdaten.",
+      "q2": "Wie hoch ist das Ratenlimit?",
+      "a2": "Die Standardstufe erlaubt 1.000 Anfragen pro Minute. Enterprise-Stufen mit höheren Limits sind für groß angelegte Bereitstellungen verfügbar."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Plattform-Anmeldung",
+      "subtitle": "Melden Sie sich an, um auf Ihr EnergieMIND-Dashboard und Infrastrukturüberwachungstools zuzugreifen."
+    },
+    "form": {
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "remember": "Angemeldet bleiben",
+      "submit": "Anmelden",
+      "forgot": "Passwort vergessen?",
+      "noAccount": "Noch kein Konto?",
+      "requestAccess": "Plattformzugang anfordern"
+    },
+    "notice": "Die Plattform-Anmeldung ist derzeit nur für autorisierte Nutzer verfügbar. Fordern Sie Zugang an, um der EnergieMIND-Plattform beizutreten.",
+    "faq": {
+      "q1": "Wie erhalte ich Anmeldedaten?",
+      "a1": "Reichen Sie eine Plattformzugangsanfrage ein. Nach Genehmigung erhalten Sie Ihre Anmeldedaten per sicherer E-Mail.",
+      "q2": "Wird Zwei-Faktor-Authentifizierung unterstützt?",
+      "a2": "Ja. TOTP-basierte Zwei-Faktor-Authentifizierung ist für alle Plattformkonten erforderlich."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Plattformzugang anfordern",
+      "subtitle": "Beantragen Sie Zugang zur EnergieMIND Energie-Intelligence-Plattform, zum Dashboard und zu API-Tools."
+    },
+    "form": {
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "company": "Unternehmen / Organisation",
+      "phone": "Telefonnummer",
+      "useCase": "Hauptanwendungsfall",
+      "useCases": {
+        "operator": "Anlagenbetreiber",
+        "partner": "Infrastrukturpartner",
+        "developer": "API-Entwickler",
+        "energy": "Energiemanager",
+        "other": "Sonstiges"
+      },
+      "message": "Erzählen Sie uns von Ihrer Infrastruktur und Ihren Anforderungen",
+      "submit": "Zugangsanfrage absenden",
+      "privacy": "Mit dem Absenden stimmen Sie unseren Datenverarbeitungspraktiken zu. Ihre Informationen werden sicher von TVK Infrastructure & Energy Systems verarbeitet."
+    },
+    "faq": {
+      "q1": "Wie lange dauert die Genehmigung?",
+      "a1": "Zugangsanfragen werden in der Regel innerhalb von 3–5 Werktagen geprüft. Nach Genehmigung erhalten Sie eine E-Mail mit den nächsten Schritten.",
+      "q2": "Was ist im Plattformzugang enthalten?",
+      "a2": "Genehmigte Nutzer erhalten Dashboard-Zugang, Überwachungstools und optionale API-Zugangsdaten je nach Anwendungsfall."
+    }
+  },
+  "footer": {
+    "platform": "Plattform",
+    "solutions": "Lösungen",
+    "developers": "Entwickler",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "Kontakt",
+    "description": "EnergieMIND ist die Energie-Intelligence-Plattform für Dashboards, Miner-Überwachung, Wärmerückgewinnung und KI-Optimierung."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "Energie-Intelligence-Plattform für Infrastrukturüberwachung, Miner-Flottenmanagement und KI-gestützte Optimierung.",
+      "contactType": "Plattform-Support"
+    },
+    "website": {
+      "description": "Technologieplattform und Dashboard für Energiebetrieb, Miner-Überwachung, Wärmerückgewinnungsmetriken und KI-Optimierung."
+    }
+  },
+  "useCases": {
+    "operator": "Anlagenbetreiber",
+    "partner": "Infrastrukturpartner",
+    "developer": "API-Entwickler",
+    "energy": "Energiemanager",
+    "other": "Sonstiges"
+  }
+}

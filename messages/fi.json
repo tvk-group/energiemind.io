@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Energiaälykkyysalusta ja infrastruktuurin hallintapaneeli",
+      "description": "EnergieMIND on teknologia-alusta energian hallintapaneeleille, louhintalaitteiden seurannalle, lämmön talteenoton mittareille, tekoälyoptimoinnille ja infrastruktuuriälykkyydelle. Kehittäjä: TVK Infrastructure & Energy Systems.",
+      "keywords": "EnergieMIND, energian hallintapaneeli, louhintalaitteiden seuranta, lämmön talteenotto, tekoälyoptimointi, infrastruktuuriälykkyys, TVK",
+      "ogTitle": "EnergieMIND — Energiaälykkyysalusta",
+      "ogDescription": "Tulevaisuuden hallintapaneeli ja infrastruktuuriälykkyysalusta energian toiminnoille, louhintalaitteiden seurannalle ja tekoälypohjaiselle optimoinnille.",
+      "twitterTitle": "EnergieMIND — Energiaälykkyysalusta",
+      "twitterDescription": "Teknologia-alusta energian hallintapaneeleille, louhintalaitteiden seurannalle, lämmön talteenotolle ja tekoälyoptimoinnille."
+    },
+    "dashboard": {
+      "title": "Energian hallintapaneeli — Reaaliaikainen toimintakeskus | EnergieMIND",
+      "description": "Keskitetty energian hallintapaneeli sähkönkulutuksen, tuotannon, tehokkuusmittareiden ja operatiivisten KPI-indikaattoreiden reaaliaikaiseen seurantaan koko infrastruktuurissasi.",
+      "keywords": "energian hallintapaneeli, toimintakeskus, reaaliaikainen seuranta, KPI, EnergieMIND",
+      "ogTitle": "EnergieMIND Energian hallintapaneeli",
+      "ogDescription": "Reaaliaikainen toimintakeskus energiainfrastruktuurin seurantaan ja hallintaan.",
+      "twitterTitle": "EnergieMIND Energian hallintapaneeli",
+      "twitterDescription": "Keskitetty hallintapaneeli energian toiminnoille, KPI-indikaattoreille ja infrastruktuurin hallintaan."
+    },
+    "minerMonitoring": {
+      "title": "Louhintalaitteiden seuranta — ASIC-kaluston älykkyys | EnergieMIND",
+      "description": "Seuraa ASIC-louhintalaitteiden kalustoja hash raten seurannalla, lämpötilahälytyksillä, virrankulutusanalyysillä, käyttöaikaraportoinnilla ja laiteohjelmistotilalla kaikissa käyttöönotoissa.",
+      "keywords": "louhintalaitteiden seuranta, ASIC-kalusto, hash rate, louhintainfrastruktuuri, EnergieMIND",
+      "ogTitle": "EnergieMIND Louhintalaitteiden seuranta",
+      "ogDescription": "ASIC-kaluston älykkyys hash raten, lämpötilan, virran ja käyttöajan seurannalla.",
+      "twitterTitle": "EnergieMIND Louhintalaitteiden seuranta",
+      "twitterDescription": "Kattava ASIC-louhintalaitteiden kaluston seuranta- ja älykkyysalusta."
+    },
+    "energyAnalytics": {
+      "title": "Energia-analytiikka — Kulutus- ja tehokkuusälykkyys | EnergieMIND",
+      "description": "Edistynyt energia-analytiikka kulutuskuvioille, kustannusoptimoinnille, hiilijalanjäljen seurannalle ja ennakoivalle kysyntäennustukselle eri kohteissa.",
+      "keywords": "energia-analytiikka, kulutusanalyysi, tehokkuus, hiilijalanjälki, EnergieMIND",
+      "ogTitle": "EnergieMIND Energia-analytiikka",
+      "ogDescription": "Kulutuskuviot, kustannusoptimointi ja ennakoiva energiaälykkyys.",
+      "twitterTitle": "EnergieMIND Energia-analytiikka",
+      "twitterDescription": "Edistynyt analytiikka energiankulutukselle, tehokkuudelle ja ennustuksille."
+    },
+    "heatRecovery": {
+      "title": "Lämmön talteenoton mittarit — Lämpötehokkuusalusta | EnergieMIND",
+      "description": "Seuraa lämmön talteenoton suorituskykyä, lämpötehokkuussuhteita, hukkalämmön hyödyntämistä ja kaukolämmön integrointia louhinta- ja teollisuustoiminnoista.",
+      "keywords": "lämmön talteenotto, lämpötehokkuus, hukkalämpö, kaukolämpö, EnergieMIND",
+      "ogTitle": "EnergieMIND Lämmön talteenoton mittarit",
+      "ogDescription": "Lämpötehokkuuden seuranta ja hukkalämmön hyödyntämisen älykkyys.",
+      "twitterTitle": "EnergieMIND Lämmön talteenoton mittarit",
+      "twitterDescription": "Seuraa lämmön talteenoton suorituskykyä ja lämpötehokkuutta eri toiminnoissa."
+    },
+    "aiOptimization": {
+      "title": "Tekoälyoptimointi — Älykäs energianhallinta | EnergieMIND",
+      "description": "Tekoälypohjainen optimointi kuorman tasapainotukseen, ennakoivaan huoltoon, dynaamiseen virran jakamiseen ja autonomiseen tehokkuuden säätöön energiainfrastruktuurissa.",
+      "keywords": "tekoälyoptimointi, energianhallinta, ennakoiva huolto, kuorman tasapainotus, EnergieMIND",
+      "ogTitle": "EnergieMIND Tekoälyoptimointi",
+      "ogDescription": "Älykäs energianhallinta tekoälypohjaisella kuorman tasapainotuksella ja ennakoivalla huollolla.",
+      "twitterTitle": "EnergieMIND Tekoälyoptimointi",
+      "twitterDescription": "Tekoälypohjainen optimointi energiainfrastruktuurille ja louhintatoiminnoille."
+    },
+    "api": {
+      "title": "API ja kehittäjät — Integroi EnergieMIND-alustaan",
+      "description": "Kehittäjädokumentaatio, REST API -viite, webhookit, SDK:t ja integraatio-oppaat EnergieMIND energiaälykkyysalustalle.",
+      "keywords": "EnergieMIND API, kehittäjädokumentaatio, REST API, SDK, webhookit",
+      "ogTitle": "EnergieMIND API kehittäjille",
+      "ogDescription": "REST API, webhookit ja SDK:t energiaälykkyysalustan integrointiin.",
+      "twitterTitle": "EnergieMIND API kehittäjille",
+      "twitterDescription": "Kehittäjätyökalut ja API-dokumentaatio EnergieMIND-alustalle."
+    },
+    "login": {
+      "title": "Kirjautuminen — Pääsy EnergieMIND-alustaan",
+      "description": "Kirjaudu EnergieMIND-alustan hallintapaneeliin. Turvallinen pääsy valtuutetuille operaattoreille, laitospäälliköille ja infrastruktuurikumppaneille.",
+      "keywords": "EnergieMIND kirjautuminen, alustan pääsy, hallintapaneelin kirjautuminen",
+      "ogTitle": "EnergieMIND Alustan kirjautuminen",
+      "ogDescription": "Turvallinen kirjautuminen valtuutetuille EnergieMIND-alustan käyttäjille.",
+      "twitterTitle": "EnergieMIND Alustan kirjautuminen",
+      "twitterDescription": "Kirjaudu EnergieMIND energiaälykkyyden hallintapaneeliin."
+    },
+    "requestAccess": {
+      "title": "Pyydä alustan pääsyä — EnergieMIND",
+      "description": "Pyydä pääsyä EnergieMIND energiaälykkyysalustaan. Hae hallintapaneelin tunnuksia, API-avaimia ja infrastruktuurin seurantatyökaluja.",
+      "keywords": "pyydä pääsyä, alustan hakemus, EnergieMIND rekisteröityminen",
+      "ogTitle": "Pyydä pääsyä EnergieMIND-alustaan",
+      "ogDescription": "Hae hallintapaneelin pääsyä, API-avaimia ja infrastruktuurin seurantatyökaluja.",
+      "twitterTitle": "Pyydä pääsyä EnergieMIND-alustaan",
+      "twitterDescription": "Hae pääsyä EnergieMIND energiaälykkyysalustaan."
+    }
+  },
+  "nav": {
+    "platform": "Alusta",
+    "dashboard": "Hallintapaneeli",
+    "minerMonitoring": "Louhintalaitteiden seuranta",
+    "energyAnalytics": "Energia-analytiikka",
+    "heatRecovery": "Lämmön talteenotto",
+    "aiOptimization": "Tekoälyoptimointi",
+    "api": "API / Kehittäjät",
+    "login": "Kirjautuminen",
+    "requestAccess": "Pyydä pääsyä",
+    "language": "Kieli",
+    "menu": "Valikko",
+    "close": "Sulje"
+  },
+  "common": {
+    "learnMore": "Lue lisää",
+    "getStarted": "Aloita",
+    "requestAccess": "Pyydä alustan pääsyä",
+    "viewDashboard": "Näytä hallintapaneeli",
+    "exploreApi": "Tutustu API:in",
+    "comingSoon": "Tulossa pian",
+    "readDocumentation": "Lue dokumentaatio",
+    "contactSupport": "Ota yhteyttä tukeen",
+    "allRightsReserved": "Kaikki oikeudet pidätetään.",
+    "operatedBy": "Operoi TVK Infrastructure & Energy Systems LTD",
+    "partOf": "Osa TVK Group -ekosysteemiä",
+    "home": "Etusivu",
+    "relatedPages": "Aiheeseen liittyvät sivut",
+    "features": "Ominaisuudet",
+    "faq": "Usein kysytyt kysymykset",
+    "submit": "Lähetä",
+    "submitting": "Lähetetään...",
+    "email": "Sähköposti",
+    "company": "Yritys",
+    "fullName": "Koko nimi",
+    "phone": "Puhelin",
+    "message": "Viesti",
+    "useCase": "Käyttötarkoitus",
+    "selectOption": "Valitse vaihtoehto",
+    "required": "Pakollinen kenttä",
+    "successMessage": "Pyyntösi on lähetetty. Tiimimme ottaa sinuun yhteyttä pian.",
+    "errorMessage": "Tapahtui virhe. Yritä uudelleen.",
+    "platformBadge": "Teknologia-alusta",
+    "underDevelopment": "Alustan moduulit ovat aktiivisessa kehityksessä"
+  },
+  "home": {
+    "hero": {
+      "title": "Energiaälykkyys infrastruktuurin toimintoihin",
+      "subtitle": "EnergieMIND on teknologia-alusta ja tulevaisuuden hallintapaneeli energian toiminnoille, louhintalaitteiden seurannalle, lämmön talteenoton mittareille ja tekoälypohjaiselle optimoinnille.",
+      "cta": "Pyydä alustan pääsyä",
+      "secondary": "Tutustu alustaan"
+    },
+    "intro": {
+      "title": "Rakennettu energiainfrastruktuurin johtajille",
+      "description": "EnergieMIND yhdistää reaaliaikaisen seurannan, analytiikan ja älykkään automaation louhintalaitoksille, uusiutuvan energian kohteille ja teollisiin lämpötoimintoihin. Operoi TVK Infrastructure & Energy Systems TVK Group -ekosysteemissä."
+    },
+    "features": {
+      "title": "Alustan ominaisuudet",
+      "dashboard": {
+        "title": "Energian hallintapaneeli",
+        "description": "Keskitetty toimintakeskus reaaliaikaisilla KPI-indikaattoreilla, hälytyksillä ja monipaikkainen näkyvyys."
+      },
+      "miner": {
+        "title": "Louhintalaitteiden seuranta",
+        "description": "ASIC-kaluston älykkyys hash raten, lämpötilan, virrankulutuksen ja käyttöajan seurannalla."
+      },
+      "analytics": {
+        "title": "Energia-analytiikka",
+        "description": "Kulutuskuviot, kustannusoptimointi ja ennakoiva kysyntäennustus."
+      },
+      "heat": {
+        "title": "Lämmön talteenoton mittarit",
+        "description": "Lämpötehokkuuden seuranta ja hukkalämmön hyödyntäminen eri toiminnoissa."
+      },
+      "ai": {
+        "title": "Tekoälyoptimointi",
+        "description": "Älykäs kuorman tasapainotus, ennakoiva huolto ja autonominen säätö."
+      },
+      "api": {
+        "title": "API ja kehittäjät",
+        "description": "REST API, webhookit ja SDK:t saumattomaan alustan integrointiin."
+      }
+    },
+    "stats": {
+      "title": "Infrastruktuuria laajassa mittakaavassa",
+      "sites": "Seurattavat kohteet",
+      "sitesValue": "Monipaikkaisuus",
+      "power": "Seurattava teho",
+      "powerValue": "MW-mittakaava",
+      "languages": "Kielet",
+      "languagesValue": "25+",
+      "uptime": "Alustan käyttöaika",
+      "uptimeValue": "99,9 %"
+    },
+    "cta": {
+      "title": "Valmis muuttamaan energian toimintojasi?",
+      "description": "Pyydä pääsyä EnergieMIND-alustaan ja liity infrastruktuurin operaattoreihin, jotka käyttävät älykästä energianhallintaa.",
+      "button": "Pyydä alustan pääsyä"
+    },
+    "faq": {
+      "q1": "Mikä on EnergieMIND?",
+      "a1": "EnergieMIND on teknologia-alusta energian hallintapaneeleille, louhintalaitteiden seurannalle, lämmön talteenoton mittareille ja tekoälyoptimoinnille. Sen operoi TVK Infrastructure & Energy Systems osana TVK Group -ekosysteemiä.",
+      "q2": "Kuka voi käyttää alustaa?",
+      "a2": "Alusta on suunniteltu laitosoperaattoreille, infrastruktuurikumppaneille, energianhallinnan asiantuntijoille ja valtuutetuille TVK-ekosysteemin osallistujille. Pyydä pääsyä hakemuslomakkeemme kautta.",
+      "q3": "Tukeeko EnergieMIND useita kieliä?",
+      "a3": "Kyllä. Alustan verkkosivusto ja tuleva hallintapaneeli tukevat 25 kieltä täysin lokalisoidulla sisällöllä, ei konekäännöksellä.",
+      "q4": "Miten EnergieMIND liittyy TVK Groupiin?",
+      "a4": "EnergieMIND on energiaälykkyysbrändi, jota operoi TVK Infrastructure & Energy Systems LTD, yhdessä EnteleKRONin ja muiden TVK-ekosysteemin tuotteiden kanssa."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Energian hallintapaneeli",
+      "subtitle": "Reaaliaikainen toimintakeskus sähkönkulutuksen, tuotantotehokkuuden ja infrastruktuurin KPI-indikaattoreiden seurantaan kaikissa kohteissasi."
+    },
+    "features": {
+      "title": "Hallintapaneelin ominaisuudet",
+      "realtime": {
+        "title": "Reaaliaikainen seuranta",
+        "description": "Live-sähkönkulutus, tuotantoteho ja tehokkuusmittarit päivitettynä joka sekunti."
+      },
+      "alerts": {
+        "title": "Älykkäät hälytykset",
+        "description": "Määritettävät kynnysarvot ja välittömät ilmoitukset poikkeamista ja kriittisistä tapahtumista."
+      },
+      "multisite": {
+        "title": "Monipaikkainen näkymä",
+        "description": "Yhdistetty hallintapaneeli louhintalaitoksille, aurinkovoimaloille ja teollisuuskohteille."
+      },
+      "reports": {
+        "title": "Mukautetut raportit",
+        "description": "Ajoitetut ja tarvittaessa luotavat raportit vientiin PDF-, CSV- ja API-päätepisteisiin."
+      }
+    },
+    "faq": {
+      "q1": "Mitä mittareita hallintapaneeli näyttää?",
+      "a1": "Hallintapaneeli näyttää reaaliaikaisen sähkönkulutuksen, tuotantotehon, tehokkuussuhteet, kustannuksen kWh:ssa, hiilidioksidipäästöjen intensiteetin, käyttöajan ja kohtekohtaiset mukautetut KPI-indikaattorit.",
+      "q2": "Voinko seurata useita kohteita?",
+      "a2": "Kyllä. Monipaikkainen näkymä tarjoaa yhdistetyt ja kohtekohtaiset mittarit tarkempaan analyysiin porautumismahdollisuudella."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Louhintalaitteiden seuranta",
+      "subtitle": "Kattava ASIC-kaluston älykkyys hash raten seurannalla, lämpöseurannalla, virranalyysillä ja laiteohjelmistotilalla kaikissa käyttöönotoissa."
+    },
+    "features": {
+      "title": "Seurantaominaisuudet",
+      "hashrate": {
+        "title": "Hash raten seuranta",
+        "description": "Laitekohtainen ja koko kaluston hash rate historiallisilla trendeillä ja suorituskykyvertailuarvoilla."
+      },
+      "thermal": {
+        "title": "Lämpöseuranta",
+        "description": "Sirun ja ympäristön lämpötilan seuranta ennakoivilla ylikuumenemishälytyksillä."
+      },
+      "power": {
+        "title": "Virranalyysi",
+        "description": "Laitekohtainen virrankulutus, tehokkuussuhteet (J/TH) ja kustannusjako poolin tai kohteen mukaan."
+      },
+      "firmware": {
+        "title": "Laiteohjelmistotila",
+        "description": "EnergieMIND laiteohjelmistoversion seuranta, päivitysten hallinta ja konfiguraation synkronointi."
+      }
+    },
+    "faq": {
+      "q1": "Mitä louhintalaitteita tuetaan?",
+      "a1": "Alusta tukee Antminer- ja yhteensopivia ASIC-laitteita, joissa on EnergieMIND laiteohjelmisto, ja laajennus muihin laitteistoalustoihin on suunnitteilla.",
+      "q2": "Kuinka usein data päivitetään?",
+      "a2": "Louhintalaitteiden mittarit kerätään 30 sekunnin välein, ja reaaliaikainen suoratoisto on saatavilla WebSocket API:n kautta."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Energia-analytiikka",
+      "subtitle": "Edistynyt analytiikka kulutuskuvioille, kustannusoptimoinnille, hiilijalanjäljen seurannalle ja ennakoivalle kysyntäennustukselle."
+    },
+    "features": {
+      "title": "Analytiikkamoduulit",
+      "consumption": {
+        "title": "Kulutusanalyysi",
+        "description": "Tunti-, päivä- ja kausikohtaiset kulutuskuviot poikkeamien tunnistuksella."
+      },
+      "cost": {
+        "title": "Kustannusoptimointi",
+        "description": "Aikaperusteinen analyysi, tariffioptimointi ja tehomaksujen vähentämisstrategiat."
+      },
+      "carbon": {
+        "title": "Hiilijalanjäljen seuranta",
+        "description": "Reaaliaikainen hiilidioksidipäästöjen intensiteetin seuranta ja päästöraportointi ESG-vaatimusten täyttämiseksi."
+      },
+      "forecast": {
+        "title": "Kysyntäennustus",
+        "description": "ML-pohjainen kysyntäennustus ennakoivaan kapasiteettisuunnitteluun ja kuormanhallintaan."
+      }
+    },
+    "faq": {
+      "q1": "Mitä datalähteitä tuetaan?",
+      "a1": "Analytiikkamoottori integroituu älymittareihin, SCADA-järjestelmiin, louhintalaitteiden telemetriaan, sää-API:hin ja mukautettuihin datavirtoihin REST API:n kautta.",
+      "q2": "Voinko viedä analytiikkadataa?",
+      "a2": "Kyllä. Data voidaan viedä CSV- tai JSON-muodossa tai käyttää ohjelmallisesti EnergieMIND API:n kautta."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Lämmön talteenoton mittarit",
+      "subtitle": "Seuraa lämpötehokkuutta, hukkalämmön hyödyntämistä ja kaukolämmön integrointia louhinta- ja teollisuustoiminnoista."
+    },
+    "features": {
+      "title": "Lämpöälykkyys",
+      "efficiency": {
+        "title": "Lämpötehokkuus",
+        "description": "COP-suhteet, lämmön talteenottoprosentit ja järjestelmän tehokkuusvertailuarvot ajan myötä."
+      },
+      "waste": {
+        "title": "Hukkalämmön hyödyntäminen",
+        "description": "Talteenotetun hukkalämmön osuus lämmitykseen, kuivaukseen tai kaukoenergiaan."
+      },
+      "district": {
+        "title": "Kaukolämpö",
+        "description": "Integrointimittarit kaukolämpöverkoille ja lämpöenergian varastointiin."
+      },
+      "savings": {
+        "title": "Energiansäästöt",
+        "description": "Mitattavat polttoainesäästöt ja hiilidioksidipäästöjen vähennys lämmön talteenottotoiminnoista."
+      }
+    },
+    "faq": {
+      "q1": "Miten lämmön talteenotto mitataan?",
+      "a1": "Lämpöanturit, virtausmittarit ja lämpötilaerojen laskelmat tarjoavat reaaliaikaiset lämmön talteenoton mittarit integroituna alustan hallintapaneeliin.",
+      "q2": "Mitkä toimialat hyötyvät?",
+      "a2": "Louhintatoiminnot, datakeskukset, teollinen valmistus ja uusiutuvan energian laitokset lämpöjätevirtoineen hyötyvät lämmön talteenoton seurannasta."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "Tekoälyoptimointi",
+      "subtitle": "Älykäs energianhallinta tekoälypohjaisella kuorman tasapainotuksella, ennakoivalla huollolla ja autonomisella tehokkuuden säätöllä."
+    },
+    "features": {
+      "title": "Tekoälyominaisuudet",
+      "load": {
+        "title": "Kuorman tasapainotus",
+        "description": "Dynaaminen virran jako louhintalaitteiden ja kohteiden välillä sähkön hintojen ja kysynnän perusteella."
+      },
+      "predictive": {
+        "title": "Ennakoiva huolto",
+        "description": "ML-mallit ennustavat laitteistoviat ennen niiden ilmenemistä, vähentäen käyttökatkoja ja korjauskustannuksia."
+      },
+      "autonomous": {
+        "title": "Autonominen säätö",
+        "description": "Itsesäätöinen taajuus, jännite ja jäähdytysparametrit optimaaliseen tehokkuuteen."
+      },
+      "insights": {
+        "title": "Älykkäät oivallukset",
+        "description": "Toimintasuositukset historiallisen datan ja reaaliaikaisten olosuhteiden pohjalta."
+      }
+    },
+    "faq": {
+      "q1": "Mitä tekoälymalleja käytetään?",
+      "a1": "Alusta käyttää ensemble ML -malleja kysyntäennustukseen, poikkeamien tunnistukseen ja optimointiin, koulutettuna TVK-infrastruktuurin käyttöönottodatalla.",
+      "q2": "Vaatiiko se ihmisen valvontaa?",
+      "a2": "Tekoälysuositukset voivat toimia neuvontatilassa tai autonomisessa tilassa operaattorin mieltymysten ja turvallisuusrajoitusten mukaan."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API ja kehittäjät",
+      "subtitle": "Integroi EnergieMIND-alustaan REST API:n, webhookien ja SDK:iden avulla. Rakenna mukautettuja hallintapaneeleja ja automaatiotyönkulkuja."
+    },
+    "features": {
+      "title": "Kehittäjätyökalut",
+      "rest": {
+        "title": "REST API",
+        "description": "Täysiverinen REST API OAuth 2.0 -todennuksella ja pyyntörajoituksilla."
+      },
+      "webhooks": {
+        "title": "Webhookit",
+        "description": "Reaaliaikaiset tapahtumailmoitukset hälytyksistä, tilamuutoksista ja mittarikynnysarvoista."
+      },
+      "sdk": {
+        "title": "SDK:t",
+        "description": "Viralliset SDK:t Pythonille, JavaScriptille ja Golle kattavalla dokumentaatiolla."
+      },
+      "sandbox": {
+        "title": "Sandbox-ympäristö",
+        "description": "Testaa integraatioita simuloidulla datalla ennen yhteyttä tuotantoinfrastruktuuriin."
+      }
+    },
+    "endpoints": {
+      "title": "API-yleiskatsaus",
+      "metrics": "GET /v1/metrics — Hae energia- ja louhintalaitteiden mittarit",
+      "sites": "GET /v1/sites — Listaa seuratut infrastruktuurikohteet",
+      "alerts": "GET /v1/alerts — Hae aktiiviset ja historialliset hälytykset",
+      "control": "POST /v1/control — Lähetä ohjauskomentoja laitteille"
+    },
+    "faq": {
+      "q1": "Miten saan API-pääsyn?",
+      "a1": "Pyydä alustan pääsyä ja valitse API-pääsy hakemuksessasi. Hyväksytyt kehittäjät saavat API-avaimet ja sandbox-tunnukset.",
+      "q2": "Mikä on pyyntörajoitus?",
+      "a2": "Vakiotaso sallii 1 000 pyyntöä minuutissa. Yritystasot korkeammilla rajoilla ovat saatavilla laajoihin käyttöönottoihin."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Alustan kirjautuminen",
+      "subtitle": "Kirjaudu sisään käyttääksesi EnergieMIND-hallintapaneelia ja infrastruktuurin seurantatyökaluja."
+    },
+    "form": {
+      "email": "Sähköpostiosoite",
+      "password": "Salasana",
+      "remember": "Muista minut",
+      "submit": "Kirjaudu sisään",
+      "forgot": "Unohditko salasanan?",
+      "noAccount": "Eikö sinulla ole tiliä?",
+      "requestAccess": "Pyydä alustan pääsyä"
+    },
+    "notice": "Alustan kirjautuminen on tällä hetkellä vain valtuutetuille käyttäjille. Pyydä pääsyä liittyäksesi EnergieMIND-alustaan.",
+    "faq": {
+      "q1": "Miten saan kirjautumistunnukset?",
+      "a1": "Lähetä alustan pääsypyyntö. Hyväksynnän jälkeen saat kirjautumistunnukset turvallisella sähköpostilla.",
+      "q2": "Tuetaanko kaksivaiheista tunnistautumista?",
+      "a2": "Kyllä. TOTP-pohjainen kaksivaiheinen tunnistautuminen vaaditaan kaikille alustan tileille."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Pyydä alustan pääsyä",
+      "subtitle": "Hae pääsyä EnergieMIND energiaälykkyysalustaan, hallintapaneeliin ja API-työkaluihin."
+    },
+    "form": {
+      "fullName": "Koko nimi",
+      "email": "Sähköpostiosoite",
+      "company": "Yritys / Organisaatio",
+      "phone": "Puhelinnumero",
+      "useCase": "Ensisijainen käyttötarkoitus",
+      "useCases": {
+        "operator": "Laitosoperaattori",
+        "partner": "Infrastruktuurikumppani",
+        "developer": "API-kehittäjä",
+        "energy": "Energianhallinnan asiantuntija",
+        "other": "Muu"
+      },
+      "message": "Kerro meille infrastruktuuristasi ja vaatimuksistasi",
+      "submit": "Lähetä pääsypyyntö",
+      "privacy": "Lähettämällä hyväksyt tietojenkäsittelykäytäntömme. Tietojasi käsitellään turvallisesti TVK Infrastructure & Energy Systemsin toimesta."
+    },
+    "faq": {
+      "q1": "Kuinka kauan hyväksyntä kestää?",
+      "a1": "Pääsypyynnöt käsitellään tyypillisesti 3–5 arkipäivän kuluessa. Saat sähköpostin seuraavista vaiheista hyväksynnän yhteydessä.",
+      "q2": "Mitä alustan pääsy sisältää?",
+      "a2": "Hyväksytyt käyttäjät saavat hallintapaneelin pääsyn, seurantatyökalut ja valinnaiset API-tunnukset käyttötarkoituksensa mukaan."
+    }
+  },
+  "footer": {
+    "platform": "Alusta",
+    "solutions": "Ratkaisut",
+    "developers": "Kehittäjät",
+    "company": "Yritys",
+    "legal": "Oikeudelliset",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "Yhteystiedot",
+    "description": "EnergieMIND on energiaälykkyysalusta hallintapaneeleille, louhintalaitteiden seurannalle, lämmön talteenotolle ja tekoälyoptimoinnille."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "Energiaälykkyysalusta infrastruktuurin seurantaan, louhintalaitteiden kaluston hallintaan ja tekoälypohjaiseen optimointiin.",
+      "contactType": "Alustan tuki"
+    },
+    "website": {
+      "description": "Teknologia-alusta ja hallintapaneeli energian toiminnoille, louhintalaitteiden seurannalle, lämmön talteenoton mittareille ja tekoälyoptimoinnille."
+    }
+  },
+  "useCases": {
+    "operator": "Laitosoperaattori",
+    "partner": "Infrastruktuurikumppani",
+    "developer": "API-kehittäjä",
+    "energy": "Energianhallinnan asiantuntija",
+    "other": "Muu"
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "siteName": "EnergieMIND",
+    "home": {
+      "title": "EnergieMIND — Platform inteligencji energetycznej i panel infrastruktury",
+      "description": "EnergieMIND to platforma technologiczna do paneli energetycznych, monitorowania koparek, metryk odzysku ciepła, optymalizacji AI i inteligencji infrastrukturalnej. Stworzona przez TVK Infrastructure & Energy Systems.",
+      "keywords": "EnergieMIND, panel energetyczny, monitorowanie koparek, odzysk ciepła, optymalizacja AI, inteligencja infrastrukturalna, TVK",
+      "ogTitle": "EnergieMIND — Platforma inteligencji energetycznej",
+      "ogDescription": "Przyszły panel i platforma inteligencji infrastrukturalnej do operacji energetycznych, monitorowania koparek i optymalizacji opartej na AI.",
+      "twitterTitle": "EnergieMIND — Platforma inteligencji energetycznej",
+      "twitterDescription": "Platforma technologiczna do paneli energetycznych, monitorowania koparek, odzysku ciepła i optymalizacji AI."
+    },
+    "dashboard": {
+      "title": "Panel energetyczny — Centrum operacji w czasie rzeczywistym | EnergieMIND",
+      "description": "Scentralizowany panel energetyczny do monitorowania w czasie rzeczywistym zużycia energii, wytwarzania, wskaźników efektywności i operacyjnych KPI w całej infrastrukturze.",
+      "keywords": "panel energetyczny, centrum operacji, monitorowanie w czasie rzeczywistym, KPI, EnergieMIND",
+      "ogTitle": "Panel energetyczny EnergieMIND",
+      "ogDescription": "Centrum operacji w czasie rzeczywistym do monitorowania i sterowania infrastrukturą energetyczną.",
+      "twitterTitle": "Panel energetyczny EnergieMIND",
+      "twitterDescription": "Scentralizowany panel do operacji energetycznych, KPI i sterowania infrastrukturą."
+    },
+    "minerMonitoring": {
+      "title": "Monitorowanie koparek — Inteligencja floty ASIC | EnergieMIND",
+      "description": "Monitoruj floty koparek ASIC z śledzeniem hash rate, alertami temperaturowymi, analizą poboru mocy, raportowaniem uptime i statusem firmware we wszystkich wdrożeniach.",
+      "keywords": "monitorowanie koparek, flota ASIC, hash rate, infrastruktura wydobywcza, EnergieMIND",
+      "ogTitle": "Monitorowanie koparek EnergieMIND",
+      "ogDescription": "Inteligencja floty ASIC z monitorowaniem hash rate, temperatury, mocy i uptime.",
+      "twitterTitle": "Monitorowanie koparek EnergieMIND",
+      "twitterDescription": "Kompletna platforma monitorowania i inteligencji floty koparek ASIC."
+    },
+    "energyAnalytics": {
+      "title": "Analityka energetyczna — Inteligencja zużycia i efektywności | EnergieMIND",
+      "description": "Zaawansowana analityka energetyczna do analizy wzorców zużycia, optymalizacji kosztów, śledzenia śladu węglowego i predykcyjnego prognozowania popytu w obiektach.",
+      "keywords": "analityka energetyczna, analiza zużycia, efektywność, śledzenie emisji, EnergieMIND",
+      "ogTitle": "Analityka energetyczna EnergieMIND",
+      "ogDescription": "Wzorce zużycia, optymalizacja kosztów i predykcyjna inteligencja energetyczna.",
+      "twitterTitle": "Analityka energetyczna EnergieMIND",
+      "twitterDescription": "Zaawansowana analityka zużycia energii, efektywności i prognozowania."
+    },
+    "heatRecovery": {
+      "title": "Metryki odzysku ciepła — Platforma efektywności termicznej | EnergieMIND",
+      "description": "Śledź wydajność odzysku ciepła, współczynniki efektywności termicznej, wykorzystanie ciepła odpadowego i integrację z ciepłownictwem miejskim z operacji wydobywczych i przemysłowych.",
+      "keywords": "odzysk ciepła, efektywność termiczna, ciepło odpadowe, ciepłownictwo miejskie, EnergieMIND",
+      "ogTitle": "Metryki odzysku ciepła EnergieMIND",
+      "ogDescription": "Śledzenie efektywności termicznej i inteligencja wykorzystania ciepła odpadowego.",
+      "twitterTitle": "Metryki odzysku ciepła EnergieMIND",
+      "twitterDescription": "Monitoruj wydajność odzysku ciepła i efektywność termiczną w operacjach."
+    },
+    "aiOptimization": {
+      "title": "Optymalizacja AI — Inteligentne zarządzanie energią | EnergieMIND",
+      "description": "Optymalizacja oparta na AI do równoważenia obciążenia, konserwacji predykcyjnej, dynamicznej alokacji mocy i autonomicznego dostrajania efektywności w infrastrukturze energetycznej.",
+      "keywords": "optymalizacja AI, zarządzanie energią, konserwacja predykcyjna, równoważenie obciążenia, EnergieMIND",
+      "ogTitle": "Optymalizacja AI EnergieMIND",
+      "ogDescription": "Inteligentne zarządzanie energią z równoważeniem obciążenia opartym na AI i konserwacją predykcyjną.",
+      "twitterTitle": "Optymalizacja AI EnergieMIND",
+      "twitterDescription": "Optymalizacja oparta na AI dla infrastruktury energetycznej i operacji wydobywczych."
+    },
+    "api": {
+      "title": "API i deweloperzy — Integracja z platformą EnergieMIND",
+      "description": "Dokumentacja dla deweloperów, referencja REST API, webhooki, SDK i przewodniki integracji dla platformy inteligencji energetycznej EnergieMIND.",
+      "keywords": "API EnergieMIND, dokumentacja deweloperska, REST API, SDK, webhooki",
+      "ogTitle": "API EnergieMIND dla deweloperów",
+      "ogDescription": "REST API, webhooki i SDK do integracji z platformą inteligencji energetycznej.",
+      "twitterTitle": "API EnergieMIND dla deweloperów",
+      "twitterDescription": "Narzędzia deweloperskie i dokumentacja API platformy EnergieMIND."
+    },
+    "login": {
+      "title": "Logowanie — Dostęp do platformy EnergieMIND",
+      "description": "Zaloguj się do panelu platformy EnergieMIND. Bezpieczny dostęp dla autoryzowanych operatorów, menedżerów obiektów i partnerów infrastrukturalnych.",
+      "keywords": "logowanie EnergieMIND, dostęp do platformy, logowanie do panelu",
+      "ogTitle": "Logowanie do platformy EnergieMIND",
+      "ogDescription": "Bezpieczne logowanie dla autoryzowanych użytkowników platformy EnergieMIND.",
+      "twitterTitle": "Logowanie do platformy EnergieMIND",
+      "twitterDescription": "Zaloguj się do panelu inteligencji energetycznej EnergieMIND."
+    },
+    "requestAccess": {
+      "title": "Wniosek o dostęp do platformy — EnergieMIND",
+      "description": "Złóż wniosek o dostęp do platformy inteligencji energetycznej EnergieMIND. Uzyskaj dane logowania do panelu, klucze API i narzędzia monitorowania infrastruktury.",
+      "keywords": "wniosek o dostęp, aplikacja platformowa, rejestracja EnergieMIND",
+      "ogTitle": "Wniosek o dostęp do platformy EnergieMIND",
+      "ogDescription": "Złóż wniosek o dostęp do panelu, klucze API i narzędzia monitorowania infrastruktury.",
+      "twitterTitle": "Wniosek o dostęp do platformy EnergieMIND",
+      "twitterDescription": "Złóż wniosek o dostęp do platformy inteligencji energetycznej EnergieMIND."
+    }
+  },
+  "nav": {
+    "platform": "Platforma",
+    "dashboard": "Panel",
+    "minerMonitoring": "Monitorowanie koparek",
+    "energyAnalytics": "Analityka energetyczna",
+    "heatRecovery": "Odzysk ciepła",
+    "aiOptimization": "Optymalizacja AI",
+    "api": "API / Deweloperzy",
+    "login": "Logowanie",
+    "requestAccess": "Wniosek o dostęp",
+    "language": "Język",
+    "menu": "Menu",
+    "close": "Zamknij"
+  },
+  "common": {
+    "learnMore": "Dowiedz się więcej",
+    "getStarted": "Rozpocznij",
+    "requestAccess": "Wniosek o dostęp do platformy",
+    "viewDashboard": "Zobacz panel",
+    "exploreApi": "Poznaj API",
+    "comingSoon": "Wkrótce",
+    "readDocumentation": "Przeczytaj dokumentację",
+    "contactSupport": "Skontaktuj się z pomocą techniczną",
+    "allRightsReserved": "Wszelkie prawa zastrzeżone.",
+    "operatedBy": "Obsługiwane przez TVK Infrastructure & Energy Systems LTD",
+    "partOf": "Część ekosystemu TVK Group",
+    "home": "Strona główna",
+    "relatedPages": "Powiązane strony",
+    "features": "Funkcje",
+    "faq": "Często zadawane pytania",
+    "submit": "Wyślij",
+    "submitting": "Wysyłanie...",
+    "email": "E-mail",
+    "company": "Firma",
+    "fullName": "Imię i nazwisko",
+    "phone": "Telefon",
+    "message": "Wiadomość",
+    "useCase": "Przypadek użycia",
+    "selectOption": "Wybierz opcję",
+    "required": "Pole wymagane",
+    "successMessage": "Twój wniosek został wysłany. Nasz zespół skontaktuje się z Tobą wkrótce.",
+    "errorMessage": "Wystąpił błąd. Spróbuj ponownie.",
+    "platformBadge": "Platforma technologiczna",
+    "underDevelopment": "Moduły platformy są aktywnie rozwijane"
+  },
+  "home": {
+    "hero": {
+      "title": "Inteligencja energetyczna dla operacji infrastrukturalnych",
+      "subtitle": "EnergieMIND to platforma technologiczna i przyszły panel do operacji energetycznych, monitorowania koparek, metryk odzysku ciepła i optymalizacji opartej na AI.",
+      "cta": "Wniosek o dostęp do platformy",
+      "secondary": "Poznaj platformę"
+    },
+    "intro": {
+      "title": "Stworzona dla liderów infrastruktury energetycznej",
+      "description": "EnergieMIND łączy monitorowanie w czasie rzeczywistym, analitykę i inteligentną automatyzację dla obiektów wydobywczych, lokalizacji energii odnawialnej i przemysłowych operacji termicznych. Obsługiwana przez TVK Infrastructure & Energy Systems w ekosystemie TVK Group."
+    },
+    "features": {
+      "title": "Możliwości platformy",
+      "dashboard": {
+        "title": "Panel energetyczny",
+        "description": "Scentralizowane centrum operacji z KPI w czasie rzeczywistym, alertami i widocznością wielu lokalizacji."
+      },
+      "miner": {
+        "title": "Monitorowanie koparek",
+        "description": "Inteligencja floty ASIC ze śledzeniem hash rate, temperatury, poboru mocy i uptime."
+      },
+      "analytics": {
+        "title": "Analityka energetyczna",
+        "description": "Wzorce zużycia, optymalizacja kosztów i predykcyjne prognozowanie popytu."
+      },
+      "heat": {
+        "title": "Metryki odzysku ciepła",
+        "description": "Śledzenie efektywności termicznej i wykorzystania ciepła odpadowego w operacjach."
+      },
+      "ai": {
+        "title": "Optymalizacja AI",
+        "description": "Inteligentne równoważenie obciążenia, konserwacja predykcyjna i autonomiczne dostrajanie."
+      },
+      "api": {
+        "title": "API i deweloperzy",
+        "description": "REST API, webhooki i SDK do płynnej integracji z platformą."
+      }
+    },
+    "stats": {
+      "title": "Infrastruktura na dużą skalę",
+      "sites": "Monitorowane lokalizacje",
+      "sitesValue": "Multi-Site",
+      "power": "Monitorowana moc",
+      "powerValue": "Skala MW",
+      "languages": "Języki",
+      "languagesValue": "25+",
+      "uptime": "Dostępność platformy",
+      "uptimeValue": "99,9%"
+    },
+    "cta": {
+      "title": "Gotowy, aby przekształcić swoje operacje energetyczne?",
+      "description": "Złóż wniosek o dostęp do platformy EnergieMIND i dołącz do operatorów infrastruktury korzystających z inteligentnego zarządzania energią.",
+      "button": "Wniosek o dostęp do platformy"
+    },
+    "faq": {
+      "q1": "Czym jest EnergieMIND?",
+      "a1": "EnergieMIND to platforma technologiczna do paneli energetycznych, monitorowania koparek, metryk odzysku ciepła i optymalizacji AI. Jest obsługiwana przez TVK Infrastructure & Energy Systems jako część ekosystemu TVK Group.",
+      "q2": "Kto może uzyskać dostęp do platformy?",
+      "a2": "Platforma jest przeznaczona dla operatorów obiektów, partnerów infrastrukturalnych, menedżerów energii i autoryzowanych uczestników ekosystemu TVK. Złóż wniosek o dostęp przez nasz formularz.",
+      "q3": "Czy EnergieMIND obsługuje wiele języków?",
+      "a3": "Tak. Strona platformy i przyszły panel obsługują 25 języków z w pełni zlokalizowaną treścią, bez tłumaczenia maszynowego.",
+      "q4": "Jaki jest związek EnergieMIND z TVK Group?",
+      "a4": "EnergieMIND to marka inteligencji energetycznej obsługiwana przez TVK Infrastructure & Energy Systems LTD, obok EnteleKRON i innych produktów ekosystemu TVK."
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Panel energetyczny",
+      "subtitle": "Centrum operacji w czasie rzeczywistym do monitorowania zużycia energii, efektywności wytwarzania i KPI infrastruktury we wszystkich obiektach."
+    },
+    "features": {
+      "title": "Możliwości panelu",
+      "realtime": {
+        "title": "Monitorowanie w czasie rzeczywistym",
+        "description": "Zużycie energii, wytwarzanie i wskaźniki efektywności aktualizowane na żywo co sekundę."
+      },
+      "alerts": {
+        "title": "Inteligentne alerty",
+        "description": "Konfigurowalne progi z natychmiastowymi powiadomieniami o anomaliach i zdarzeniach krytycznych."
+      },
+      "multisite": {
+        "title": "Widok wielu lokalizacji",
+        "description": "Ujednolicony panel dla obiektów wydobywczych, instalacji solarnych i lokalizacji przemysłowych."
+      },
+      "reports": {
+        "title": "Niestandardowe raporty",
+        "description": "Zaplanowane i na żądanie raporty z eksportem do PDF, CSV i endpointów API."
+      }
+    },
+    "faq": {
+      "q1": "Jakie metryki wyświetla panel?",
+      "a1": "Panel pokazuje zużycie energii w czasie rzeczywistym, wytwarzanie, współczynniki efektywności, koszt za kWh, intensywność emisji, uptime i niestandardowe KPI skonfigurowane dla każdego obiektu.",
+      "q2": "Czy mogę monitorować wiele lokalizacji?",
+      "a2": "Tak. Widok wielu lokalizacji zapewnia zagregowane i per-lokalizacyjne metryki z możliwością drill-down do szczegółowej analizy."
+    }
+  },
+  "minerMonitoring": {
+    "hero": {
+      "title": "Monitorowanie koparek",
+      "subtitle": "Kompletna inteligencja floty ASIC ze śledzeniem hash rate, monitorowaniem termicznym, analizą mocy i statusem firmware we wszystkich wdrożeniach."
+    },
+    "features": {
+      "title": "Funkcje monitorowania",
+      "hashrate": {
+        "title": "Śledzenie hash rate",
+        "description": "Hash rate na urządzenie i w całej flocie, z trendami historycznymi i benchmarkami wydajności."
+      },
+      "thermal": {
+        "title": "Monitorowanie termiczne",
+        "description": "Śledzenie temperatury chipów i otoczenia z predykcyjnymi alertami przegrzania."
+      },
+      "power": {
+        "title": "Analiza mocy",
+        "description": "Pobór mocy na jednostkę, współczynniki efektywności (J/TH) i alokacja kosztów według poola lub obiektu."
+      },
+      "firmware": {
+        "title": "Status firmware",
+        "description": "Śledzenie wersji firmware EnergieMIND, zarządzanie aktualizacjami i synchronizacja konfiguracji."
+      }
+    },
+    "faq": {
+      "q1": "Które koparki są obsługiwane?",
+      "a1": "Platforma obsługuje Antminer i kompatybilne urządzenia ASIC z firmware EnergieMIND, z planowaną rozbudową o dodatkowe platformy sprzętowe.",
+      "q2": "Jak często aktualizowane są dane?",
+      "a2": "Metryki koparek są zbierane co 30 sekund, ze strumieniowaniem w czasie rzeczywistym dostępnym przez WebSocket API."
+    }
+  },
+  "energyAnalytics": {
+    "hero": {
+      "title": "Analityka energetyczna",
+      "subtitle": "Zaawansowana analityka wzorców zużycia, optymalizacji kosztów, śledzenia śladu węglowego i predykcyjnego prognozowania popytu."
+    },
+    "features": {
+      "title": "Moduły analityczne",
+      "consumption": {
+        "title": "Analiza zużycia",
+        "description": "Godzinowe, dzienne i sezonowe wzorce zużycia z wykrywaniem anomalii."
+      },
+      "cost": {
+        "title": "Optymalizacja kosztów",
+        "description": "Analiza taryf czasowych, optymalizacja taryf i strategie redukcji opłat za moc szczytową."
+      },
+      "carbon": {
+        "title": "Śledzenie emisji",
+        "description": "Monitorowanie intensywności emisji w czasie rzeczywistym i raportowanie emisji dla zgodności ESG."
+      },
+      "forecast": {
+        "title": "Prognozowanie popytu",
+        "description": "Predykcja popytu oparta na ML do proaktywnego planowania mocy i zarządzania obciążeniem."
+      }
+    },
+    "faq": {
+      "q1": "Jakie źródła danych są obsługiwane?",
+      "a1": "Silnik analityczny integruje się z inteligentnymi licznikami, systemami SCADA, telemetrią koparek, API pogodowymi i niestandardowymi strumieniami danych przez REST API.",
+      "q2": "Czy mogę eksportować dane analityczne?",
+      "a2": "Tak. Dane można eksportować przez CSV, JSON lub uzyskiwać programowo przez API EnergieMIND."
+    }
+  },
+  "heatRecovery": {
+    "hero": {
+      "title": "Metryki odzysku ciepła",
+      "subtitle": "Śledź efektywność termiczną, wykorzystanie ciepła odpadowego i integrację z ciepłownictwem miejskim z operacji wydobywczych i przemysłowych."
+    },
+    "features": {
+      "title": "Inteligencja termiczna",
+      "efficiency": {
+        "title": "Efektywność termiczna",
+        "description": "Współczynniki COP, wskaźniki odzysku ciepła i benchmarki efektywności systemu w czasie."
+      },
+      "waste": {
+        "title": "Wykorzystanie ciepła odpadowego",
+        "description": "Procent odzyskanego ciepła odpadowego wykorzystanego do ogrzewania, suszenia lub energii miejskiej."
+      },
+      "district": {
+        "title": "Ciepłownictwo miejskie",
+        "description": "Metryki integracji dla sieci ciepłowniczych i magazynowania energii termicznej."
+      },
+      "savings": {
+        "title": "Oszczędności energii",
+        "description": "Skwantyfikowane oszczędności paliwa i redukcja emisji z operacji odzysku ciepła."
+      }
+    },
+    "faq": {
+      "q1": "Jak mierzony jest odzysk ciepła?",
+      "a1": "Czujniki termiczne, przepływomierze i obliczenia różnicy temperatur dostarczają metryki odzysku ciepła w czasie rzeczywistym zintegrowane z panelem platformy.",
+      "q2": "Które branże korzystają?",
+      "a2": "Operacje wydobywcze, centra danych, produkcja przemysłowa i obiekty energii odnawialnej z produktami ubocznymi termicznymi korzystają z monitorowania odzysku ciepła."
+    }
+  },
+  "aiOptimization": {
+    "hero": {
+      "title": "Optymalizacja AI",
+      "subtitle": "Inteligentne zarządzanie energią z równoważeniem obciążenia opartym na AI, konserwacją predykcyjną i autonomicznym dostrajaniem efektywności."
+    },
+    "features": {
+      "title": "Możliwości AI",
+      "load": {
+        "title": "Równoważenie obciążenia",
+        "description": "Dynamiczna alokacja mocy między koparkami i obiektami na podstawie cen energii i popytu."
+      },
+      "predictive": {
+        "title": "Konserwacja predykcyjna",
+        "description": "Modele ML przewidują awarie sprzętu zanim wystąpią, redukując przestoje i koszty napraw."
+      },
+      "autonomous": {
+        "title": "Autonomiczne dostrajanie",
+        "description": "Samodostrajające się parametry częstotliwości, napięcia i chłodzenia dla optymalnej efektywności."
+      },
+      "insights": {
+        "title": "Wglądy inteligencji",
+        "description": "Praktyczne rekomendacje oparte na danych historycznych i warunkach w czasie rzeczywistym."
+      }
+    },
+    "faq": {
+      "q1": "Jakie modele AI są używane?",
+      "a1": "Platforma wykorzystuje zespołowe modele ML do prognozowania popytu, wykrywania anomalii i optymalizacji, trenowane na danych operacyjnych z wdrożeń infrastruktury TVK.",
+      "q2": "Czy wymagany jest nadzór człowieka?",
+      "a2": "Rekomendacje AI mogą działać w trybie doradczym lub autonomicznym, w zależności od preferencji operatora i ograniczeń bezpieczeństwa."
+    }
+  },
+  "api": {
+    "hero": {
+      "title": "API i deweloperzy",
+      "subtitle": "Integruj się z platformą EnergieMIND za pomocą REST API, webhooków i SDK. Twórz niestandardowe panele i przepływy automatyzacji."
+    },
+    "features": {
+      "title": "Narzędzia deweloperskie",
+      "rest": {
+        "title": "REST API",
+        "description": "Pełnofunkcjonalne REST API z uwierzytelnianiem OAuth 2.0 i ograniczaniem liczby żądań."
+      },
+      "webhooks": {
+        "title": "Webhooki",
+        "description": "Powiadomienia o zdarzeniach w czasie rzeczywistym dla alertów, zmian statusu i progów metryk."
+      },
+      "sdk": {
+        "title": "SDK",
+        "description": "Oficjalne SDK dla Python, JavaScript i Go z kompleksową dokumentacją."
+      },
+      "sandbox": {
+        "title": "Środowisko sandbox",
+        "description": "Testuj integracje z symulowanymi danymi przed połączeniem z infrastrukturą produkcyjną."
+      }
+    },
+    "endpoints": {
+      "title": "Przegląd API",
+      "metrics": "GET /v1/metrics — Pobierz metryki energetyczne i koparek",
+      "sites": "GET /v1/sites — Lista monitorowanych lokalizacji infrastruktury",
+      "alerts": "GET /v1/alerts — Zapytanie o aktywne i historyczne alerty",
+      "control": "POST /v1/control — Wysyłanie poleceń sterowania do urządzeń"
+    },
+    "faq": {
+      "q1": "Jak uzyskać dostęp do API?",
+      "a1": "Złóż wniosek o dostęp do platformy i wybierz dostęp do API w swoim wniosku. Zatwierdzeni deweloperzy otrzymują klucze API i dane sandbox.",
+      "q2": "Jaki jest limit żądań?",
+      "a2": "Poziom standardowy pozwala na 1 000 żądań na minutę. Poziomy enterprise z wyższymi limitami są dostępne dla wdrożeń na dużą skalę."
+    }
+  },
+  "login": {
+    "hero": {
+      "title": "Logowanie do platformy",
+      "subtitle": "Zaloguj się, aby uzyskać dostęp do panelu EnergieMIND i narzędzi monitorowania infrastruktury."
+    },
+    "form": {
+      "email": "Adres e-mail",
+      "password": "Hasło",
+      "remember": "Zapamiętaj mnie",
+      "submit": "Zaloguj się",
+      "forgot": "Zapomniałeś hasła?",
+      "noAccount": "Nie masz konta?",
+      "requestAccess": "Wniosek o dostęp do platformy"
+    },
+    "notice": "Logowanie do platformy jest obecnie dostępne wyłącznie dla autoryzowanych użytkowników. Złóż wniosek o dostęp, aby dołączyć do platformy EnergieMIND.",
+    "faq": {
+      "q1": "Jak uzyskać dane logowania?",
+      "a1": "Złóż wniosek o dostęp do platformy. Po zatwierdzeniu otrzymasz dane logowania przez bezpieczny e-mail.",
+      "q2": "Czy obsługiwane jest uwierzytelnianie dwuskładnikowe?",
+      "a2": "Tak. Uwierzytelnianie dwuskładnikowe oparte na TOTP jest wymagane dla wszystkich kont platformy."
+    }
+  },
+  "requestAccess": {
+    "hero": {
+      "title": "Wniosek o dostęp do platformy",
+      "subtitle": "Złóż wniosek o dostęp do platformy inteligencji energetycznej EnergieMIND, panelu i narzędzi API."
+    },
+    "form": {
+      "fullName": "Imię i nazwisko",
+      "email": "Adres e-mail",
+      "company": "Firma / Organizacja",
+      "phone": "Numer telefonu",
+      "useCase": "Główny przypadek użycia",
+      "useCases": {
+        "operator": "Operator obiektu",
+        "partner": "Partner infrastrukturalny",
+        "developer": "Deweloper API",
+        "energy": "Menedżer energii",
+        "other": "Inne"
+      },
+      "message": "Opowiedz nam o swojej infrastrukturze i wymaganiach",
+      "submit": "Wyślij wniosek o dostęp",
+      "privacy": "Wysyłając wniosek, zgadzasz się na nasze praktyki przetwarzania danych. Twoje informacje są bezpiecznie przetwarzane przez TVK Infrastructure & Energy Systems."
+    },
+    "faq": {
+      "q1": "Jak długo trwa zatwierdzenie?",
+      "a1": "Wnioski o dostęp są zazwyczaj rozpatrywane w ciągu 3–5 dni roboczych. Po zatwierdzeniu otrzymasz e-mail z kolejnymi krokami.",
+      "q2": "Co obejmuje dostęp do platformy?",
+      "a2": "Zatwierdzeni użytkownicy otrzymują dostęp do panelu, narzędzia monitorowania i opcjonalne dane API w zależności od przypadku użycia."
+    }
+  },
+  "footer": {
+    "platform": "Platforma",
+    "solutions": "Rozwiązania",
+    "developers": "Deweloperzy",
+    "company": "Firma",
+    "legal": "Prawne",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki korzystania",
+    "tvkGroup": "TVK Group",
+    "entelekron": "EnteleKRON",
+    "contact": "Kontakt",
+    "description": "EnergieMIND to platforma inteligencji energetycznej do paneli, monitorowania koparek, odzysku ciepła i optymalizacji AI."
+  },
+  "schema": {
+    "organization": {
+      "name": "EnergieMIND by TVK Infrastructure & Energy Systems",
+      "description": "Platforma inteligencji energetycznej do monitorowania infrastruktury, zarządzania flotą koparek i optymalizacji opartej na AI.",
+      "contactType": "Wsparcie platformy"
+    },
+    "website": {
+      "description": "Platforma technologiczna i panel do operacji energetycznych, monitorowania koparek, metryk odzysku ciepła i optymalizacji AI."
+    }
+  },
+  "useCases": {
+    "operator": "Operator obiektu",
+    "partner": "Partner infrastrukturalny",
+    "developer": "Deweloper API",
+    "energy": "Menedżer energii",
+    "other": "Inne"
+  }
+}
