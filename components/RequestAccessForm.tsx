@@ -6,14 +6,41 @@ import type { Dictionary } from "@/lib/i18n";
 export default function RequestAccessForm({ dict }: { dict: Dictionary }) {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
+    setError("");
+
+    const form = new FormData(e.currentTarget);
+    const payload = {
+      full_name: form.get("fullName") as string,
+      email: form.get("email") as string,
+      company: form.get("company") as string,
+      phone: (form.get("phone") as string) || undefined,
+      use_case: form.get("useCase") as string,
+      message: form.get("message") as string,
+    };
+
+    try {
+      const res = await fetch("/api/access-requests/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || "Submission failed");
+      }
+
       setSubmitted(true);
-    }, 1000);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : dict.common.errorMessage);
+    } finally {
+      setLoading(false);
+    }
   }
 
   if (submitted) {
@@ -28,6 +55,7 @@ export default function RequestAccessForm({ dict }: { dict: Dictionary }) {
 
   return (
     <form className="form-card" onSubmit={handleSubmit}>
+      {error && <div className="form-error">{error}</div>}
       <div className="form-group">
         <label htmlFor="fullName">{f.fullName}</label>
         <input type="text" id="fullName" name="fullName" required />

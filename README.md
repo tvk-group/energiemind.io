@@ -15,9 +15,32 @@ EnergieMIND is the technology platform for:
 
 ## Tech Stack
 
-- Next.js 15 (App Router, static export)
+- Next.js 15 (App Router)
 - TypeScript
+- Supabase (Auth, PostgreSQL, RLS)
 - 25 fully localized languages (no Google Translate)
+
+## Platform Application
+
+| Route | Description |
+|-------|-------------|
+| `/panel/` | Operations dashboard (authenticated) |
+| `/panel/miners/` | ASIC fleet monitoring |
+| `/panel/energy/` | Energy analytics |
+| `/panel/heat/` | Heat recovery metrics |
+| `/panel/alerts/` | Alert management |
+| `/admin/` | Admin console (admin role) |
+| `/api/v1/*` | REST API endpoints |
+
+See [supabase/README.md](supabase/README.md) for database setup.
+
+## Supabase Setup
+
+1. Create a project at [supabase.com](https://supabase.com)
+2. Run `supabase/migrations/001_initial_schema.sql` in SQL Editor
+3. Copy `.env.example` → `.env.local` and add your keys
+4. Add env vars to Vercel
+5. Create admin user and run: `UPDATE profiles SET role = 'admin', is_active = true WHERE email = 'you@email.com';`
 
 ## Languages
 

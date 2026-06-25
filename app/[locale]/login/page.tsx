@@ -19,6 +19,7 @@ import PageHero, {
   Breadcrumb,
   InternalLinks,
 } from "@/components/PageSections";
+import { Suspense } from "react";
 import LoginForm from "@/components/LoginForm";
 
 export async function generateMetadata({
@@ -74,7 +75,9 @@ export default async function LoginPage({
 
       <section className="section">
         <div className="container">
-          <LoginForm dict={dict} locale={locale} />
+          <Suspense fallback={<div className="form-card">Loading...</div>}>
+            <LoginForm dict={dict} locale={locale} />
+          </Suspense>
         </div>
       </section>
 
