@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
+import { getSupabaseKey, getSupabaseUrl } from "@/lib/supabase/env";
 import { z } from "zod";
 
 const schema = z.object({
@@ -16,10 +17,7 @@ export async function POST(request: Request) {
     const body = await request.json();
     const data = schema.parse(body);
 
-    const supabase = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-    );
+    const supabase = createClient(getSupabaseUrl(), getSupabaseKey());
     const { error } = await supabase.from("access_requests").insert([
       {
         full_name: data.full_name,

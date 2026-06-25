@@ -7,8 +7,10 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/panel/:path*",
-    "/admin/:path*",
-    "/api/v1/:path*",
+    /*
+     * Refresh Supabase sessions on all routes except static assets.
+     * Panel/admin/API protection is handled inside updateSession.
+     */
+    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
   ],
 };
