@@ -111,6 +111,21 @@ SET role = 'admin', is_active = true
 WHERE email = 'your@email.com';
 ```
 
+### Operations app (`app.energiemind.io`)
+
+Like EnteleKRON (`entelekron.app`) and SOVRA Protocol (`app.sovraprotocol.com`), EnergieMIND has an installable operations app:
+
+- **Marketing site:** `energiemind.io` — public pages, SEO, request access
+- **Operations app:** `app.energiemind.io` — login, panel dashboard, PWA install
+
+Add `app.energiemind.io` as a domain alias in Vercel pointing to this project.
+
+```bash
+NEXT_PUBLIC_APP_SUBDOMAIN_URL=https://app.energiemind.io
+```
+
+Short paths on the app subdomain: `/login/`, `/miners/`, `/energy/`, `/heat/`, `/alerts/`, `/settings/` (rewrite to `/panel/*`).
+
 ## 6. Platform Routes
 
 | Route | Description |

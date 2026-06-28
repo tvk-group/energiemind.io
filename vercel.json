@@ -3,6 +3,13 @@
   "redirects": [
     {
       "source": "/",
+      "has": [{ "type": "host", "value": "energiemind.io" }],
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.energiemind.io" }],
       "destination": "/en/",
       "permanent": true
     }

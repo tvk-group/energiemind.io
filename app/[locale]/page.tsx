@@ -19,6 +19,7 @@ import PageHero, {
   FaqSection,
   InternalLinks,
 } from "@/components/PageSections";
+import AppPromo from "@/components/AppPromo";
 
 export async function generateMetadata({
   params,
@@ -98,6 +99,9 @@ export default async function HomePage({
     { question: h.faq.q2, answer: h.faq.a2 },
     { question: h.faq.q3, answer: h.faq.a3 },
     { question: h.faq.q4, answer: h.faq.a4 },
+    ...(h.faq.q5 && h.faq.a5
+      ? [{ question: h.faq.q5, answer: h.faq.a5 }]
+      : []),
   ];
 
   return (
@@ -136,6 +140,8 @@ export default async function HomePage({
       </section>
 
       <FeatureGrid title={h.features.title} features={features} />
+
+      <AppPromo dict={dict} />
 
       <section className="section section-alt">
         <div className="container">

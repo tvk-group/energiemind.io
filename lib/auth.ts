@@ -1,5 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 import type { Profile } from "@/lib/supabase/types";
+import { getLoginPath } from "@/lib/app-url";
+import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 
 export async function getSessionUser() {
@@ -28,7 +30,10 @@ export async function getProfile(): Promise<Profile | null> {
 
 export async function requireAuth() {
   const user = await getSessionUser();
-  if (!user) redirect("/en/login/?redirect=/panel/");
+  if (!user) {
+    const host = (await headers()).get("host") || "";
+    redirect(`${getLoginPath(host)}?redirect=${encodeURIComponent("/panel/")}`);
+  }
   return user;
 }
 
