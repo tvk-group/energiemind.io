@@ -92,6 +92,7 @@
     "aiOptimization": "AI Optimization",
     "api": "API / Developers",
     "login": "Login",
+    "openApp": "Open App",
     "requestAccess": "Request Access",
     "language": "Language",
     "menu": "Menu",
@@ -182,6 +183,20 @@
       "description": "Request access to the EnergieMIND platform and join infrastructure operators using intelligent energy management.",
       "button": "Request Platform Access"
     },
+    "app": {
+      "badge": "Operations App",
+      "title": "Get the EnergieMIND app at app.energiemind.io",
+      "description": "Install the operations portal on your phone — sign in, monitor miners, and access your dashboard from a home-screen icon. Works today via Add to Home Screen.",
+      "openApp": "Open app.energiemind.io",
+      "howToInstall": "How to install",
+      "signIn": "Sign in to dashboard",
+      "iphoneTitle": "iPhone / iPad",
+      "iphoneSteps": "Safari → app.energiemind.io → Share → Add to Home Screen",
+      "androidTitle": "Android",
+      "androidSteps": "Chrome → app.energiemind.io → menu → Install app or Add to Home screen",
+      "desktopTitle": "Desktop",
+      "desktopSteps": "Chrome or Edge → install icon in the address bar, or bookmark app.energiemind.io"
+    },
     "faq": {
       "q1": "What is EnergieMIND?",
       "a1": "EnergieMIND is a technology platform for energy dashboards, miner monitoring, heat recovery metrics, and AI optimization. It is operated by TVK Infrastructure & Energy Systems as part of the TVK Group ecosystem.",
@@ -190,7 +205,9 @@
       "q3": "Does EnergieMIND support multiple languages?",
       "a3": "Yes. The platform website and future dashboard support 25 languages with fully localized content, not machine translation.",
       "q4": "How does EnergieMIND relate to TVK Group?",
-      "a4": "EnergieMIND is an energy intelligence brand operated by TVK Infrastructure & Energy Systems LTD, alongside EnteleKRON and other TVK ecosystem products."
+      "a4": "EnergieMIND is an energy intelligence brand operated by TVK Infrastructure & Energy Systems LTD, alongside EnteleKRON and other TVK ecosystem products.",
+      "q5": "How do I get the EnergieMIND operations app?",
+      "a5": "Open app.energiemind.io on your phone and add it to your home screen (Safari → Share → Add to Home Screen on iPhone; Chrome → Install app on Android). The app is the same operations dashboard — sign in, monitor miners, and track energy metrics."
     }
   },
   "dashboard": {

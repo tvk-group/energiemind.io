@@ -17,16 +17,79 @@ This creates all tables, RLS policies, triggers, and seed demo data (sites, mine
 
 ## 3. Configure Environment Variables
 
-Copy `.env.example` to `.env.local` and fill in:
+Copy from the Supabase dashboard **Connect** dialog into `.env.local` and Vercel:
 
 ```bash
+# @supabase/server SDK (server-side)
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_PUBLISHABLE_KEY=your-publishable-key
+SUPABASE_SECRET_KEY=your-secret-key
+SUPABASE_JWKS_URL=https://your-project.supabase.co/auth/v1/.well-known/jwks.json
+
+# Browser clients
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
-SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 NEXT_PUBLIC_APP_URL=https://energiemind.io
+
+# Direct Postgres (migrations, Supabase CLI, SQL tools)
+DATABASE_URL=postgresql://postgres:[YOUR-PASSWORD]@db.your-project.supabase.co:5432/postgres
 ```
 
-For Vercel, add these in Project Settings → Environment Variables.
+### Direct database connection
+
+For this project (`ahlfixcfgibmtpppxtgg`):
+
+| Setting  | Value |
+|----------|-------|
+| Host     | `db.ahlfixcfgibmtpppxtgg.supabase.co` |
+| Port     | `5432` |
+| Database | `postgres` |
+| User     | `postgres` |
+
+Connection string (replace `[YOUR-PASSWORD]` with your database password from **Project Settings → Database**):
+
+```
+postgresql://postgres:[YOUR-PASSWORD]@db.ahlfixcfgibmtpppxtgg.supabase.co:5432/postgres
+```
+
+The Next.js app uses the Supabase REST client (`@supabase/ssr`) for runtime queries — `DATABASE_URL` is only needed for local migrations, the Supabase CLI, or direct SQL tooling.
+
+## 3c. Prisma ORM
+
+Prisma is configured for Supabase connection pooling. Add to `.env.local` (replace `[YOUR-PASSWORD]`):
+
+```bash
+# Transaction-mode pooler — app runtime / Prisma Client
+DATABASE_URL="postgresql://postgres.ahlfixcfgibmtpppxtgg:[YOUR-PASSWORD]@aws-0-eu-west-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+
+# Session-mode pooler — Prisma migrations and db pull
+DIRECT_URL="postgresql://postgres.ahlfixcfgibmtpppxtgg:[YOUR-PASSWORD]@aws-0-eu-west-1.pooler.supabase.com:5432/postgres"
+```
+
+Prisma 7 moves connection URLs to `prisma.config.ts` (CLI uses `DIRECT_URL`). Schema: `prisma/schema.prisma`.
+
+```bash
+npx prisma db pull    # introspect existing Supabase schema
+npx prisma generate   # generate client after models exist
+npx prisma migrate dev
+```
+
+Agent skills for Supabase are in `.agents/skills/` (installed via `npx skills add supabase/agent-skills`).
+
+## 3b. API routes with `withSupabase`
+
+Route handlers use `@/lib/supabase/with-supabase` — a Next.js adapter that composes `@supabase/ssr` (cookies) with `@supabase/server/core` (JWT verify + RLS clients):
+
+```ts
+import { withSupabase } from "@/lib/supabase/with-supabase";
+
+export const GET = withSupabase({ auth: "user" }, async (_req, ctx) => {
+  const { data } = await ctx.supabase.from("sites").select();
+  return Response.json({ sites: data });
+});
+```
+
+Auth modes: `"user"`, `"publishable"`, `"secret"`, `"none"`.
 
 ## 4. Configure Auth
 
@@ -47,6 +110,21 @@ UPDATE public.profiles
 SET role = 'admin', is_active = true
 WHERE email = 'your@email.com';
 ```
+
+### Operations app (`app.energiemind.io`)
+
+Like EnteleKRON (`entelekron.app`) and SOVRA Protocol (`app.sovraprotocol.com`), EnergieMIND has an installable operations app:
+
+- **Marketing site:** `energiemind.io` — public pages, SEO, request access
+- **Operations app:** `app.energiemind.io` — login, panel dashboard, PWA install
+
+Add `app.energiemind.io` as a domain alias in Vercel pointing to this project.
+
+```bash
+NEXT_PUBLIC_APP_SUBDOMAIN_URL=https://app.energiemind.io
+```
+
+Short paths on the app subdomain: `/login/`, `/miners/`, `/energy/`, `/heat/`, `/alerts/`, `/settings/` (rewrite to `/panel/*`).
 
 ## 6. Platform Routes
 

@@ -1,22 +1,14 @@
-import { createClient } from "@/lib/supabase/server";
-import { NextResponse } from "next/server";
+import { withSupabase } from "@/lib/supabase/with-supabase";
 
-export async function GET() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
-  const { data, error } = await supabase
+export const GET = withSupabase({ auth: "user" }, async (_req, ctx) => {
+  const { data, error } = await ctx.supabase
     .from("sites")
     .select("*, miners(count)")
     .order("name");
 
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+  if (error) {
+    return Response.json({ error: error.message }, { status: 500 });
+  }
 
-  return NextResponse.json({ sites: data });
-}
+  return Response.json({ sites: data });
+});

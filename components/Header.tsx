@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import type { Locale, Dictionary } from "@/lib/i18n";
 import { getPagePath } from "@/lib/routes";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { getAppUrl } from "@/lib/app-url";
 
 interface HeaderProps {
   locale: Locale;
@@ -51,6 +52,14 @@ export default function Header({ locale, dict }: HeaderProps) {
 
         <div className="header-actions">
           <LanguageSwitcher locale={locale} />
+          <a
+            href={getAppUrl()}
+            className="btn btn-ghost app-nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {dict.nav.openApp ?? "Open App"}
+          </a>
           <Link
             href={getPagePath(locale, "login")}
             className="btn btn-ghost"
@@ -87,6 +96,15 @@ export default function Header({ locale, dict }: HeaderProps) {
             {dict.nav[item.key]}
           </Link>
         ))}
+        <a
+          href={getAppUrl()}
+          className="nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => setMobileOpen(false)}
+        >
+          {dict.nav.openApp ?? "Open App"}
+        </a>
         <Link
           href={getPagePath(locale, "login")}
           className="nav-link"

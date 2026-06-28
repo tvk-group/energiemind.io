@@ -1,21 +1,11 @@
-import { createClient } from "@/lib/supabase/server";
-import { NextResponse } from "next/server";
+import { withSupabase } from "@/lib/supabase/with-supabase";
 
-export async function GET(request: Request) {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
-  const { searchParams } = new URL(request.url);
+export const GET = withSupabase({ auth: "user" }, async (req, ctx) => {
+  const { searchParams } = new URL(req.url);
   const siteId = searchParams.get("site_id");
   const hours = parseInt(searchParams.get("hours") || "24", 10);
 
-  let query = supabase
+  let query = ctx.supabase
     .from("energy_metrics")
     .select("*, sites(name, slug)")
     .order("recorded_at", { ascending: false })
@@ -24,7 +14,9 @@ export async function GET(request: Request) {
   if (siteId) query = query.eq("site_id", siteId);
 
   const { data, error } = await query;
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+  if (error) {
+    return Response.json({ error: error.message }, { status: 500 });
+  }
 
-  return NextResponse.json({ metrics: data });
-}
+  return Response.json({ metrics: data });
+});

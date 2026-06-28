@@ -9,9 +9,12 @@ export async function createServiceClient() {
   const { createClient: createSupabaseClient } = await import(
     "@supabase/supabase-js"
   );
+  const { resolveSupabaseEnv } = await import("./env");
+  const env = resolveSupabaseEnv();
+
   return createSupabaseClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!,
+    env.url!,
+    env.secretKeys?.default ?? process.env.SUPABASE_SERVICE_ROLE_KEY!,
     { auth: { autoRefreshToken: false, persistSession: false } }
   );
 }

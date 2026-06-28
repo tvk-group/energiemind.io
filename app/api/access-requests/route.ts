@@ -1,6 +1,4 @@
-import { NextResponse } from "next/server";
-import { createClient } from "@supabase/supabase-js";
-import { getSupabaseKey, getSupabaseUrl } from "@/lib/supabase/env";
+import { withSupabase } from "@/lib/supabase/with-supabase";
 import { z } from "zod";
 
 const schema = z.object({
@@ -12,13 +10,12 @@ const schema = z.object({
   message: z.string().min(10).max(5000),
 });
 
-export async function POST(request: Request) {
+export const POST = withSupabase({ auth: "none" }, async (req, ctx) => {
   try {
-    const body = await request.json();
+    const body = await req.json();
     const data = schema.parse(body);
 
-    const supabase = createClient(getSupabaseUrl(), getSupabaseKey());
-    const { error } = await supabase.from("access_requests").insert([
+    const { error } = await ctx.supabaseAdmin.from("access_requests").insert([
       {
         full_name: data.full_name,
         email: data.email,
@@ -31,14 +28,17 @@ export async function POST(request: Request) {
 
     if (error) {
       console.error("Access request error:", error);
-      return NextResponse.json({ error: "Failed to submit request" }, { status: 500 });
+      return Response.json(
+        { error: "Failed to submit request" },
+        { status: 500 }
+      );
     }
 
-    return NextResponse.json({ success: true });
+    return Response.json({ success: true });
   } catch (err) {
     if (err instanceof z.ZodError) {
-      return NextResponse.json({ error: "Invalid form data" }, { status: 400 });
+      return Response.json({ error: "Invalid form data" }, { status: 400 });
     }
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    return Response.json({ error: "Internal server error" }, { status: 500 });
   }
-}
+});

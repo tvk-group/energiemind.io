@@ -1,15 +1,17 @@
 import { createServerClient } from "@supabase/ssr";
 import { type NextRequest, NextResponse } from "next/server";
-import { getSupabaseKey, getSupabaseUrl } from "@/lib/supabase/env";
 
-export function createMiddlewareClient(request: NextRequest) {
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+
+export const createClient = (request: NextRequest) => {
   let supabaseResponse = NextResponse.next({
     request: {
       headers: request.headers,
     },
   });
 
-  const supabase = createServerClient(getSupabaseUrl(), getSupabaseKey(), {
+  const supabase = createServerClient(supabaseUrl!, supabaseKey!, {
     cookies: {
       getAll() {
         return request.cookies.getAll();
@@ -29,4 +31,4 @@ export function createMiddlewareClient(request: NextRequest) {
   });
 
   return { supabase, supabaseResponse };
-}
+};
