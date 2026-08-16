@@ -1,8 +1,18 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://energiemind.io"),
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#00d4aa",
+  colorScheme: "light",
 };
 
 export default function RootLayout({
