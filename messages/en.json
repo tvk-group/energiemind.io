@@ -2,13 +2,13 @@
   "meta": {
     "siteName": "EnergieMIND",
     "home": {
-      "title": "EnergieMIND — Energy Intelligence Platform & Infrastructure Dashboard",
-      "description": "EnergieMIND is the technology platform for energy dashboards, miner monitoring, heat recovery metrics, AI optimization, and infrastructure intelligence. Built by TVK Infrastructure & Energy Systems.",
+      "title": "EnergieMIND | Energy Intelligence Platform",
+      "description": "EnergieMIND presents development-stage dashboards and infrastructure tools for energy monitoring, miner metrics, heat recovery and optimization research.",
       "keywords": "EnergieMIND, energy dashboard, miner monitoring, heat recovery, AI optimization, infrastructure intelligence, TVK",
-      "ogTitle": "EnergieMIND — Energy Intelligence Platform",
-      "ogDescription": "Future dashboard and infrastructure intelligence platform for energy operations, miner monitoring, and AI-driven optimization.",
-      "twitterTitle": "EnergieMIND — Energy Intelligence Platform",
-      "twitterDescription": "Technology platform for energy dashboards, miner monitoring, heat recovery, and AI optimization."
+      "ogTitle": "EnergieMIND | Energy Intelligence Platform",
+      "ogDescription": "EnergieMIND presents development-stage dashboards and infrastructure tools for energy monitoring, miner metrics, heat recovery and optimization research.",
+      "twitterTitle": "EnergieMIND | Energy Intelligence Platform",
+      "twitterDescription": "EnergieMIND presents development-stage dashboards and infrastructure tools for energy monitoring, miner metrics, heat recovery and optimization research."
     },
     "dashboard": {
       "title": "Energy Dashboard — Real-Time Operations Center | EnergieMIND",

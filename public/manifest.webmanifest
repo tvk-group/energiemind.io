@@ -1,0 +1,18 @@
+{
+  "name": "EnergieMIND",
+  "short_name": "EnergieMIND",
+  "description": "EnergieMIND presents development-stage dashboards and infrastructure tools for energy monitoring, miner metrics, heat recovery and optimization research.",
+  "start_url": "/en/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00d4aa",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
